@@ -99,6 +99,19 @@ A powerful Telegram subscribing bot to force users in your group to join a parti
 ★Free Promotion » @AerodynamicV1_Promotion
     """
 
+    # Fastparity Message
+    FASTPARITY = """
+Hey {},
+
+I'm FastWin Fastparity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /fastparity command.
+
+Example:- /fastparity792
+
+Ask your doubts at Support Chat.
+   """
+
     # Fast Message
     FAST = """
 Hey {}, look at the Result ☝️
