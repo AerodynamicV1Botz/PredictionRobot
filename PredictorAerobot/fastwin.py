@@ -1,13 +1,13 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
+from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
 from Data import FASTWIN_IMG
 import random 
 
-# Fastwin Message
+# Start Message
+@Client.on_message(filters.text & filters.incoming & filters.command("fastwin"))
 @Client.on_message(filters.private & filters.incoming & filters.command("fastwin"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastwin@PredictorAerobot"))
-@Client.on_message(filters.text & filters.incoming & filters.command("fastwin"))
 async def fastwin(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
