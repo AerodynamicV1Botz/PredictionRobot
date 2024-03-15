@@ -8,6 +8,10 @@ from Data import FASTWIN_IMG
 @Client.on_message(filters.text & filters.incoming & filters.command("fastwin@PredictorAerobot"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastwin"))
 async def _fastwin(_, msg: Message):
-    await msg.reply_photo(FASTWIN_IMG,
-        caption=Data.FASTWIN,
-        reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons), quote=True)
+	user = await bot.get_me()
+	mention = user.mention
+	await msg.reply_photo(
+	random.choice(FASTWIN_IMG),
+	caption=Data.FASTWIN.format(msg.from_user.mention, mention),
+	reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons)
+    )
