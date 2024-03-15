@@ -1,11 +1,13 @@
 from pyrogram.types import InlineKeyboardButton
 
 DFASTPARITY_IMG = [
-    "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg"
+"https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
+"https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
 ]
 
 FASTWIN_IMG = [
-    "https://graph.org/file/1ca3b40f02bdae4273414.jpg"
+"https://graph.org/file/1ca3b40f02bdae4273414.jpg",
+"https://graph.org/file/1ca3b40f02bdae4273414.jpg",
 ]
 
 FASTPARITY_IMG = [
