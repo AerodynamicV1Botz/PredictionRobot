@@ -1,4 +1,4 @@
-# [Force-Subscriber-Bot](https://telegram.me/PredictorAerobot)
+# [PredictorAerobot](https://telegram.me/PredictorAerobot)
 
 > A star ⭐ from you means a lot to us!
 
