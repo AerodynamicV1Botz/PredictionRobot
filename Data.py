@@ -1,5 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
+DFASTPARITY_IMG = ["https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg"]
+
 FASTPARITY_IMG = [
 "https://graph.org/file/36cca83089dcdb491bf30.jpg",
 "https://graph.org/file/a9e7ddacfc1609222db7d.jpg",
