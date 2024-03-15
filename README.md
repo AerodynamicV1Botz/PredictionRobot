@@ -2,7 +2,7 @@
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/PredictorAerobot"><img src="https://telegra.ph//file/826bbc507e842a221a585.jpg" width="200"></a></p>
+<p align="center"><a href="https://www.github.com/AerodynamicV1Botz/PredictorAerobot"><img src="[https://telegra.ph//file/826bbc507e842a221a585.jpg](https://graph.org/file/4a0df73c438e618ac337d.jpg)" width="200"></a></p>
 
 Telegram bot to force users to subscribe a particular chat.
 
