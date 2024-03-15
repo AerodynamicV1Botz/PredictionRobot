@@ -5,8 +5,7 @@ from Config import START_IMG
 
 # Help Message
 @Client.on_message(filters.private & filters.incoming & filters.command("about"))
-@Client.on_message(filters.text & filters.incoming & filters.command("about@Aero_Force2_Subscriber_Bot"))
-@Client.on_message(filters.text & filters.incoming & filters.command("about@Aero_Force_Subscriber_Bot"))
+@Client.on_message(filters.text & filters.incoming & filters.command("about@PredictorAerobot"))
 @Client.on_message(filters.text & filters.incoming & filters.command("about"))
 async def _about(bot, msg):
     await msg.reply_photo(
