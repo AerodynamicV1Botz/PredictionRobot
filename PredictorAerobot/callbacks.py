@@ -70,16 +70,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
-     elif query == "fastwin":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWIM,
-            disable_web_page_preview=True,            
-            reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons),
-    )
      elif query == "fastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
