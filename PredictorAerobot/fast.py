@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
 from Data import FASTPARITY_IMG
 import random 
 
-@Client.on_message(filters.text & filters.incoming & filters.command(["fastparity", "fastparity000", "fastparity001", "fastparity002", "fastparity003", "fastparity004", "fastparity005", "fastparity006", "fastparity007", "fastparity008", "fastparity009", "fastparity010", "fastparity011", "fastparity012", "fastparity013"]))
+@Client.on_message(filters.text & filters.incoming & filters.command(["fastparity000", "fastparity001", "fastparity002", "fastparity003", "fastparity004", "fastparity005", "fastparity006", "fastparity007", "fastparity008", "fastparity009", "fastparity010", "fastparity011", "fastparity012", "fastparity013"]))
 @Client.on_message(filters.text & filters.incoming & filters.command(["fastparity014", "fastparity015", "fastparity016", "fastparity017", "fastparity018", "fastparity019", "fastparity020","fastparity021", "fastparity022", "fastparity023", "fastparity024", "fastparity025", "fastparity026", "fastparity027"]))
 @Client.on_message(filters.text & filters.incoming & filters.command(["fastparity028", "fastparity029", "fastparity030", "fastparity031", "fastparity032", "fastparity033", "fastparity034", "fastparity035", "fastparity036", "fastparity037", "fastparity038", "fastparity039", "fastparity040", "fastparity041"]))
 @Client.on_message(filters.text & filters.incoming & filters.command(["fastparity042", "fastparity043", "fastparity044", "fastparity045", "fastparity046", "fastparity047", "fastparity048", "fastparity049", "fastparity050", "fastparity051", "fastparity052", "fastparity053", "fastparity054", "fastparity055"]))
