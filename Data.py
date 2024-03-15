@@ -97,13 +97,13 @@ A powerful Telegram subscribing bot to force users in your group to join a parti
 
     # Fast Message
     FAST = """
-Hey {}
+Hey {}, look at the Result ☝️
 
-Welcome to {} Ask your doubts at Support Chat.
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
 
-★Enter Last 3 digits of period with /fastparity Command.
-
-Example » /fastparity001 
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
     """
     
     # Fasthome Button
