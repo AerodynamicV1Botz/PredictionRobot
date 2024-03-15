@@ -7,7 +7,7 @@ from Data import DFASTPARITY_IMG
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity"))
 @Client.on_message(filters.private & filters.incoming & filters.command("fastparity"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity@PredictorAerobot"))
-async def _fastparity(_, msg: Message):
+async def _fastparity(_, bot, msg: Message):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(
