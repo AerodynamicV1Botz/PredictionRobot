@@ -7,7 +7,7 @@ from Data import FASTWIN_IMG
 @Client.on_message(filters.private & filters.incoming & filters.command("fastwin"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastwin@PredictorAerobot"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastwin"))
-async def fastwin(bot, msg):
+async def _fastwin(bot, msg):
     await msg.reply_photo(FASTWIN_IMG,
-        caption=f"Data.FASTWIN",
-        reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons), Quate = True)
+        caption=Data.FASTWIN,
+        reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons), quote=True)
