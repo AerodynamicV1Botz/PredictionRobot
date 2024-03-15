@@ -1,0 +1,57 @@
+{
+  "name": "Force Subscribing Bot",
+  "description": "Telegram bot to force users to subscribe a particular chat",
+  "logo": "https://te.legra.ph/file/7a450f5de09566622624f.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ],
+  "repository": "https://github.com/AerodynamicV1Botz/ForceTG_Aerobot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "START_IMG": {
+      "description": "Fill Start Img url below",
+      "required": true,
+      "value": "https://te.legra.ph/file/023e6daf966ba99871b80.jpg"
+    },
+        "FASTWIN_IMG": {
+      "description": "Fill Start Img url below",
+      "required": false,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "Add username/id of a channel/group",
+      "required": false,
+      "value": ""
+    }
+  }
+}
