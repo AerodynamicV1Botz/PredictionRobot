@@ -1,7 +1,7 @@
 {
   "name": "Predictor Bot",
   "description": "Telegram bot to force users to subscribe a particular chat",
-  "logo": "https://te.legra.ph/file/7a450f5de09566622624f.jpg",
+  "logo": "https://graph.org/file/4a0df73c438e618ac337d.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -41,7 +41,7 @@
     "START_IMG": {
       "description": "Fill Start Img url below",
       "required": true,
-      "value": "https://te.legra.ph/file/023e6daf966ba99871b80.jpg"
+      "value": "https://graph.org/file/4a0df73c438e618ac337d.jpg"
     },
         "FASTWIN_IMG": {
       "description": "Fill Start Img url below",
