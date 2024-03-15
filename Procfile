@@ -1,1 +1,1 @@
-worker: python3 fsubbot.py
+worker: python3 aerobot.py
