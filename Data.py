@@ -133,7 +133,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     fasthome_buttons = [
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="aerohome")],
     ]
-   # Fastwin Buttons
+    # Fastwin Buttons
     gamebuttons = [
         [
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -143,9 +143,9 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
 ]
 
-# Fastwin Message 
-FASTWIN = """
-★Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
+    # Fastwin Message 
+    FASTWIN = """
+Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
 Example:- /fastparity001 to /fastparity999
 
 » Signup Bonus - ₹20
@@ -153,17 +153,16 @@ Example:- /fastparity001 to /fastparity999
 » Minimum Withdrawal - ₹530
 » Per Refer ₹250
 » Daily Lucky Rupees 
-…Invite More, Earn More!
+•Invite More, Earn More!
 
 ★Agent-: @AerodynamicV1_Official
 
-~If you are new, Join now with our official team link✓.
+If you are new, Join now with our official team link✓.
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
-
 """
 
-# Fastwin Buttons
-fastwinbuttons = [
+    # Fastwin Buttons
+    fastwinbuttons = [
        [
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
             InlineKeyboardButton("[►Register Link◄]", url="https://fastwin.app/LR?RG&C=3033148541")
