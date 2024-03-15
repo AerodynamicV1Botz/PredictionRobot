@@ -2,6 +2,7 @@ from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from Data import FASTWIN_IMG
+import random 
 
 # Fastwin Message
 @Client.on_message(filters.private & filters.incoming & filters.command("fastwin"))
