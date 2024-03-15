@@ -43,11 +43,6 @@
       "required": true,
       "value": "https://graph.org/file/4a0df73c438e618ac337d.jpg"
     },
-        "FASTWIN_IMG": {
-      "description": "Fill Start Img url below",
-      "required": false,
-      "value": ""
-    },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": false,
