@@ -8,10 +8,11 @@ import random
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity"))
 @Client.on_message(filters.private & filters.incoming & filters.command("fastparity"))
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity@PredictorAerobot"))
-async def _fastparity(_, bot, msg: Message):
+async def fastparity(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(
 	random.choice(DFASTPARITY_IMG),
 	caption=Data.FASTPARITY.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons), quote=True)
+	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	)
