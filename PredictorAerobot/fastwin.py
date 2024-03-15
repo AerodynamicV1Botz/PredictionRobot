@@ -13,5 +13,4 @@ async def fastwin(bot, msg):
 	await msg.reply_photo(
 	random.choice(FASTWIN_IMG),
 	caption=Data.FASTWIN.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons)
-    )
+	reply_markup=InlineKeyboardMarkup(Data.fastwinbuttons), quote=True)
