@@ -11,7 +11,6 @@ if ENVIRONMENT:
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5658314356:AAEIWcIyXBsQhRrltN_Nki6Ra5GcrTY522s")
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
-    FASTWIN_IMG = os.environ.get('FASTWIN_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
@@ -27,7 +26,6 @@ else:
     API_HASH = ""
     BOT_TOKEN = ""
     START_IMG = ""
-    FASTWIN_IMG = ""
     DATABASE_URL = ""
     BOT_USERNAME=""
     OWNER_ID=1484735126
