@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message 
+from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
 from Data import DFASTPARITY_IMG
 
 # Start Message
