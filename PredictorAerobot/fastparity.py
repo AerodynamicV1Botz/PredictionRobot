@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, Message 
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message 
 from Data import DFASTPARITY_IMG
 
 # Start Message
@@ -10,6 +10,8 @@ from Data import DFASTPARITY_IMG
 async def fastparity(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(DFASTPARITY_IMG,
+	await msg.reply_photo(
+	random.choice(DFASTPARITY_IMG),
 	caption=Data.FASTPARITY.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons), quote=True)
+	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	)
