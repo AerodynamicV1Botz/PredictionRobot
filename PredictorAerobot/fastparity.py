@@ -2,6 +2,7 @@ from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
 from Data import DFASTPARITY_IMG
+import random 
 
 # Start Message
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity"))
