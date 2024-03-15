@@ -1,6 +1,6 @@
-from ForceTG_Aerobot.database.users_sql import Users, num_users
-from ForceTG_Aerobot.database.chats_sql import num_chats
-from ForceTG_Aerobot.database import SESSION
+from PredictorAerobot.database.users_sql import Users, num_users
+from PredictorAerobot.database.chats_sql import num_chats
+from PredictorAerobot.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from Config import OWNER_ID
