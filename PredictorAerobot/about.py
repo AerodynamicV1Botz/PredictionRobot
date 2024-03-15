@@ -12,5 +12,6 @@ async def _about(bot, msg):
     await msg.reply_photo(
         START_IMG,
         caption=Data.ABOUT,
+        disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons)
     )
