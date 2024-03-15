@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
-from Config import START_IMG
+from Data import DFASTPARITY_IMG
 
 # Start Message
 @Client.on_message(filters.text & filters.incoming & filters.command("fastparity"))
@@ -10,7 +10,7 @@ from Config import START_IMG
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(START_IMG,
+	await msg.reply_photo(DFASTPARITY_IMG,
 	caption=Data.FASTPARITY.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.buttons)
+	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
                        )
