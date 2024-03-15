@@ -138,3 +138,14 @@ Example:- /fastparity001 to /fastparity999
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 
 """
+
+# Fastwin Buttons
+fastwinbuttons = [
+       [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►Register Link◄]", url="https://fastwin.app/LR?RG&C=3033148541")
+        ],
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+]
+    
