@@ -56,7 +56,7 @@ More Games predictions to buy Premium Subscription.
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/+0l6L5-ArBRU2ZGRl"),
             InlineKeyboardButton("[►How to Use❔◄]", callback_data="help")
         ],
         [
@@ -94,15 +94,17 @@ If you are new, Join now with our official team link✓.
 
     # About Message
     ABOUT = """
-**About This Bot** 
+**About This @PredictorAerobot** 
 
-This is Aero ✘ Force Subscriber~🇮🇳
-A powerful Telegram subscribing bot to force users in your group to join a particular chat. 
+This is All Game Predictor≈[🇮🇳]
+A powerful Telegram Prediction bot to predict users to make profits yourself. 
 ────────────────────
 ★Network » @AerodynamicV1Botz
 ★Developer » @AerodynamicV1_OFFICIAL
+★Owner » @Awesome_Vrajesh
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
+★ChitChat » t.me/+0l6L5-ArBRU2ZGRl
 ★Support » @Fiewin_Colour_Prediction_Winner
 ★Free Promotion » @AerodynamicV1_Promotion
     """
