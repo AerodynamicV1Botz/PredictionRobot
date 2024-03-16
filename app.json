@@ -4,6 +4,7 @@
   "logo": "https://graph.org/file/4a0df73c438e618ac337d.jpg",
   "keywords": [
     "telegram",
+    "mongodb"
     "bot",
     "python",
     "pyrogram"
@@ -37,6 +38,26 @@
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
       "value": ""
+    },
+      "LOG_GROUP_ID": {
+        "description": "A group id to forward the incoming messages in it.",
+        "required": true,
+        "value": ""
+    },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "required": false,
+        "value": ""
+    },
+      "PRIVATE_START_MESSAGE": {
+        "description": "A welcome message for your bot when someone starts it",
+        "required": true,
+        "value": ""
+    },
+      "SUDO_USER": {
+        "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
+        "required": true,
+        "value": ""
     },
     "START_IMG": {
       "description": "Fill Start Img url below",
