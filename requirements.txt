@@ -1,8 +1,8 @@
-pyrogram==2.0.106
-TgCrypto
-SQLAlchemy~=1.4.21
-psycopg2
 asyncio
 dnspython
 motor
+psycopg2
+pyrogram==2.0.106
 python-dotenv
+TgCrypto
+SQLAlchemy~=1.4.21
