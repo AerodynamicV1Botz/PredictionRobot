@@ -2,3 +2,7 @@ pyrogram==2.0.106
 TgCrypto
 SQLAlchemy~=1.4.21
 psycopg2
+asyncio
+dnspython
+motor
+python-dotenv
