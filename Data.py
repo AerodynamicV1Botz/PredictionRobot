@@ -38,10 +38,10 @@ class Data:
     START = """
 Hey {}
 
-Welcome to {}
+I'm {}
 
-I can force your group's users to join a particular chat. 
-The chat can be a group or channel. It can be private or public.
+If you want 24 hour predictions, I am here online for you.
+More Games predictions to buy Premium Subscription.
 
 📚Use below buttons to learn more !
 
@@ -56,39 +56,41 @@ The chat can be a group or channel. It can be private or public.
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("[►👁️‍🗨️Tutorial◄]", url="https://youtu.be/flYDpr4Ox1c"),
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
             InlineKeyboardButton("[►How to Use❔◄]", callback_data="help")
         ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►About Me◄]", callback_data="about")
+            InlineKeyboardButton("[►Prediction◄]", callback_data="about")
         ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/Fiewin_Colour_Prediction_Winner"),
-        InlineKeyboardButton("[►Update🔔◄]", url="https://t.me/AerodynamicV1_UPDATE")]
+        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
 
     # Help Message
     HELP = """
-1) Add me as **Admin** to a group.
+I'm FastWin Fastparity @PredictorAerobot. 
 
-2) Add me to the particular chat as **Admin** where you want to force your users to join. It can be any group or channel, public or private.
+Get 24 hour free prediction, I am active to get prediction any time by using /fastparity command.
 
-3) Use /fsub chat_id/username to make me functional. Use /id if you need chat id.
-Example : `/fsub @AerodynamicV1_UPDATE` or `/forcesubscribe -1001212351472`
+Enter the last 3 digits of the period number with the /fastparity command.
 
-4) [Optional] Use /settings to change settings!
+Example:- /fastparity241
 
-5) You are good to go. Leave the rest to me.
+Make Sure To register Your new Account With Our FastWin Special Link To Get Accurate Prediction 
+ 
+Register A new Account & Deposit 1000Rs & Use Our prediction To Make More Profits. 
 
-     🔰**Available Commands**🔰
+» Signup Bonus - ₹20
+» Minimum Recharge - ₹500
+» Minimum Withdrawal - ₹530
+» Per Refer ₹250
+» Daily Lucky Rupees 
+•Invite More, Earn More!
+★Agent-: @AerodynamicV1_Official
 
-/fsub Or /forcesubscribe chat_id/username - Force users to join the particular chat
-/settings - Change Group Settings
-/id - Get the chat id of any group or channel
-
-__**{►👁️‍🗨️ Watch Tutorial👉 [Click Here](https://youtu.be/flYDpr4Ox1c)◄}**__
-    """
-
+If you are new, Join now with our official team link✓.
+•FastWin Special Link:- https://fastwin.app/LR?RG&C=3033148541
+"""
 
     # About Message
     ABOUT = """
