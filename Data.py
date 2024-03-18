@@ -259,7 +259,12 @@ If you are new, Join now with our official team link✓.
         InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="fastwin")],
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home_buttons")],
+    ]
+
+        # Home Button
+    fastwinhome = [
+        [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
     ]
     
     # Fastwin Buttons
@@ -289,12 +294,18 @@ Example:- /fastparity001 to /fastparity999
 If you are new, Join now with our official team link✓.
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 """
+    
+    # Home Button
+    funwinhome = [
+        [InlineKeyboardButton(text="[► Return FunWin ◄]", callback_data="funwin")],
+    ]
+    
     # Home Button
     funwinhome_buttons = [
     [
         InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="funwin")],
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home_buttons")],
     ]
     
