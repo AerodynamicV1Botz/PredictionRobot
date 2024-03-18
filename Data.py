@@ -107,14 +107,14 @@ More Games predictions to buy Premium Subscription.
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("[►Fastwin◄]", callback_data="help"),
+            InlineKeyboardButton("[►Fastwin◄]", callback_data="fastwin"),
             InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
         ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
             InlineKeyboardButton("[►Prediction◄]", callback_data="about")
         ],
-        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/TechEarning_KingMasterMind")]
+        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
 
     # Help Message
@@ -161,7 +161,7 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
     """
 
     # Fastparity Message
-    FASTPARITY = """
+    FASTWINFASTPARITY = """
 Hey {},
 
 I'm FastWin Fastparity {} to get 24 hour prediction 
@@ -169,6 +169,43 @@ I'm FastWin Fastparity {} to get 24 hour prediction
 Enter the last 3 digits of the period number with the /fastparity command.
 
 Example:- /fastparity792
+
+Ask your doubts at Support Chat.
+   """
+    # Fastparity Message
+    FUNWINFASTPARITY = """
+Hey {},
+
+I'm FastWin Fastparity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /fastparity command.
+
+Example:- /fastparity792
+
+Ask your doubts at Support Chat.
+   """
+
+    # parity Message
+    FASTWINPARITY = """
+Hey {},
+
+I'm FastWin Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /parity command.
+
+Example:- /parity792
+
+Ask your doubts at Support Chat.
+   """
+    # parity Message
+    FUNWINPARITY = """
+Hey {},
+
+I'm FastWin Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /parity command.
+
+Example:- /parity792
 
 Ask your doubts at Support Chat.
    """
@@ -216,6 +253,15 @@ If you are new, Join now with our official team link✓.
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 """
 
+    # Home Button
+    fastwinhome_buttons = [
+    [
+        InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
+        InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
+    ],   
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="fastwin")],
+    ]
+    
     # Fastwin Buttons
     fastwinbuttons = [
        [
