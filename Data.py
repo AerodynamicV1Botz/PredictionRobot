@@ -221,6 +221,32 @@ Example:- /fastparity001 to /fastparity999
 If you are new, Join now with our official team link✓.
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 """
+    # Fastwin Message 
+    FUNWIN = """
+Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
+Example:- /fastparity001 to /fastparity999
+
+» Signup Bonus - ₹20
+» Minimum Recharge - ₹500
+» Minimum Withdrawal - ₹530
+» Per Refer ₹250
+» Daily Lucky Rupees 
+•Invite More, Earn More!
+
+★Agent-: @AerodynamicV1_Official
+
+If you are new, Join now with our official team link✓.
+•FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
+"""
+    # Home Button
+    funwinhome_buttons = [
+    [
+        InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
+    ],   
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="funwin")],
+    ]
+    
 
     # Fastwin Buttons
     fastwinbuttons = [
