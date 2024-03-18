@@ -276,6 +276,17 @@ If you are new, Join now with our official team link✓.
         [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
 ]
+
+    # Fast Message
+    FUNWINFAST = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
     
     # Fastwin Message 
     FUNWIN = """
