@@ -7,9 +7,6 @@ from pyrogram import filters, Client, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 
-
-from AnieXEricaMusic import app
-
 from AnieXEricaMusic.utils import help_pannel
 
 from AnieXEricaMusic.utils.database import get_lang
@@ -32,7 +29,7 @@ from strings import get_string, helpers
 
 async def helper_private(
 
-    client: app, update: Union[types.Message, types.CallbackQuery]
+    client: bot, update: Union[types.Message, types.CallbackQuery]
 
 ):
 
@@ -96,7 +93,7 @@ async def helper_private(
 
 @LanguageStart
 
-async def help_com_group(client, message: Message, _):
+async def help_com_group(bot, message: Message, _):
 
     keyboard = private_help_panel(_)
 
@@ -106,11 +103,11 @@ async def help_com_group(client, message: Message, _):
 
 
 
-@Client.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
+@Client.on_callback_query(filters.regex("help_callback") & filters.text)
 
 @languageCB
 
-async def helper_cb(client, CallbackQuery, _):
+async def helper_cb(bot, CallbackQuery, _):
 
     callback_data = CallbackQuery.data.strip()
 
