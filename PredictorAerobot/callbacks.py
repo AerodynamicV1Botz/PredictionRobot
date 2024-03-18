@@ -88,7 +88,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FASTWINFASTPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwin),
+            reply_markup=InlineKeyboardMarkup(Data.fastwinhome),
         ) 
     elif query == "fastwinparity":
         chat_id = callback_query.from_user.id
@@ -98,7 +98,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FASTWINPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwin),
+            reply_markup=InlineKeyboardMarkup(Data.fastwinhome),
         )         
     elif query == "funwinfastparity":
         chat_id = callback_query.from_user.id
@@ -108,7 +108,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FUNWINFASTPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.funwin),
+            reply_markup=InlineKeyboardMarkup(Data.funwinhome),
         ) 
     elif query == "funwinparity":
         chat_id = callback_query.from_user.id
@@ -118,7 +118,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FUNWINPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.funwin),
+            reply_markup=InlineKeyboardMarkup(Data.funwinhome),
         )        
     elif query.startswith("action"):
         success = await admin_check(bot, callback_query.message, user_id, callback_query)
