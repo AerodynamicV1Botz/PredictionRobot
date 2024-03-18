@@ -69,27 +69,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.FASTWIN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.fastwinhome_buttons),
-         )     
-   elif query == "fastwinfastparity":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWINFASTPARITY,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwin),
-        ) 
-   elif query == "fastwinparity":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWINPARITY,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwin),
-        )         
+         )
     elif query == "funwin":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -99,7 +79,27 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.FUNWIN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.funwinhome_buttons),
-         )     
+         )             
+    elif query == "fastwinfastparity":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.FASTWINFASTPARITY,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.fastwin),
+        ) 
+    elif query == "fastwinparity":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.FASTWINPARITY,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.fastwin),
+        )         
    elif query == "funwinfastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
