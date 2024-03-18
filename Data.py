@@ -259,7 +259,7 @@ If you are new, Join now with our official team link✓.
         InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home_buttons")],
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
 
         # Home Button
@@ -306,6 +306,6 @@ If you are new, Join now with our official team link✓.
         InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home_buttons")],
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
     
