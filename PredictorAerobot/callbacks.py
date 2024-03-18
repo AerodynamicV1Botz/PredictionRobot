@@ -70,13 +70,23 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         )
+    elif query == "funwin":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text="**here's how to use me ? **\n" + Data.FUNWIN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+         )     
    elif query == "funwinfastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="**here's how to use me ? **\n" + Data.FUNWIN1,
+            text="**here's how to use me ? **\n" + Data.FUNWINFASTPARITY,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.funwinhome_buttons),
         )        
