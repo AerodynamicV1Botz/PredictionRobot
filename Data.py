@@ -108,13 +108,7 @@ More Games predictions to buy Premium Subscription.
     buttons = [
         [
             InlineKeyboardButton("[►Fastwin◄]", callback_data="help"),
-            InlineKeyboardButton("[►GoaGame◄]", callback_data="help2"),
-            InlineKeyboardButton("[►FunWin◄]", callback_data="help3")
-        ],
-        [
-            InlineKeyboardButton("[►BigMumbai◄]", callback_data="help4"),
-            InlineKeyboardButton("[►91-Club◄]", callback_data="help5"),
-            InlineKeyboardButton("[►Daman◄]", callback_data="help6")
+            InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
         ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
