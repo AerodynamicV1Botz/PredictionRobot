@@ -1,23 +1,16 @@
 from typing import Union
 
-
-
 from pyrogram import filters, Client, types
 
 from pyrogram.types import InlineKeyboardMarkup, Message
 
+from PredictorAerobot.utils import help_pannel
 
-from AnieXEricaMusic.utils import help_pannel
-
-from AnieXEricaMusic.utils.database import get_lang
-
-from AnieXEricaMusic.utils.decorators.language import LanguageStart, languageCB
-
-from AnieXEricaMusic.utils.inline.help import help_back_markup, private_help_panel
+from PredictorAerobot.utils.inline.help import help_back_markup, private_help_panel
 
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 
-from strings import get_string, helpers
+from Data import get_string, helpers
 
 
 
@@ -91,8 +84,6 @@ async def helper_private(
 
 @Client.on_message(filters.command(["help"]) & filters.group & filters.incoming & filters.text)
 
-@LanguageStart
-
 async def help_com_group(bot, message: Message, _):
 
     keyboard = private_help_panel(_)
@@ -104,8 +95,6 @@ async def help_com_group(bot, message: Message, _):
 
 
 @Client.on_callback_query(filters.regex("help_callback") & filters.text & filters.incoming)
-
-@languageCB
 
 async def helper_cb(bot, CallbackQuery, _):
 
