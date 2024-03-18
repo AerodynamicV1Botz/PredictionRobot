@@ -221,6 +221,17 @@ Example:- /fastparity001 to /fastparity999
 If you are new, Join now with our official team link✓.
 •FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 """
+
+    # Fastwin Buttons
+    fastwinbuttons = [
+       [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►Register Link◄]", url="https://fastwin.app/LR?RG&C=3033148541")
+        ],
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+]
+    
     # Fastwin Message 
     FUNWIN = """
 Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
@@ -246,15 +257,4 @@ If you are new, Join now with our official team link✓.
     ],   
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="funwin")],
     ]
-    
-
-    # Fastwin Buttons
-    fastwinbuttons = [
-       [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►Register Link◄]", url="https://fastwin.app/LR?RG&C=3033148541")
-        ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
-]
     
