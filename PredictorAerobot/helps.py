@@ -23,7 +23,7 @@ from strings import get_string, helpers
 
 
 
-@Client.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
+@Client.on_message(filters.command(["help"]) & filters.private & filters.text & filters.incoming)
 
 @Client.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
 
@@ -89,7 +89,7 @@ async def helper_private(
 
 
 
-@Client.on_message(filters.command(["help"]) & filters.group & filters.text)
+@Client.on_message(filters.command(["help"]) & filters.group & filters.incoming & filters.text)
 
 @LanguageStart
 
@@ -103,7 +103,7 @@ async def help_com_group(bot, message: Message, _):
 
 
 
-@Client.on_callback_query(filters.regex("help_callback") & filters.text)
+@Client.on_callback_query(filters.regex("help_callback") & filters.text & filters.incoming)
 
 @languageCB
 
