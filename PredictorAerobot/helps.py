@@ -2,7 +2,7 @@ from typing import Union
 
 
 
-from pyrogram import filters, types
+from pyrogram import filters, Client, types
 
 from pyrogram.types import InlineKeyboardMarkup, Message
 
@@ -26,9 +26,9 @@ from strings import get_string, helpers
 
 
 
-@app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
+@Client.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 
-@app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
+@Client.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
 
 async def helper_private(
 
@@ -92,7 +92,7 @@ async def helper_private(
 
 
 
-@app.on_message(filters.command(["help"]) & filters.group & ~BANNED_USERS)
+@Client.on_message(filters.command(["help"]) & filters.group & filters.text)
 
 @LanguageStart
 
@@ -106,7 +106,7 @@ async def help_com_group(client, message: Message, _):
 
 
 
-@app.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
+@Client.on_callback_query(filters.regex("help_callback") & ~BANNED_USERS)
 
 @languageCB
 
