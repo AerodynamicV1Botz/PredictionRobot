@@ -39,21 +39,6 @@
       "required": true,
       "value": "7012286958:AAFLcHaCeSSryBfPHRTGxYa0kpsg1_jSIlc"
     },
-      "LOG_GROUP_ID": {
-        "description": "A group id to forward the incoming messages in it.",
-        "required": true,
-        "value": "-1001908041656"
-    },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "required": true,
-        "value": "mongodb+srv://herokubotz1234:Vrajesh22@cluster0.oqg3prf.mongodb.net/"
-    },
-      "PRIVATE_START_MESSAGE": {
-        "description": "A welcome message for your bot when someone starts it",
-        "required": true,
-        "value": ""
-    },
       "SUDO_USER": {
         "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
         "required": true,
