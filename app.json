@@ -39,11 +39,6 @@
       "required": true,
       "value": "7012286958:AAFLcHaCeSSryBfPHRTGxYa0kpsg1_jSIlc"
     },
-      "SUDO_USER": {
-        "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
-        "required": true,
-        "value": "1484735126"
-    },
     "START_IMG": {
       "description": "Fill Start Img url below",
       "required": true,
