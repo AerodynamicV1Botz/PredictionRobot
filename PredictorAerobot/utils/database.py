@@ -4,20 +4,12 @@ from typing import Dict, List, Union
 from PredictorAerobot.core.mongo import mongodb
 
 chatsdb = mongodb.chats
-countdb = mongodb.upcount
 langdb = mongodb.language
 sudoersdb = mongodb.sudoers
 usersdb = mongodb.tgusersdb
 
 # Shifting to memory [mongo sucks often]
-active = []
-count = {}
-channelconnect = {}
 langm = {}
-loop = {}
-maintenance = []
-nonadmin = {}
-
 
 async def get_lang(chat_id: int) -> str:
     mode = langm.get(chat_id)
