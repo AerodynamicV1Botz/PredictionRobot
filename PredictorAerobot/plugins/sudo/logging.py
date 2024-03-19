@@ -1,14 +1,14 @@
-from pyrogram import filters
+from pyrogram import filters, Client 
 
-from EsproMusic import app
-from EsproMusic.misc import SUDOERS
-from EsproMusic.utils.database import add_off, add_on
-from EsproMusic.utils.decorators.language import language
+from aerobot import app
+from PredictorAerobot.misc import SUDOERS
+from PredictorAerobot.utils.database import add_off, add_on
+from PredictorAerobot.utils.decorators.language import language
 
 
-@app.on_message(filters.command(["logger"]) & SUDOERS)
+@Client.on_message(filters.command(["logger"]) & SUDOERS)
 @language
-async def logger(client, message, _):
+async def logger(bot, message, _):
     usage = _["log_1"]
     if len(message.command) != 2:
         return await message.reply_text(usage)
