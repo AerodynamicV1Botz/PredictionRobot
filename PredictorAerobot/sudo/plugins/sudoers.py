@@ -1,18 +1,21 @@
-from pyrogram import filters, Client 
+from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from PredictorAerobot import app
+from EsproMusic import app
 from pyrogram.types import InputMediaVideo
-from PredictorAerobot.misc import SUDOERS
-from PredictorAerobot.utils.database import add_sudo, remove_sudo
-from PredictorAerobot.utils.extraction import extract_user
+from EsproMusic.misc import SUDOERS
+from EsproMusic.utils.database import add_sudo, remove_sudo
+from EsproMusic.utils.decorators.language import language
+from EsproMusic.utils.extraction import extract_user
+from EsproMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
 
-@Client.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
-async def useradd(bot, message: Message, _):
+@app.on_message(filters.command(["addsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@language
+async def useradd(client, message: Message, _):
     if not message.reply_to_message:
         if len(message.command) != 2:
             return await message.reply_text(_["general_1"])
@@ -27,8 +30,9 @@ async def useradd(bot, message: Message, _):
         await message.reply_text(_["sudo_8"])
 
 
-@Client.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
-async def userdel(bot, message: Message, _):
+@app.on_message(filters.command(["delsudo", "rmsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@language
+async def userdel(client, message: Message, _):
     if not message.reply_to_message:
         if len(message.command) != 2:
             return await message.reply_text(_["general_1"])
@@ -44,8 +48,8 @@ async def userdel(bot, message: Message, _):
 
 
 
-@Client.on_message(filters.command(["sudolist", "listsudo", "sudoers"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
-async def sudoers_list(bot, message: Message):
+@app.on_message(filters.command(["sudolist", "listsudo", "sudoers"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
+async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton("๏ ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ ๏", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
   
@@ -53,8 +57,8 @@ async def sudoers_list(bot, message: Message):
     await message.reply_video(video="https://graph.org/file/ace6a4bcf3b08ae581845.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
     
 
-@Client.on_callback_query(filters.regex("^check_sudo_list$"))
-async def check_sudo_list(bot, callback_query: CallbackQuery):
+@app.on_callback_query(filters.regex("^check_sudo_list$"))
+async def check_sudo_list(client, callback_query: CallbackQuery):
     keyboard = []
     if callback_query.from_user.id not in SUDOERS:
         return await callback_query.answer("𝐍𝐢𝐤𝐚𝐥 𝐑𝐚𝐧𝐝𝐢 𝐁𝐚𝐥𝐚 𝐒𝐮𝐝𝐨𝐥𝐢𝐬𝐭 𝐃𝐞𝐤𝐡𝐧𝐞 𝐀𝐚𝐲𝐚 𝐇𝐚𝐢 𝐛𝐚𝐝𝐚🖕😎😂", show_alert=True)
@@ -87,8 +91,8 @@ async def check_sudo_list(bot, callback_query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(keyboard)
             await callback_query.message.edit_caption(caption=caption, reply_markup=reply_markup)
 
-@Client.on_callback_query(filters.regex("^back_to_main_menu$"))
-async def back_to_main_menu(bot, callback_query: CallbackQuery):
+@app.on_callback_query(filters.regex("^back_to_main_menu$"))
+async def back_to_main_menu(client, callback_query: CallbackQuery):
     keyboard = [[InlineKeyboardButton("๏ ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ ๏", callback_data="check_sudo_list")]]
     reply_markupes = InlineKeyboardMarkup(keyboard)
     await callback_query.message.edit_caption(caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markupes)
@@ -96,9 +100,9 @@ async def back_to_main_menu(bot, callback_query: CallbackQuery):
 
 
 
-@Client.on_message(filters.command(["delallsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
+@app.on_message(filters.command(["delallsudo"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.user(OWNER_ID))
 @language
-async def del_all_sudo(bot, message: Message, _):
+async def del_all_sudo(client, message: Message, _):
     count = len(SUDOERS) - 1  # Exclude the admin from the count
     for user_id in SUDOERS.copy():
         if user_id != OWNER_ID:
