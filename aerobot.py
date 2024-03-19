@@ -1,5 +1,7 @@
 import Config
 import logging
+from PredictorAerobot.logging import LOGGER
+from PredictorAerobot.misc import dbb, heroku
 from pyrogram import Client, idle
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
