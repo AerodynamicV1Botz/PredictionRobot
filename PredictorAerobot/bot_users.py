@@ -3,7 +3,7 @@ from PredictorAerobot.database.chats_sql import num_chats
 from PredictorAerobot.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from Config import OWNER_ID, SUDOURS
+from Config import OWNER_ID, SUDOERS
 
 @Client.on_message( ~filters.service, group=1)
 async def users_sql(_, msg: Message):
@@ -16,7 +16,7 @@ async def users_sql(_, msg: Message):
             SESSION.close()
 
 
-@Client.on_message(filters.user(OWNER_ID) & filters.user(SUDOURS) & filters.command("stats"))
+@Client.on_message(filters.user(OWNER_ID) & filters.user(SUDOERS) & filters.command("stats"))
 @Client.on_message(filters.user(OWNER_ID) & filters.command(["stats@Aero_Force2_Subscriber_Bot", "forcesubscribe@Aero_Force2_Subscriber_Bot"]))
 @Client.on_message(filters.user(OWNER_ID) & filters.command(["stats@Aero_Force_Subscriber_Bot", "forcesubscribe@Aero_Force_Subscriber_Bot"]))
 async def _stats(_, msg: Message):
