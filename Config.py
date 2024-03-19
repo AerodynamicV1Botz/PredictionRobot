@@ -12,6 +12,10 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+    LOGGER_ID = int(os.environ.get("LOGGER_ID", -1002114566515))
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
@@ -28,6 +32,10 @@ else:
     START_IMG = ""
     DATABASE_URL = ""
     BOT_USERNAME=""
+    HEROKU_API_KEY = ""
+    HEROKU_APP_NAME = ""
+    LOGGER_ID = ""
+    MONGO_DB_URI = ""
     OWNER_ID=1484735126
     OWNER_ID=5708737143
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
