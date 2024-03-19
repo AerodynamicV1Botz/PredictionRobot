@@ -7,7 +7,7 @@ from pyrogram import filters
 import Config
 from PredictorAerobot.core.mongo import mongodb
 
-from .logging import LOGGER
+from PredictorAerobot.logging import LOGGER
 
 SUDOERS = filters.user()
 
