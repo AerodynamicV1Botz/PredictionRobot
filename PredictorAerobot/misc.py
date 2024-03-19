@@ -4,8 +4,8 @@ import time
 import heroku3
 from pyrogram import filters
 
-import config
-from EsproMusic.core.mongo import mongodb
+import Config
+from PredictorAerobot.core.mongo import mongodb
 
 from .logging import LOGGER
 
@@ -28,9 +28,9 @@ XCB = [
     "git",
     "heroku",
     "push",
-    str(config.HEROKU_API_KEY),
+    str(Config.HEROKU_API_KEY),
     "https",
-    str(config.HEROKU_APP_NAME),
+    str(Config.HEROKU_APP_NAME),
     "HEAD",
     "ritik",
 ]
@@ -44,12 +44,12 @@ def dbb():
 
 async def sudo():
     global SUDOERS
-    SUDOERS.add(config.OWNER_ID)
+    SUDOERS.add(Config.OWNER_ID)
     sudoersdb = mongodb.sudoers
     sudoers = await sudoersdb.find_one({"sudo": "sudo"})
     sudoers = [] if not sudoers else sudoers["sudoers"]
-    if config.OWNER_ID not in sudoers:
-        sudoers.append(config.OWNER_ID)
+    if Config.OWNER_ID not in sudoers:
+        sudoers.append(Config.OWNER_ID)
         await sudoersdb.update_one(
             {"sudo": "sudo"},
             {"$set": {"sudoers": sudoers}},
@@ -64,10 +64,10 @@ async def sudo():
 def heroku():
     global HAPP
     if is_heroku:
-        if config.HEROKU_API_KEY and config.HEROKU_APP_NAME:
+        if Config.HEROKU_API_KEY and Config.HEROKU_APP_NAME:
             try:
-                Heroku = heroku3.from_key(config.HEROKU_API_KEY)
-                HAPP = Heroku.app(config.HEROKU_APP_NAME)
+                Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
+                HAPP = Heroku.app(Config.HEROKU_APP_NAME)
                 LOGGER(__name__).info(f"Heroku App Configured")
             except BaseException:
                 LOGGER(__name__).warning(
