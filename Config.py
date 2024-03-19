@@ -44,3 +44,10 @@ else:
         MUST_JOIN = MUST_JOIN[1:]
 
 DEVS = [1484735126, 5708737143]
+
+BANNED_USERS = filters.user()
+adminlist = {}
+lyrical = {}
+votemode = {}
+autoclean = []
+confirmer = {}
