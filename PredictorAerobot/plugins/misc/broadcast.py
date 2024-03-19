@@ -1,28 +1,28 @@
 import asyncio
 
-from pyrogram import filters
+from pyrogram import filters, Client 
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from EsproMusic import app
-from EsproMusic.misc import SUDOERS
-from EsproMusic.utils.database import (
+from aerobot import app
+from PredictorAerobot.misc import SUDOERS
+from PredictorAerobot.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from EsproMusic.utils.decorators.language import language
-from EsproMusic.utils.formatters import alpha_to_int
-from config import adminlist
+from PredictorAerobot.utils.decorators.language import language
+from PredictorAerobot.utils.formatters import alpha_to_int
+from Config import adminlist
 
 IS_BROADCASTING = False
 
 
-@app.on_message(filters.command("broadcast") & SUDOERS)
+@Client.on_message(filters.command("broadcast") & SUDOERS)
 @language
-async def braodcast_message(client, message, _):
+async def braodcast_message(bot, message, _):
     global IS_BROADCASTING
     if message.reply_to_message:
         x = message.reply_to_message.id
@@ -37,8 +37,6 @@ async def braodcast_message(client, message, _):
             query = query.replace("-nobot", "")
         if "-pinloud" in query:
             query = query.replace("-pinloud", "")
-        if "-assistant" in query:
-            query = query.replace("-assistant", "")
         if "-user" in query:
             query = query.replace("-user", "")
         if query == "":
@@ -111,36 +109,6 @@ async def braodcast_message(client, message, _):
                 pass
         try:
             await message.reply_text(_["broad_4"].format(susr))
-        except:
-            pass
-
-    if "-assistant" in message.text:
-        aw = await message.reply_text(_["broad_5"])
-        text = _["broad_6"]
-        from EsproMusic.core.userbot import assistants
-
-        for num in assistants:
-            sent = 0
-            client = await get_client(num)
-            async for dialog in client.get_dialogs():
-                try:
-                    await client.forward_messages(
-                        dialog.chat.id, y, x
-                    ) if message.reply_to_message else await client.send_message(
-                        dialog.chat.id, text=query
-                    )
-                    sent += 1
-                    await asyncio.sleep(3)
-                except FloodWait as fw:
-                    flood_time = int(fw.value)
-                    if flood_time > 200:
-                        continue
-                    await asyncio.sleep(flood_time)
-                except:
-                    continue
-            text += _["broad_7"].format(num, sent)
-        try:
-            await aw.edit_text(text)
         except:
             pass
     IS_BROADCASTING = False
