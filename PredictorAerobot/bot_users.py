@@ -4,7 +4,7 @@ from PredictorAerobot.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from PredictorAerobot.misc import SUDOERS
-from Config import OWNER_ID, SUDOERS
+from Config import OWNER_ID
 
 @Client.on_message( ~filters.service, group=1)
 async def users_sql(_, msg: Message):
