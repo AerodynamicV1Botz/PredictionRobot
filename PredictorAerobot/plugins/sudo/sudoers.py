@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from .aerobot import app
+from aerobot import app
 from pyrogram.types import InputMediaVideo
 from PredictorAerobot.misc import SUDOERS
 from PredictorAerobot.utils.database import add_sudo, remove_sudo
