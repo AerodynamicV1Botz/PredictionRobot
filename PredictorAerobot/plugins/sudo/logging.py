@@ -1,6 +1,6 @@
 from pyrogram import filters, Client 
 
-from .aerobot import app
+from aerobot import app
 from PredictorAerobot.misc import SUDOERS
 from PredictorAerobot.utils.database import add_off, add_on
 from PredictorAerobot.utils.decorators.language import language
