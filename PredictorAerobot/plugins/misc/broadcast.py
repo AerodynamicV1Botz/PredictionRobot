@@ -22,7 +22,7 @@ IS_BROADCASTING = False
 
 @Client.on_message(filters.command("broadcast") & SUDOERS)
 @language
-async def braodcast_message(bot, message, _):
+async def braodcast_message(client, message, _):
     global IS_BROADCASTING
     if message.reply_to_message:
         x = message.reply_to_message.id
