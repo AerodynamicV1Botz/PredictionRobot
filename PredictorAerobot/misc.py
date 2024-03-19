@@ -4,8 +4,8 @@ import time
 import heroku3
 from pyrogram import filters
 
-import Config
-from PredictorAerobot.database.mongo import mongodb
+import config
+from EsproMusic.core.mongo import mongodb
 
 from .logging import LOGGER
 
@@ -72,4 +72,4 @@ def heroku():
             except BaseException:
                 LOGGER(__name__).warning(
                     f"Please make sure your Heroku API Key and Your App name are configured correctly in the heroku"
-  )
+                )
