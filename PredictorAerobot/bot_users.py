@@ -2,7 +2,6 @@ from PredictorAerobot.database.users_sql import Users, num_users
 from PredictorAerobot.database.chats_sql import num_chats
 from PredictorAerobot.database import SESSION
 from pyrogram import Client, filters
-from aerobot import app
 from pyrogram.types import Message
 from PredictorAerobot.misc import SUDOERS
 from Config import OWNER_ID
