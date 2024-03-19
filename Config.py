@@ -13,6 +13,7 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "https://t.me/+www03EhSoeVhZWU1")
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     LOGGER_ID = int(os.environ.get("LOGGER_ID", -1002114566515))
