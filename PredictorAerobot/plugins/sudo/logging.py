@@ -8,7 +8,7 @@ from PredictorAerobot.utils.decorators.language import language
 
 @Client.on_message(filters.command(["logger"]) & SUDOERS)
 @language
-async def logger(bot, message, _):
+async def logger(client, message, _):
     usage = _["log_1"]
     if len(message.command) != 2:
         return await message.reply_text(usage)
