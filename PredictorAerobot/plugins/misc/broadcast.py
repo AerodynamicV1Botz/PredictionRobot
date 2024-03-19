@@ -4,7 +4,7 @@ from pyrogram import filters, Client
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from aerobot import app
+from .aerobot import app
 from PredictorAerobot.misc import SUDOERS
 from PredictorAerobot.utils.database import (
     get_active_chats,
