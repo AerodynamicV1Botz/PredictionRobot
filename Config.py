@@ -1,4 +1,5 @@
 import os
+from pyrogram import filters
 
 ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
 
