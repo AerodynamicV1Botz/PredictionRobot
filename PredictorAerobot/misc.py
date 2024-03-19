@@ -32,7 +32,7 @@ XCB = [
     "https",
     str(Config.HEROKU_APP_NAME),
     "HEAD",
-    "ritik",
+    "vrajesh",
 ]
 
 
