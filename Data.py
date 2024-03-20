@@ -156,8 +156,8 @@ After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 I will add you in premium users, then you can get predictions of all for 24 hours.
 """
 
-     # PREMIUM SUBSCRIPTION 
-     PREMIUM = """
+    # PREMIUM SUBSCRIPTION 
+    PREMIUM = """
 💫Premium Subscription of all games is being given at the same rate...🇮🇳
 Buy it friend, all in one combo pack...😎
 
