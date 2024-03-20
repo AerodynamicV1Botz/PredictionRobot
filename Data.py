@@ -99,6 +99,11 @@ More Games predictions to buy Premium Subscription.
 •Made By [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL)
     """
 
+     # Home Button
+    startbuttons = [
+        [InlineKeyboardButton(text="[► Return Home ◄]", url="https://t.me/PredictorAerobot?start")],
+    ]
+    
     # Home Button
     home_buttons = [
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
