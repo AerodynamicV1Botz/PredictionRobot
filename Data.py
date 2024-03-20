@@ -157,7 +157,7 @@ I will add you in premium users, then you can get predictions of all for 24 hour
 """
 
      # PREMIUM SUBSCRIPTION 
-     PREMIUM_SUBSCRIPTION = """
+     PREMIUM = """
 💫Premium Subscription of all games is being given at the same rate...🇮🇳
 Buy it friend, all in one combo pack...😎
 
