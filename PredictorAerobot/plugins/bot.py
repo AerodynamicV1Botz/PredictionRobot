@@ -26,7 +26,7 @@ async def tb(_, msg: Message):
         else:
             await ok.edit("`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**")
             return
-        heroku_var = app.config()
+        heroku_var = app.Config()
         if msg is None:
             return
         try:
