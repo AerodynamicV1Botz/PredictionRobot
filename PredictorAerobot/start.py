@@ -4,8 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup
 from Config import START_IMG
 
 # Start Message
-@Client.on_message(filters.text & filters.incoming & filters.command("start"))
-@Client.on_message(filters.text & filters.incoming & filters.command("start@PredictorAerobot"))
+@Client.on_message(filters.incoming & filters.command("start"))
+@Client.on_message(filters.incoming & filters.command("start@PredictorAerobot"))
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
