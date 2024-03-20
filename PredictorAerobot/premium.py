@@ -9,8 +9,7 @@ import random
 @Client.on_message(filters.private & filters.incoming & filters.command("premium"))
 @Client.on_message(filters.text & filters.incoming & filters.command("premium@PredictorAerobot"))
 async def premium(bot, msg):
-	await msg.reply_photo(
-        START_IMG),
+	await msg.reply_photo(START_IMG,
 	caption=Data.PREMIUM,
 	reply_markup=InlineKeyboardMarkup(Data.paymemthome)
   )
