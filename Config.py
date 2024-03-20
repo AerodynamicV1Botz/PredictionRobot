@@ -1,4 +1,6 @@
 import os
+import sys
+import random
 from pyrogram import filters
 
 ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
