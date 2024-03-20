@@ -1,7 +1,6 @@
 import os
 import asyncio
 import sys
-import git
 import heroku3
 # Changed root to SpamFighterAerobot
 from aerobot import app
