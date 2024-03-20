@@ -13,6 +13,7 @@ if ENVIRONMENT:
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
     SUDO_ID=1484735126
+    SUDO_ID=5989615933
     OWNER_ID=5708737143
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
@@ -29,6 +30,7 @@ else:
     DATABASE_URL = ""
     BOT_USERNAME=""
     SUDO_ID=1484735126
+    SUDO_ID=5989615933
     OWNER_ID=5708737143
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
