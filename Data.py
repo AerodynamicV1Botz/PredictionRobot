@@ -358,4 +358,9 @@ If you are new, Join now with our official team link✓.
     ],   
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
+
+    # Payment Button
+    paymentbuttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+    ]
     
