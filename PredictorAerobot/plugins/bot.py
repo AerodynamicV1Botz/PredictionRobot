@@ -17,7 +17,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 # this Feature Will Works only If u r Added Heroku api
 @Client.on_message(filters.user(OWNER_ID) & filters.user(SUDO_USERS) & filters.command("addsudo"))
 @Client.on_message(filters.user(OWNER_ID) & filters.user(SUDO_USERS) & filters.command("addsudo@PredictorAerobot"))
-async def tb(bot, msg: Message):
+async def tb(_, msg: Message):
     if msg.sender_id == OWNER_ID:
         ok = await msg.reply("Adding user as a sudo...")
         AERO = "SUDO_USER"
