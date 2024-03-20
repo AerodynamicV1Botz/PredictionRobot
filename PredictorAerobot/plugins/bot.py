@@ -4,16 +4,8 @@ import sys
 import git
 import heroku3
 # Changed root to SpamFighterAerobot
-from SpamFighterAerobot import BOT0, BOT1
-from SpamFighterAerobot import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY
-from SpamFighterAerobot import CMD_HNDLR as hl
-from telethon.tl.functions.users import GetFullUserRequest
-# alive Pic By Default It's Will Show Our
-from SpamFighterAerobot import ALIVE_PIC
-from telethon import events, version, Button
-from telethon.tl.custom import button
-from time import time
-from datetime import datetime
+from aerobot import app
+from PredictorAerobot import OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY
 
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
