@@ -1,5 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 
+START_IMG = ["https://graph.org/file/4a0df73c438e618ac337d.jpg"]
 PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
