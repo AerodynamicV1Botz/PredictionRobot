@@ -1,5 +1,9 @@
 from pyrogram.types import InlineKeyboardButton
 
+PAYMENT_IMG = [
+"https://graph.org/file/0efe9a166cf9177f193a9.jpg",
+    
+
 DFASTPARITY_IMG = [
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
