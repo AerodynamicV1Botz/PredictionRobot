@@ -13,7 +13,7 @@ if ENVIRONMENT:
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
     SUDO_ID=1484735126
-    SUDO_ID1=""
+    SUDO_ID1=5989615933
     SUDO_ID2=""
     SUDO_ID3=""
     OWNER_ID=5708737143
