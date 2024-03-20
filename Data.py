@@ -393,5 +393,17 @@ If you are new, Join now with our official team link✓.
     # Payment Button
     paymentbuttons = [
         [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+    ],
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="premium")],
     ]
     
+    # Home Button
+    paymenthome = [
+    [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],   
+    [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+    ]
+
+    # Home Button
+    fastwinhome = [
+        [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
+   ]
