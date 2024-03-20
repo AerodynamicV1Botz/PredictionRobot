@@ -173,7 +173,7 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
     """
 
     # Fastparity Message
-    FASTWINFASTPARITY = """
+    FASTPARITY = """
 Hey {},
 
 I'm FastWin Fastparity {} to get 24 hour prediction 
@@ -198,7 +198,7 @@ Ask your doubts at Support Chat.
    """
 
     # parity Message
-    FASTWINPARITY = """
+    PARITY = """
 Hey {},
 
 I'm FastWin Parity {} to get 24 hour prediction 
