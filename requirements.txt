@@ -6,4 +6,3 @@ pyrogram==2.0.106
 python-dotenv
 TgCrypto
 SQLAlchemy~=1.4.21 
-heroku3
