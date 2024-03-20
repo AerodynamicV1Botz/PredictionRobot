@@ -11,6 +11,6 @@ import random
 async def premium(bot, msg):
 	await msg.reply_photo(
 	random.choice(START_IMG),
-	caption=Data.PREMIUM_SUBSCRIPTION,
+	caption=Data.PREMIUM,
 	reply_markup=InlineKeyboardMarkup(Data.paymemthome)
   )
