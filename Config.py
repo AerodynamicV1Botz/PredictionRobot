@@ -3,7 +3,6 @@ import sys
 import asyncio
 from os import getenv
 import random
-from pyrogram import filters
 
 ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
 
@@ -50,10 +49,3 @@ else:
         MUST_JOIN = MUST_JOIN[1:]
 
 DEVS = [1484735126, 5708737143]
-
-BANNED_USERS = filters.user()
-adminlist = {}
-lyrical = {}
-votemode = {}
-autoclean = []
-confirmer = {}
