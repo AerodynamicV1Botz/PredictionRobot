@@ -1,8 +1,6 @@
 import os
 import sys
 import asyncio
-from os import getenv
-import random
 
 ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
 
@@ -16,14 +14,9 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
-    HEROKU_APP_NAME = ("HEROKU_APP_NAME", None)
-    HEROKU_API_KEY = ("HEROKU_API_KEY", None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
-    SUDO_USERS = list(map(int, getenv("SUDO_USER", "").split()))
-if 1484735126 not in SUDO_USERS:
-    SUDO_USERS.append(1484735126)
-    SUDO_USERS.append(5708737143)
+    SUDO_USERS = os.environ.get('SUDO_USERS', "1484735126")
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', "AerodynamicV1_Update")
@@ -40,9 +33,7 @@ else:
     BOT_USERNAME=""
     OWNER_ID=1484735126
     OWNER_ID=5708737143
-    SUDO_USERS.append(OWNER_ID)
-    SUDO_USERS.append(1484735126)
-    SUDO_USERS.append(5708737143)
+    SUDO_USERS= ""
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
