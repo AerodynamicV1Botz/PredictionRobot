@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
 
 # Start Message
 @Client.on_message(filters.group & filters.command("start"))
