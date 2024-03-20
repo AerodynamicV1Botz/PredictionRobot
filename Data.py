@@ -389,14 +389,14 @@ If you are new, Join now with our official team link✓.
     ]
 
     # Payment Button
-    paymentbuttons = [
+    paymenthome = [
         [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
     ],
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="premium")],
     ]
     
     # Home Button
-    paymenthome = [
+    paymentbuttons = [
     [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],   
     [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
