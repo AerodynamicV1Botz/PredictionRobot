@@ -12,5 +12,5 @@ async def premium(bot, msg):
 	await msg.reply_photo(
 	random.choice(START_IMG),
 	caption=Data.PREMIUM_SUBSCRIPTION,
-	reply_markup=InlineKeyboardMarkup(Data.premiumbuttons)
+	reply_markup=InlineKeyboardMarkup(Data.paymemthome)
   )
