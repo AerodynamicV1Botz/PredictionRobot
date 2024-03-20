@@ -13,3 +13,13 @@ async def start(bot, msg):
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.startbuttons)
                        )
+
+@Client.on_message(filters.private & filters.command("start"))
+@Client.on_message(filters.private & filters.command("start@FunWinPredictorAerobot"))
+async def start(bot, msg):
+	user = await bot.get_me()
+	mention = user.mention
+	await msg.reply_photo(START_IMG,
+	caption=Data.START.format(msg.from_user.mention, mention),
+	reply_markup=InlineKeyboardMarkup(Data.buttons)
+			     )
