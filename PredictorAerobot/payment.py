@@ -11,6 +11,6 @@ import random
 async def payment(bot, msg):
 	await msg.reply_photo(
 	random.choice(PAYMENT_IMG),
-	caption=DATA.PAYMENT,
+	caption=Data.PAYMENT,
 	reply_markup=InlineKeyboardMarkup(Data.paymentbuttons)
   )
