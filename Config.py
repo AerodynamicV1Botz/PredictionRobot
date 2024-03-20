@@ -1,5 +1,7 @@
 import os
 import sys
+import asyncio
+from os import getenv
 import random
 from pyrogram import filters
 
@@ -15,9 +17,11 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
+    HEROKU_APP_NAME = ("HEROKU_APP_NAME", None)
+    HEROKU_API_KEY = ("HEROKU_API_KEY", None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
-    SUDO_USERS = list(map(int, os.environ.get("SUDO_USER").split()))
+    SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
 if 1484735126 not in SUDO_USERS:
     SUDO_USERS.append(1484735126)
     SUDO_USERS.append(5708737143)
