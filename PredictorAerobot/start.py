@@ -12,5 +12,5 @@ async def start(bot, msg):
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.buttons)
+	reply_markup=InlineKeyboardMarkup(Data.startbuttons)
                        )
