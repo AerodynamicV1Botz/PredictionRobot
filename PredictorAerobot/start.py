@@ -18,7 +18,7 @@ async def start(bot, msg):
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(START_IMG,
+	await msg.reply_photo(https://graph.org/file/4a0df73c438e618ac337d.jpg),
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.buttons)
 			     )
