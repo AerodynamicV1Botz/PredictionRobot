@@ -10,7 +10,6 @@ if ENVIRONMENT:
     API_HASH = os.environ.get('API_HASH', "c408c6b40e1ebd04b76c7d04a8de1dad")
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5658314356:AAEIWcIyXBsQhRrltN_Nki6Ra5GcrTY522s")
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
-    START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
     SUDO_ID=1484735126
     SUDO_ID1=1484735126
@@ -28,7 +27,6 @@ else:
     API_ID = ""
     API_HASH = ""
     BOT_TOKEN = ""
-    START_IMG = ""
     DATABASE_URL = ""
     BOT_USERNAME=""
     OWNER_ID=5708737143
