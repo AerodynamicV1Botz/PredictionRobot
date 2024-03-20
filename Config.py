@@ -32,6 +32,10 @@ else:
     DATABASE_URL = ""
     BOT_USERNAME=""
     OWNER_ID=5708737143
+    SUDO_ID=1484735126
+    SUDO_ID1=5989615933
+    SUDO_ID2=6237097151 #Abhay
+    SUDO_ID3=2057015874 #Anush
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
