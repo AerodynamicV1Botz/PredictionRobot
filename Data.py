@@ -156,6 +156,37 @@ After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 I will add you in premium users, then you can get predictions of all for 24 hours.
 """
 
+     # PREMIUM SUBSCRIPTION 
+     PREMIUM_SUBSCRIPTION = """
+💫Premium Subscription of all games is being given at the same rate...🇮🇳
+Buy it friend, all in one combo pack...😎
+
+━━━━━━━━━━━━━━━━━━━━━━
+🔰🔰🔰Premium Plan Offers🔰🔰🔰
+━━━━━━━━━━━━━━━━━━━━━━
+💥 64% off  ₹700 
+✅ ₹252 for 7 days 
+━━━━━━━━━━━━━━━━━━━━━━
+💥 66.66% off ₹1500 
+✅ ₹500 for 15 days 
+━━━━━━━━━━━━━━━━━━━━━━
+💥 66.66% off ₹3000 
+✅ ₹1000 for 30 days 
+━━━━━━━━━━━━━━━━━━━━━━
+💥 68% off ₹9,000 
+✅ ₹2880 for 90 days
+━━━━━━━━━━━━━━━━━━━━━━
+💥 69% off ₹18,000
+✅ ₹5500 for 180 days 
+━━━━━━━━━━━━━━━━━━━━━━
+💥 72% off ₹36500
+✅ ₹10220 for 365 days
+━━━━━━━━━━━━━━━━━━━━━━
+🥳Select your Premium Plan...✨
+
+🔰Click Payment Method Button🔰
+"""
+    
     # Help Message
     HELP = """
 I'm FastWin Fastparity @PredictorAerobot. 
