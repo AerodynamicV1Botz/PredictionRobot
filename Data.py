@@ -102,12 +102,12 @@ More Games predictions to buy Premium Subscription.
      # Home Button
     startbuttons = [
         [
-            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/fastwin"),
-            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/funwin")
+            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/Predictor_Aerobot?start=fastwin"),
+            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/Predictor_Aerobot?start=funwin")
         ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/about")
+            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/Predictor_Aerobot?start=about")
         ],
         [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
