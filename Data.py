@@ -2,7 +2,8 @@ from pyrogram.types import InlineKeyboardButton
 
 PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
-    
+"https://graph.org/file/0efe9a166cf9177f193a9.jpg",
+]
 
 DFASTPARITY_IMG = [
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
@@ -135,6 +136,25 @@ More Games predictions to buy Premium Subscription.
         ],
         [InlineKeyboardButton("[►Buy Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
+
+    # Payment Message
+    PAYMENT = """
+Scan This QR or send money through Paytm, G-Pay, PhonePe or Any other UPI App.
+
+Name:- Vasava Vrajeshkumar
+
+Payment UPI-:
+
+`vrajeshvasava22@paytm` 👈copy
+
+`vrajeshvasava22@jio` 👈copy
+
+✅After payment successful then Show me your payment receipt...!
+
+After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
+
+I will add you in premium users, then you can get predictions of all for 24 hours.
+"""
 
     # Help Message
     HELP = """
