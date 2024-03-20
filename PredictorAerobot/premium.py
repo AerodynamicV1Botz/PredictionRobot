@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
-from Config import START_IMG
+from Data import START_IMG
 import random 
 
 # Start Message
