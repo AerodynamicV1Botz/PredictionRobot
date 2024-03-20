@@ -12,7 +12,7 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     START_IMG = os.environ.get('START_IMG', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
-    SUDO_ID = list(map(int, os.environ.get('SUDO_ID', "1484735126 5708737143")
+    SUDO_ID = list([1484735126, 5708737143])
     OWNER_ID=5708737143
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
