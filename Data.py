@@ -123,10 +123,13 @@ More Games predictions to buy Premium Subscription.
             InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
         ],
         [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Prediction◄]", callback_data="about")
+                InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="about")
         ],
-        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
+        [
+        InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+        InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
+        [InlineKeyboardButton("[►Buy Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
 
     # Help Message
