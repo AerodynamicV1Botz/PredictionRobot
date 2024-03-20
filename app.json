@@ -39,11 +39,6 @@
       "required": true,
       "value": "7012286958:AAFLcHaCeSSryBfPHRTGxYa0kpsg1_jSIlc"
     },
-    "SUDO_ID": {
-       "description": "Sudo users id space by space",
-       "required": true,
-       "value": "1484735126 5708737143"
-    },    
     "START_IMG": {
       "description": "Fill Start Img url below",
       "required": true,
