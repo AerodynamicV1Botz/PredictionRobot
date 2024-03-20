@@ -20,7 +20,7 @@ if ENVIRONMENT:
     HEROKU_API_KEY = ("HEROKU_API_KEY", None)
     OWNER_ID=1484735126
     OWNER_ID=5708737143
-    SUDO_USERS = list(int, getenv("SUDO_USER").split())
+    SUDO_USERS = list(int, getenv("SUDO_USER", "").split())
 if 1484735126 not in SUDO_USERS:
     SUDO_USERS.append(1484735126)
     SUDO_USERS.append(5708737143)
