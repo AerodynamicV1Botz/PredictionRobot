@@ -101,9 +101,16 @@ More Games predictions to buy Premium Subscription.
 
      # Home Button
     startbuttons = [
-        [InlineKeyboardButton(text="[► Return Home ◄]", url="https://t.me/PredictorAerobot?start")],
+        [
+            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/fastwin"),
+            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/funwin")
+        ],
+        [
+            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/about")
+        ],
+        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
-    
     # Home Button
     home_buttons = [
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
