@@ -102,7 +102,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
     elif query == "payment":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
-        await bot.edit_message_text(
+        await bot.reply_photo(
             chat_id=chat_id,
             message_id=message_id,
             photo=PAYMENTS_IMG,
