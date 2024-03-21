@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus
-from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InputMediaPhoto
+from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 from pyrogram.errors.exceptions import UserNotParticipant
 from PredictorAerobot.database.chats_sql import (
     get_action,
