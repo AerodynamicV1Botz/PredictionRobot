@@ -423,24 +423,47 @@ If you are new, Join now with our official team link✓.
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
    ]
 
+    # All Game Prediction
+    GOAGAME = """
+    COMING SOON...
+    """
+    BIGMUMBAI = """
+    COMING SOON...
+    """
+    BIGDADDYGAME = """
+    COMING SOON...
+    """
+    TCLOTTERY = """
+    COMING SOON...
+    """
+    KGLOTTERY = """
+    COMING SOON...
+    """
+    CLUB91 = """
+    COMING SOON...
+    """
+    RUMMYBLOC = """
+    COMING SOON...
+    """
+    
     # Home Button
     allgamebuttons = [
     [
-        InlineKeyboardButton("[►FastWin◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►GoaGame◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►FunWin◄]", callback_data="funwinparity")
+        InlineKeyboardButton("[►FastWin◄]", callback_data="fastwin"),
+        InlineKeyboardButton("[►GoaGame◄]", callback_data="goagame"),
+        InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
     ],
     [
-        InlineKeyboardButton("[►Big-Mumbai◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="funwinparity")
+        InlineKeyboardButton("[►Big-Mumbai◄]", callback_data="bigmumbai"),
+        InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="bigdaddygame")
     ],
     [
-        InlineKeyboardButton("[►KG Lottery◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►TC lottery◄]", callback_data="funwinparity")
+        InlineKeyboardButton("[►KG Lottery◄]", callback_data="kglottery"),
+        InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
     ],
     [
-        InlineKeyboardButton("[►91-Club◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►RummyBloc◄]", callback_data="funwinparity")
+        InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
+        InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
     ],   
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
