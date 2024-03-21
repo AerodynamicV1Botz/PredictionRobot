@@ -11,6 +11,7 @@ if ENVIRONMENT:
     BOT_TOKEN = os.environ.get('BOT_TOKEN', "5658314356:AAEIWcIyXBsQhRrltN_Nki6Ra5GcrTY522s")
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     BOT_USERNAME = os.environ.get('BOT_USERNAME', None)
+    START_IMG = os.environ.get('START_IMG', None)
     SUDO_ID=1484735126
     SUDO_ID1=1484735126
     SUDO_ID2=1484735126
@@ -29,6 +30,7 @@ else:
     BOT_TOKEN = ""
     DATABASE_URL = ""
     BOT_USERNAME=""
+    START_IMG = ""
     OWNER_ID=5708737143
     SUDO_ID=1484735126
     SUDO_ID1=5989615933
