@@ -1,6 +1,8 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
+from Data import START_IMG
+import random 
 
 # Start Message
 @Client.on_message(filters.group & filters.command("start"))
@@ -8,7 +10,8 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(https://graph.org/file/4a0df73c438e618ac337d.jpg"),
+	await msg.reply_photo(
+	random.choice(START_IMG),
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.startbuttons)
                        )
@@ -18,7 +21,8 @@ async def start(bot, msg):
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(https://graph.org/file/4a0df73c438e618ac337d.jpg),
+	await msg.reply_photo(
+	random.choice(START_IMG),
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.buttons)
 			     )
