@@ -432,8 +432,8 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 If you want prediction of all games then first take premium subscription then play prediction of all games 24 hours, whenever you want.
 """
     GOAGAME = """
-✅ Welcome to GoaGame Game🥳😎
-
+✅ Welcome to GoaGame Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
 🔰Withdraw timings -: 24hrs
@@ -442,8 +442,7 @@ If you want prediction of all games then first take premium subscription then pl
 ▪️If you are new, join our official team link now.
 
 ✅GoaGame Register Link:- https://goagame.com/#/register?invitationCode=275731115445
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which GoaGame game prediction you want...👇
 """
     BIGMUMBAI = """
