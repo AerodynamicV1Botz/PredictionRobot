@@ -126,8 +126,8 @@ More Games predictions to buy Premium Subscription.
     # Rest Buttons
     buttons = [
         [
-        InlineKeyboardButton("[►Developer◄]", url="https://AerodynamicV1_Official"),
-        InlineKeyboardButton("[►Agent◄]", url="https://Awesome_Vrajesh")
+        InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
+        InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh")
         ],
         [InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")],
         [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")],
