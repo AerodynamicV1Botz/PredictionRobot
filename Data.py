@@ -423,3 +423,24 @@ If you are new, Join now with our official team link✓.
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
    ]
 
+    # Home Button
+    allgamebuttons = [
+    [
+        InlineKeyboardButton("[►FastWin◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►GoaGame◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►FunWin◄]", callback_data="funwinparity")
+    ],
+    [
+        InlineKeyboardButton("[►Big-Mumbai◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="funwinparity")
+    ],
+    [
+        InlineKeyboardButton("[►KG Lottery◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►TC lottery◄]", callback_data="funwinparity")
+    ],
+    [
+        InlineKeyboardButton("[►91-Club◄]", callback_data="funwinfastparity"),
+        InlineKeyboardButton("[►RummyBloc◄]", callback_data="funwinparity")
+    ],   
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+    ]
