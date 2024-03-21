@@ -407,6 +407,4 @@ If you are new, Join now with our official team link✓.
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
    ]
 
-PAYMENTS_IMG = [
-"https://graph.org/file/0efe9a166cf9177f193a9.jpg",
-]
+PAYMENTS_IMG = [photo="https://graph.org/file/0efe9a166cf9177f193a9.jpg"]
