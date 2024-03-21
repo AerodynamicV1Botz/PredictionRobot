@@ -406,3 +406,7 @@ If you are new, Join now with our official team link✓.
     fastwinhome = [
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
    ]
+
+PAYMENTS_IMG = [
+"https://graph.org/file/0efe9a166cf9177f193a9.jpg",
+]
