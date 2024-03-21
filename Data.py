@@ -130,7 +130,7 @@ More Games predictions to buy Premium Subscription.
             InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
         ],
         [
-                InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="about")
+                InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")
         ],
         [
         InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
@@ -424,6 +424,9 @@ If you are new, Join now with our official team link✓.
    ]
 
     # All Game Prediction
+    ALLGAME = """
+    SAB GAME KA PREDICTION CHAIYE TOH PEHLA PREMIUM SUBSCRIPTION LO FIR SAB GAME KA PREDICTION 24HRS TIME ME LE SAKTE HO.
+    """
     GOAGAME = """
     COMING SOON...
     """
