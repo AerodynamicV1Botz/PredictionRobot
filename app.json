@@ -39,6 +39,11 @@
       "required": true,
       "value": "7012286958:AAFLcHaCeSSryBfPHRTGxYa0kpsg1_jSIlc"
     },
+    "START_IMG": {
+      "description": "Fill Start Img url below",
+      "required": true,
+      "value": "https://graph.org/file/e1b3936d257a1b408b2fb.jpg"
+    },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": true,
