@@ -158,11 +158,11 @@ Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
 Name:- Vasava Vrajeshkumar
 
 Payment UPI-:
-
+━━━━━━━━━━━━━━━━━━━━━━
 `vrajeshvasava22@paytm` 👈copy
-
+━━━━━━━━━━━━━━━━━━━━━━
 `vrajeshvasava22@jio` 👈copy
-
+━━━━━━━━━━━━━━━━━━━━━━
 ✅After payment successful then Show me your payment receipt...!
 
 After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
@@ -176,25 +176,25 @@ I will add you in premium users, then you can get predictions of all games for 2
 Buy it friend, all in one combo pack...😎
 
 🔰🔰🔰Premium Plan Offers🔰🔰🔰
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 64% off  ₹700 
 ✅ ₹252 for 7 days 
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 66.66% off ₹1500 
 ✅ ₹500 for 15 days 
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 66.66% off ₹3000 
 ✅ ₹1000 for 30 days 
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 68% off ₹9,000 
 ✅ ₹2880 for 90 days
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 69% off ₹18,000
 ✅ ₹5500 for 180 days 
-
+━━━━━━━━━━━━━━━━━━━━━━
 💥 72% off ₹36500
 ✅ ₹10220 for 365 days
-
+━━━━━━━━━━━━━━━━━━━━━━
 🥳Select your Premium Plan...✨
 🔰Click Payment Method Button🔰
 """
@@ -228,10 +228,10 @@ If you are new, Join now with our official team link✓.
     # About Message
     ABOUT = """
 **About This @PredictorAerobot** 
-
+━━━━━━━━━━━━━━━━━━━━━━
 This is All Game Predictor≈[🇮🇳]
 A powerful Telegram Prediction bot to predict users to make profits yourself. 
-────────────────────
+━━━━━━━━━━━━━━━━━━━━━━
 ★Network » @AerodynamicV1Botz
 ★Developer » @AerodynamicV1_OFFICIAL
 ★Owner » @Awesome_Vrajesh
@@ -320,7 +320,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     # Fastwin Message 
     FASTWIN = """
 ✅ Welcome to FastWin Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Joining Bonus -: 40Rs
 🔰Minimum Recharge -: 500Rs
 🔰Minimum Withdrawal -: 530Rs 
@@ -332,8 +332,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 ▪️If you are new, join our official team link now.
 
 ✅FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Fastwin game prediction you want...👇
 """
 
@@ -375,7 +374,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     # Fastwin Message 
     FUNWIN = """
 ✅ Welcome to FunWin Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Joining Bonus -: 20Rs
 🔰Minimum Recharge -: 200Rs
 🔰Minimum Withdrawal -: 530Rs 
@@ -387,8 +386,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 ▪️If you are new, join our official team link now.
 
 ✅FunWin Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Funwin game prediction you want...👇
 """
     
@@ -447,7 +445,7 @@ If you want prediction of all games then first take premium subscription then pl
 """
     BIGMUMBAI = """
 ✅ Welcome to Big Mumbai Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
 🔰Withdraw timings -: 24hrs
@@ -456,13 +454,12 @@ If you want prediction of all games then first take premium subscription then pl
 ▪️If you are new, join our official team link now.
 
 ✅BM Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Mumbai game prediction you want...👇
 """
     BIGDADDYGAME = """
 ✅ Welcome to Big Daddy Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
 🔰Withdraw timings -: 24hrs
@@ -470,9 +467,8 @@ If you want prediction of all games then first take premium subscription then pl
 
 ▪️If you are new, join our official team link now.
 
-✅BDG Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
-
--------------------------------------------------------
+✅BDG Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Daddy game prediction you want...👇
 """
     TCLOTTERY = """
@@ -483,7 +479,7 @@ If you want prediction of all games then first take premium subscription then pl
     """
     CLUB91 = """
 ✅ Welcome to 91 Club Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
 🔰Withdraw timings -: 24hrs
@@ -492,13 +488,12 @@ If you want prediction of all games then first take premium subscription then pl
 ▪️If you are new, join our official team link now.
 
 ✅ 91 Club Register Link:- https://91club-4.com/#/register?invitationCode=777284419608
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 91 club game prediction you want...👇
 """
     RUMMYBLOC = """
 ✅ Welcome to Rummy Bloc Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Recharge Bonis -: 300Rs
 🔰Minimum Withdrawal -: 100Rs 
@@ -508,13 +503,12 @@ If you want prediction of all games then first take premium subscription then pl
 ▪️If you are new, join our official team link now.
 
 ✅Register Link:- https://rummybloc.in?from_gameid=9328965&channelCode=200000
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Rummy Bloc game prediction you want...👇
 """
     MANTRIMALL = """
 ✅ Welcome to Mantrimall Game🥳😎
-
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 200Rs 
 🔰Per Refer -: 120Rs
@@ -524,8 +518,7 @@ If you want prediction of all games then first take premium subscription then pl
 ▪️If you are new, join our official team link now.
 
 ✅ Mantrimall Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
-
--------------------------------------------------------
+━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Mantrimall game prediction you want...👇
 """
     # Home Button
