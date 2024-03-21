@@ -429,11 +429,23 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 
     # All Game Prediction
     ALLGAME = """
-    SAB GAME KA PREDICTION CHAIYE TOH PEHLA PREMIUM SUBSCRIPTION LO FIR SAB GAME KA PREDICTION 24HRS TIME ME LE SAKTE HO.
-    """
+If you want prediction of all games then first take premium subscription then play prediction of all games 24 hours, whenever you want.
+"""
     GOAGAME = """
-    COMING SOON...
-    """
+✅ Welcome to GoaGame Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅GoaGame Register Link:- https://goagame.com/#/register?invitationCode=275731115445
+
+-------------------------------------------------------
+🔰Click on the button below which GoaGame game prediction you want...👇
+"""
     BIGMUMBAI = """
 ✅ Welcome to Big Mumbai Game🥳😎
 
@@ -448,7 +460,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 
 -------------------------------------------------------
 🔰Click on the button below which Big Mumbai game prediction you want...👇
-    """
+"""
     BIGDADDYGAME = """
 ✅ Welcome to Big Daddy Game🥳😎
 
@@ -463,7 +475,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 
 -------------------------------------------------------
 🔰Click on the button below which Big Daddy game prediction you want...👇
-    """
+"""
     TCLOTTERY = """
     COMING SOON...
     """
@@ -471,12 +483,52 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     COMING SOON...
     """
     CLUB91 = """
-    COMING SOON...
-    """
+✅ Welcome to 91 Club Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅ 91 Club Register Link:- https://91club-4.com/#/register?invitationCode=777284419608
+
+-------------------------------------------------------
+🔰Click on the button below which 91 club game prediction you want...👇
+"""
     RUMMYBLOC = """
-    COMING SOON...
-    """
-    
+✅ Welcome to Rummy Bloc Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Recharge Bonis -: 300Rs
+🔰Minimum Withdrawal -: 100Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅Register Link:- https://rummybloc.in?from_gameid=9328965&channelCode=200000
+
+-------------------------------------------------------
+🔰Click on the button below which Rummy Bloc game prediction you want...👇
+"""
+    MANTRIMALL = """
+✅ Welcome to Mantrimall Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 200Rs 
+🔰Per Refer -: 120Rs
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅ Mantrimall Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
+
+-------------------------------------------------------
+🔰Click on the button below which Mantrimall game prediction you want...👇
+"""
     # Home Button
     allgamebuttons = [
     [
