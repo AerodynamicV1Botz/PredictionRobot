@@ -177,7 +177,61 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.FUNWINPARITY,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.funwinhome),
-        )        
+        )
+    elif query == "goagame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.GOAGAME,
+            disable_web_page_preview=True,                        
+       )
+    elif query == "tclottery":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TCLOTTERY,
+            disable_web_page_preview=True,            
+        )
+    elif query == "kglottery":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.KGLOTTERY,
+            disable_web_page_preview=True,            
+        )
+    elif query == "bigdaddygame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BIGDADDYGAME,
+            disable_web_page_preview=True,            
+        )
+    elif query == "rummybloc":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.RUMMYBLOC,
+            disable_web_page_preview=True,            
+        )
+    elif query == "bigmumbai":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BIGMUMBAI,
+            disable_web_page_preview=True,            
+        )
     elif query.startswith("action"):
         success = await admin_check(bot, callback_query.message, user_id, callback_query)
         if not success:
