@@ -2,8 +2,6 @@ from pyrogram.types import InlineKeyboardButton
 
 START_IMG = ["https://graph.org/file/4a0df73c438e618ac337d.jpg"]
 
-PAYMENTS_IMG = "https://graph.org/file/0efe9a166cf9177f193a9.jpg"
-
 PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
@@ -143,7 +141,9 @@ More Games predictions to buy Premium Subscription.
 
     # Payment Message
     PAYMENT = """
-Scan This QR or send money through Paytm, G-Pay, PhonePe or Any other UPI App.
+Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
+
+/QR 👈 use this command for scanner.
 
 Name:- Vasava Vrajeshkumar
 
