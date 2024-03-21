@@ -87,7 +87,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.FASTWIN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.fastwinhome_buttons),
-         )
+        )
     elif query == "premium":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -97,7 +97,17 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.PREMIUM,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.paymenthome),
-         )
+        )
+    elif query == "qr":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.QR,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.qrbuttons),
+        )
     elif query == "payment":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -107,7 +117,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.PAYMENT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.paymentbuttons),
-         )
+        )
     elif query == "funwin":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -117,7 +127,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.FUNWIN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.funwinhome_buttons),
-         )             
+        )             
     elif query == "fastwinfastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
