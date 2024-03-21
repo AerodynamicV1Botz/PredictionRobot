@@ -1,4 +1,5 @@
 from Data import Data
+from Data import PAYMENTS_IMG
 from pyrogram import Client
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InputMediaPhoto
@@ -104,7 +105,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            photo=Data.PAYMENTS_IMG,
+            photo=PAYMENTS_IMG,
             text=Data.PAYMENT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.paymentbuttons),
