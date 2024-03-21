@@ -319,20 +319,22 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 
     # Fastwin Message 
     FASTWIN = """
-Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
-Example:- /fastparity001 to /fastparity999
+✅ Welcome to FastWin Game🥳😎
 
-» Signup Bonus - ₹20
-» Minimum Recharge - ₹500
-» Minimum Withdrawal - ₹530
-» Per Refer ₹250
-» Daily Lucky Rupees 
-•Invite More, Earn More!
+🔰Joining Bonus -: 40Rs
+🔰Minimum Recharge -: 500Rs
+🔰Minimum Withdrawal -: 530Rs 
+🔰Withdraw timings -: 10am to 7pm
+🔰Per Refer -:500Rs🤩🤩
+🔰Everyday Lucky Lifafa 10rs 😚
+✨Invite More, Earn More!
 
-★Agent-: @AerodynamicV1_Official
+▪️If you are new, join our official team link now.
 
-If you are new, Join now with our official team link✓.
-•FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
+✅FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
+
+-------------------------------------------------------
+🔰Click on the button below which Fastwin game prediction you want...👇
 """
 
     # Home Button
@@ -372,20 +374,22 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     
     # Fastwin Message 
     FUNWIN = """
-Get Fastparity Prediction To Enter Last 3 digits of period with /fastparity Command.
-Example:- /fastparity001 to /fastparity999
+✅ Welcome to FunWin Game🥳😎
 
-» Signup Bonus - ₹20
-» Minimum Recharge - ₹500
-» Minimum Withdrawal - ₹530
-» Per Refer ₹250
-» Daily Lucky Rupees 
-•Invite More, Earn More!
+🔰Joining Bonus -: 20Rs
+🔰Minimum Recharge -: 200Rs
+🔰Minimum Withdrawal -: 530Rs 
+🔰Withdraw timings -: 24hrs
+🔰Per Refer -:238Rs🤩🤩
+🔰Everyday Lucky Lifafa 10rs 😚
+✨Invite More, Earn More!
 
-★Agent-: @AerodynamicV1_Official
+▪️If you are new, join our official team link now.
 
-If you are new, Join now with our official team link✓.
-•FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
+✅FunWin Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
+
+-------------------------------------------------------
+🔰Click on the button below which Funwin game prediction you want...👇
 """
     
     # Home Button
@@ -431,10 +435,34 @@ If you are new, Join now with our official team link✓.
     COMING SOON...
     """
     BIGMUMBAI = """
-    COMING SOON...
+✅ Welcome to Big Mumbai Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅BM Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
+
+-------------------------------------------------------
+🔰Click on the button below which Big Mumbai game prediction you want...👇
     """
     BIGDADDYGAME = """
-    COMING SOON...
+✅ Welcome to Big Daddy Game🥳😎
+
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅BDG Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
+
+-------------------------------------------------------
+🔰Click on the button below which Big Daddy game prediction you want...👇
     """
     TCLOTTERY = """
     COMING SOON...
