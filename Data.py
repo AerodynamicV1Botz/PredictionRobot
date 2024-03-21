@@ -109,12 +109,12 @@ More Games predictions to buy Premium Subscription.
      # Home Button
     startbuttons = [
         [
-            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/Predictor_Aerobot?start=fastwin"),
-            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/Predictor_Aerobot?start=funwin")
+            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/PredictorAerobot?start=fastwin"),
+            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/PredictorAerobot?start=funwin")
         ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/Predictor_Aerobot?start=about")
+            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/PredictorAerobot?start=about")
         ],
         [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
@@ -126,17 +126,15 @@ More Games predictions to buy Premium Subscription.
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("[►Fastwin◄]", callback_data="fastwin"),
-            InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
+        InlineKeyboardButton("[►Developer◄]", url="https://AerodynamicV1_Official"),
+        InlineKeyboardButton("[►Agent◄]", url="https://Awesome_Vrajesh")
         ],
-        [
-                InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")
-        ],
+        [InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")],
+        [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")],
         [
         InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
         InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/TechEarning_KingMasterMind")
         ],
-        [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")]
     ]
 
     #QR
@@ -342,7 +340,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+        [InlineKeyboardButton(text="[►Return All Game◄]", callback_data="fastwin")],
     ]
 
         # Home Button
@@ -401,7 +399,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
     ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+        [InlineKeyboardButton(text="[►Return All Game◄]", callback_data="funwin")],
     ]
 
     # Payment Button
