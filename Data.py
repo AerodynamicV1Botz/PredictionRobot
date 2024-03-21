@@ -139,6 +139,16 @@ More Games predictions to buy Premium Subscription.
         [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")]
     ]
 
+    #QR
+    QR = """
+Scan This QR or Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
+
+✅After payment successful then Show me your payment receipt...!
+
+After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
+
+I will add you in premium users, then you can get predictions of all games for 24 hours.
+"""
     # Payment Message
     PAYMENT = """
 Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
@@ -157,7 +167,7 @@ Payment UPI-:
 
 After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
-I will add you in premium users, then you can get predictions of all for 24 hours.
+I will add you in premium users, then you can get predictions of all games for 24 hours.
 """
 
     # PREMIUM SUBSCRIPTION 
@@ -396,6 +406,10 @@ If you are new, Join now with our official team link✓.
     paymentbuttons = [
         [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
         [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
+    ]
+    # QR
+    qrbuttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
     ]
     
     # Home Button
