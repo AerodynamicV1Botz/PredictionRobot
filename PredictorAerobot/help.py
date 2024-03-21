@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
-from Data import START_IMG
+from Config import START_IMG
 
 # Help Message
 @Client.on_message(filters.private & filters.incoming & filters.command("help"))
