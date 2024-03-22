@@ -345,26 +345,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 
 
 
-    TCRESULT = """
-Hey {}, look at the Result ☝️
 
-🔥Prepare your fund for 7-9 level management to avoid losses.
-✨When you take Risks and push yourself, you do well ✓.
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://goagame.com/#/register?invitationCode=275731115445
-"""
-    TIRANGARESULT = """
-Hey {}, look at the Result ☝️
-
-🔥Prepare your fund for 7-9 level management to avoid losses.
-✨When you take Risks and push yourself, you do well ✓.
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://goagame.com/#/register?invitationCode=275731115445
-"""
 
     # Fastwin Buttons
     gggbuttons = [
@@ -551,7 +532,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 
 ▪️If you are new, join our official team link now.
 
-✅BM Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
+✅BM Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Mumbai game prediction you want...👇
 """
@@ -563,7 +544,7 @@ Hey {}, look at the Result ☝️
 
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
-Special Link - https://goagame.com/#/register?invitationCode=275731115445
+Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
 """
     BIGDADDYGAME = """
 ✅ Welcome to Big Daddy Game🥳😎
@@ -592,6 +573,40 @@ Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
     TCLOTTERY = """
     COMING SOON...
     """
+    TCRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
+"""
+    TIRANGA = """
+✅ Welcome to Tiranga Game🥳😎
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅ Tiranga Register Link:- https://tirangalottery.in/#/register?invitationCode=14184791737
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Click on the button below which tiranga game prediction you want...👇
+"""
+    TIRANGARESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
+"""
     KGLOTTERY = """
     COMING SOON...
     """
@@ -655,7 +670,7 @@ Special Link - https://rummybloc.in?from_gameid=9328965&channelCode=200000
 
 ▪️If you are new, join our official team link now.
 
-✅ Mantrimall Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
+✅ Mantrimall Register Link:- https://mantrishop.com/#/pages/person/register?r_code=3382608
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Mantrimall game prediction you want...👇
 """
@@ -667,7 +682,7 @@ Hey {}, look at the Result ☝️
 
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
-Special Link - https://goagame.com/#/register?invitationCode=275731115445
+Special Link - https://mantrishop.com/#/pages/person/register?r_code=3382608
 """
     # Home Button
     allgamebuttons = [
@@ -682,10 +697,12 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     ],
     [
         InlineKeyboardButton("[►KG Lottery◄]", callback_data="kglottery"),
+        InlineKeyboardButton("[►Tiranga◄]", callback_data="tiranga"),
         InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
     ],
     [
         InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
+        InlineKeyboardButton("[►Mantrimall◄]", callback_data="mantrimall"),
         InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
     ],   
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
