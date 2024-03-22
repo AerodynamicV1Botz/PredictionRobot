@@ -138,7 +138,7 @@ More Games predictions to buy Premium Subscription.
         [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")],
         [
         InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-        InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/TechEarning_KingMasterMind")
+        InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
         ],
     ]
 
@@ -240,7 +240,7 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 ★Owner » @Awesome_Vrajesh
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
-★ChitChat » t.me/+0l6L5-ArBRU2ZGRl
+★ChitChat » @EarningTeamSupportChat
 ★Support » @Fiewin_Colour_Prediction_Winner
 ★Free Promotion » @AerodynamicV1_Promotion
     """
@@ -255,7 +255,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 
 Example:- /fastparity792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
    """
     # Fastparity Message
     FUNWINFASTPARITY = """
@@ -267,7 +267,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 
 Example:- /fastparity792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
    """
 
     # parity Message
@@ -280,7 +280,7 @@ Enter the last 3 digits of the period number with the /parity command.
 
 Example:- /parity792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
    """
     
     BMWINGO = """
@@ -292,7 +292,7 @@ Enter the last 3 digits of the period number with the /BMwingo command.
 
 Example:- /BMwingo792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
 """
     BDGWINGO = """
 Hey {},
@@ -303,7 +303,7 @@ Enter the last 3 digits of the period number with the /BDGwingo command.
 
 Example:- /BDGwingo792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
 """
     GGWINGO = """
 Hey {},
@@ -314,7 +314,7 @@ Enter the last 3 digits of the period number with the /GGwingo command.
 
 Example:- /GGwingo792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
 """
     # parity Message
     FUNWINPARITY = """
@@ -326,7 +326,7 @@ Enter the last 3 digits of the period number with the /parity command.
 
 Example:- /parity792
 
-Ask your doubts at Support Chat.
+Ask your doubts at @EarningTeamSupportChat.
    """
 
     # Fast Message
@@ -357,7 +357,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
             InlineKeyboardButton("[►GoaGame❔◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
         ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
     # Fasthome Button
@@ -370,7 +370,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
             InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/TechEarning_KingMasterMind/9932")
         ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
 ]
 
@@ -413,7 +413,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
             InlineKeyboardButton("[►Register Link◄]", url="https://fastwin.app/LR?RG&C=3033148541")
         ],
-        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
 ]
 
