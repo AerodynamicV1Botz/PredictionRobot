@@ -7,6 +7,11 @@ PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 ]
 
+SIZE = [
+"https://graph.org/file/032a2d631dbbf81a43142.jpg",
+"https://graph.org/file/d9a2826ef4c21e1aa34c9.jpg",
+]
+
 DFASTPARITY_IMG = [
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
@@ -277,6 +282,18 @@ Example:- /parity792
 
 Ask your doubts at Support Chat.
    """
+    
+    BMWINGO = """
+Hey {},
+
+I'm Big Mumbai Wingo {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /bmwingo command.
+
+Example:- /bmwingo792
+
+Ask your doubts at Support Chat.
+"""
     # parity Message
     FUNWINPARITY = """
 Hey {},
