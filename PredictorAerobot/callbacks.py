@@ -156,7 +156,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BMWINGO,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.bmbuttons),
         ) 
     elif query == "bdgwingo":
         chat_id = callback_query.from_user.id
@@ -166,7 +165,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BDGWINGO,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.bdgbuttons),
         ) 
     elif query == "ggwingo":
         chat_id = callback_query.from_user.id
@@ -176,7 +174,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.GGWINGO,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.ggbuttons),
         ) 
     elif query == "fastwinparity":
         chat_id = callback_query.from_user.id
@@ -216,7 +213,8 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.GOAGAME,
             disable_web_page_preview=True,                        
-       )
+            reply_markup=InlineKeyboardMarkup(Data.ggbuttons),
+        )
     elif query == "tclottery":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -243,6 +241,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BIGDADDYGAME,
             disable_web_page_preview=True,            
+            reply_markup=InlineKeyboardMarkup(Data.bdgbuttons),
         )
     elif query == "rummybloc":
         chat_id = callback_query.from_user.id
@@ -261,6 +260,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BIGMUMBAI,
             disable_web_page_preview=True,            
+            reply_markup=InlineKeyboardMarkup(Data.bmbuttons),      
         )
     elif query.startswith("action"):
         success = await admin_check(bot, callback_query.message, user_id, callback_query)
