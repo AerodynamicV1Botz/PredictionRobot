@@ -8,8 +8,8 @@ PAYMENT_IMG = [
 ]
 
 SIZE = [
-"https://graph.org/file/032a2d631dbbf81a43142.jpg",
-"https://graph.org/file/d9a2826ef4c21e1aa34c9.jpg",
+"https://graph.org/file/096922735e511629f4933.jpg",
+"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
 ]
 
 DFASTPARITY_IMG = [
