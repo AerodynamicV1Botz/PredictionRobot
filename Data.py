@@ -339,7 +339,27 @@ Special Link - https://fastwin.app/LR?RG&C=3033148541
 
 Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
     """
-    
+
+    # Fast Message
+    GGRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
+
+    # Fastwin Buttons
+    gggbuttons = [
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►GoaGame❔◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
+        ],
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/https://t.me/+0l6L5-ArBRU2ZGRl"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
     # Fasthome Button
     fasthome_buttons = [
         [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="aerohome")],
