@@ -341,15 +341,30 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     """
 
     # Fast Message
-    GGRESULT = """
+
+
+
+
+    TCRESULT = """
 Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
 
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://goagame.com/#/register?invitationCode=275731115445
+"""
+    TIRANGARESULT = """
+Hey {}, look at the Result ☝️
 
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
+"""
 
     # Fastwin Buttons
     gggbuttons = [
@@ -516,6 +531,16 @@ If you want prediction of all games then first take premium subscription then pl
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which GoaGame game prediction you want...👇
 """
+    GGRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
+"""
     BIGMUMBAI = """
 ✅ Welcome to Big Mumbai Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -530,6 +555,16 @@ If you want prediction of all games then first take premium subscription then pl
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Mumbai game prediction you want...👇
 """
+    BMRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
+"""
     BIGDADDYGAME = """
 ✅ Welcome to Big Daddy Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -543,6 +578,16 @@ If you want prediction of all games then first take premium subscription then pl
 ✅BDG Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Daddy game prediction you want...👇
+"""
+    BDGRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
 """
     TCLOTTERY = """
     COMING SOON...
@@ -564,6 +609,16 @@ If you want prediction of all games then first take premium subscription then pl
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 91 club game prediction you want...👇
 """
+    C91RESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://91club-4.com/#/register?invitationCode=777284419608
+"""
     RUMMYBLOC = """
 ✅ Welcome to Rummy Bloc Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -579,6 +634,16 @@ If you want prediction of all games then first take premium subscription then pl
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Rummy Bloc game prediction you want...👇
 """
+    RBRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://rummybloc.in?from_gameid=9328965&channelCode=200000
+"""
     MANTRIMALL = """
 ✅ Welcome to Mantrimall Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -593,6 +658,16 @@ If you want prediction of all games then first take premium subscription then pl
 ✅ Mantrimall Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527220
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Mantrimall game prediction you want...👇
+"""
+    MMRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://goagame.com/#/register?invitationCode=275731115445
 """
     # Home Button
     allgamebuttons = [
