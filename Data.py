@@ -286,11 +286,33 @@ Ask your doubts at Support Chat.
     BMWINGO = """
 Hey {},
 
-I'm Big Mumbai Wingo {} to get 24 hour prediction 
+I'm Big Mumbai Wingo 1 Minute Game {} to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /bmwingo command.
+Enter the last 3 digits of the period number with the /BMwingo command.
 
-Example:- /bmwingo792
+Example:- /BMwingo792
+
+Ask your doubts at Support Chat.
+"""
+    BDGWINGO = """
+Hey {},
+
+I'm Big Daddy Wingo 1 Minute Game {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /BDGwingo command.
+
+Example:- /BDGwingo792
+
+Ask your doubts at Support Chat.
+"""
+    GGWINGO = """
+Hey {},
+
+I'm GoaGame Wingo 1 Minute Game {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /GGwingo command.
+
+Example:- /GGwingo792
 
 Ask your doubts at Support Chat.
 """
@@ -357,7 +379,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
     ],   
-        [InlineKeyboardButton(text="[►Return All Game◄]", callback_data="fastwin")],
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
 
         # Home Button
@@ -416,9 +438,25 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
     ],   
-        [InlineKeyboardButton(text="[►Return All Game◄]", callback_data="funwin")],
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-
+    
+    # Home Button
+    bdgbuttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
+    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+    ]
+    # Home Button
+    bmbuttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bmwingo")],   
+    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+    ]
+    # Home Button
+    ggbuttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="ggwingo")],   
+    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="goagame")],
+    ]
+    
     # Payment Button
     paymentbuttons = [
         [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
