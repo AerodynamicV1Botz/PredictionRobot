@@ -356,7 +356,9 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 🔰Per Refer -:238Rs🤩🤩
 🔰Everyday Lucky Lifafa 10rs 😚
 ✨Invite More, Earn More!
-
+First read the rules & regulations then create your Funwin account.
+[FunWin Rules & Regulations](https://t.me/FunWin_Game_Prediction/114)
+━━━━━━━━━━━━━━━━━━━━━━
 ▪️If you are new, join our official team link now.
 
 ✅FunWin Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
