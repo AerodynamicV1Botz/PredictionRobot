@@ -744,10 +744,40 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
     rummybloc_back = [
         [InlineKeyboardButton(text="[►Return RummyBloc Game◄]", callback_data="rummybloc")],
     ]
-    RUMMYBLOCRESULT = """
+    FUNWINPARITYRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Ask your doubts at @EarningTeamSupportChat.
+"""
+    ANDARBAHAR = """
+Hey {},
+
+I'm RummyBloc AndarBahar {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /RummyBlocAB command.
+
+Example:- /RummyBlocAB
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    DRAGONTIGERFIGHT = """
+Hey {},
+
+I'm RummyBloc DragonTigerFight {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /RummyBlocDTF command.
+
+Example:- /RummyBlocDTF
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    RUMMYBLOCRESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 5-7 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
@@ -791,7 +821,18 @@ Special Link - https://rummybloc.in?from_gameid=9328965&channelCode=200000
     mantrimall_back = [
         [InlineKeyboardButton(text="[►Return MantriMall◄]", callback_data="mantrimall")],
     ]
-    MMRESULT = """
+    MANTRIMALLPARITY = """
+Hey {},
+
+I'm Mantrimall Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /MMparity command.
+
+Example:- /MMparity986
+
+Ask your doubts at @EarningTeamSupportChat.
+"""
+    MANTRIMALLRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
