@@ -16,68 +16,23 @@ More Games predictions to buy Premium Subscription.
     """
      # Group Start Button
     start_group_buttons = [
-        [
-            InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/PredictorAerobot?start=fastwin"),
-            InlineKeyboardButton("[►FunWin◄]", url="https://t.me/PredictorAerobot?start=funwin")
-        ],
-        [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Prediction◄]", url="https://t.me/PredictorAerobot?start=about")
-        ],
-        [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
+        [InlineKeyboardButton("[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")],
+        [InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+        InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")],
+        [InlineKeyboardButton("[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")],
     ]
     # PM Start Buttons
     start_buttons = [
         [
+        InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
         InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh")
+        InlineKeyboardButton("[►About◄]", url="about")
         ],
         [InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")],
         [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")],
-        [
-        InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-        InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
-        ],
+        [InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+         InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")],
     ]
-    #QR Message 
-    QR = """
-Scan This QR or Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
-
-✅After payment successful then Show me your payment receipt...!
-
-After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
-
-I will add you in premium users, then you can get predictions of all games for 24 hours.
-"""
-    #QR Button
-    qr_buttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
-    ]
-    # Payment Message
-    PAYMENT = """
-Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
-
-/QR 👈 use this command for scanner.
-
-Name:- Vasava Vrajeshkumar
-
-Payment UPI-:
-━━━━━━━━━━━━━━━━━━━━━━
-`vrajeshvasava22@paytm` 👈copy
-━━━━━━━━━━━━━━━━━━━━━━
-`vrajeshvasava22@jio` 👈copy
-━━━━━━━━━━━━━━━━━━━━━━
-✅After payment successful then Show me your payment receipt...!
-
-After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
-
-I will add you in premium users, then you can get predictions of all games for 24 hours.
-"""
-    # Payment Buttons
-    payment_buttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
-        [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
-    ] 
     # Premium Subscription Message 
     PREMIUM = """
 💫Premium Subscription of all games is being given at the same rate...🇮🇳
@@ -111,33 +66,45 @@ Buy it friend, all in one combo pack...😎
     [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],
     [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
     ]
-    
-    # Help Message
-    HELP = """
-I'm FastWin Fastparity @PredictorAerobot. 
+    # Payment Message
+    PAYMENT = """
+Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
 
-Get 24 hour free prediction, I am active to get prediction any time by using /fastparity command.
+/QR 👈 use this command for scanner.
 
-Enter the last 3 digits of the period number with the /fastparity command.
+Name:- Vasava Vrajeshkumar
 
-Example:- /fastparity241
+Payment UPI-:
+━━━━━━━━━━━━━━━━━━━━━━
+`vrajeshvasava22@paytm` 👈copy
+━━━━━━━━━━━━━━━━━━━━━━
+`vrajeshvasava22@jio` 👈copy
+━━━━━━━━━━━━━━━━━━━━━━
+✅After payment successful then Show me your payment receipt...!
 
-Make Sure To register Your new Account With Our FastWin Special Link To Get Accurate Prediction 
- 
-Register A new Account & Deposit 1000Rs & Use Our prediction To Make More Profits. 
+After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
-» Signup Bonus - ₹20
-» Minimum Recharge - ₹500
-» Minimum Withdrawal - ₹530
-» Per Refer ₹250
-» Daily Lucky Rupees 
-•Invite More, Earn More!
-★Agent-: @AerodynamicV1_Official
-
-If you are new, Join now with our official team link✓.
-•FastWin Special Link:- https://fastwin.app/LR?RG&C=3033148541
+I will add you in premium users, then you can get predictions of all games for 24 hours.
 """
+    # Payment Buttons
+    payment_buttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+        [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
+    ] 
+    #QR Message 
+    QR = """
+Scan This QR or Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
 
+✅After payment successful then Show me your payment receipt...!
+
+After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
+
+I will add you in premium users, then you can get predictions of all games for 24 hours.
+"""
+    #QR Button
+    qr_buttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+    ]   
     # About Message
     ABOUT = """
 **About This @PredictorAerobot** 
@@ -150,9 +117,22 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 ★Owner » @Awesome_Vrajesh
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
-★ChitChat » @EarningTeamSupportChat
-★Support » @Fiewin_Colour_Prediction_Winner
-★Free Promotion » @AerodynamicV1_Promotion
+★Support » @EarningTeamSupportChat
+    """
+    # About Buttons
+    about_buttons = [
+        [InlineKeyboardButton(text="[►Join our Groups or Channels◄]", callback_data="chat")],
+        [InlineKeyboardButton(text="[►Return Home◄]", callback_data="home")],
+    ] 
+    CHAT = """
+This is All our Groups or Channels≈[🇮🇳] 
+━━━━━━━━━━━━━━━━━━━━━━
+★Network » @AerodynamicV1Botz
+★Developer » @AerodynamicV1_OFFICIAL
+★Owner » @Awesome_Vrajesh
+★Update » @AerodynamicV1_UPDATE
+★Tech Earning » @TechEarning_KingMasterMind
+★Support » @EarningTeamSupportChat
     """
     # All Game Message
     ALLGAME = """
