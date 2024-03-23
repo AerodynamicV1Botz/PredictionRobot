@@ -19,6 +19,6 @@ async def ggwingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(SIZE),
 	caption=Data.GGRESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gggbuttons)
+	reply_markup=InlineKeyboardMarkup(Data.goagameback)
                                                                       )
                                                                       
