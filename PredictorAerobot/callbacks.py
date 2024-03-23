@@ -88,16 +88,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,            
             reply_markup=InlineKeyboardMarkup(Data.allgamebuttons),
         )
-    elif query == "fastwin":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWIN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwinhome_buttons),
-        )
     elif query == "premium":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -107,16 +97,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.PREMIUM,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.premium_buttons),
-        )
-    elif query == "qr":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.QR,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.qr_buttons),
         )
     elif query == "payment":
         chat_id = callback_query.from_user.id
@@ -128,16 +108,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.payment_buttons),
         )
-    elif query == "funwin":
+    elif query == "qr":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.FUNWIN,
+            text=Data.QR,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.funwin_buttons),
-        )             
+            reply_markup=InlineKeyboardMarkup(Data.qr_buttons),
+        )
+    elif query == "fastwin":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.FASTWIN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.fastwin_buttons),
+        )
     elif query == "fastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -148,54 +138,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.fastwin_back),
         )
-    elif query == "bmwingo":
+    elif query == "parity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.BMWINGO,
+            text=Data.PARITY,
             disable_web_page_preview=True,
-        ) 
-    elif query == "tirangawingo":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.TIRANGAWINGO,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.tirangaback),
-        ) 
-    elif query == "bdgwingo":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.BDGWINGO,
-            disable_web_page_preview=True,
-        ) 
-    elif query == "ggwingo":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.GGWINGO,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.goagameback),
-        ) 
-    elif query == "fastwinparity":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWINPARITY,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.fastwinhome),
+            reply_markup=InlineKeyboardMarkup(Data.fastwin_back),
         )         
+    elif query == "funwin":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.FUNWIN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.funwin_buttons),
+        )             
     elif query == "funwinfastparity":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -204,7 +166,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FUNWINFASTPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.funwinhome),
+            reply_markup=InlineKeyboardMarkup(Data.funwin_back),
         ) 
     elif query == "funwinparity":
         chat_id = callback_query.from_user.id
@@ -214,7 +176,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.FUNWINPARITY,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.funwinhome),
+            reply_markup=InlineKeyboardMarkup(Data.funwin_back),
         )
     elif query == "goagame":
         chat_id = callback_query.from_user.id
@@ -224,8 +186,18 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.GOAGAME,
             disable_web_page_preview=True,                        
-            reply_markup=InlineKeyboardMarkup(Data.ggbuttons),
+            reply_markup=InlineKeyboardMarkup(Data.goagame_buttons),
         )
+    elif query == "ggwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.GGWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.goagame_back),
+        ) 
     elif query == "tiranga":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -234,8 +206,18 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.TIRANGA,
             disable_web_page_preview=True,                        
-            reply_markup=InlineKeyboardMarkup(Data.tirangabuttons),
+            reply_markup=InlineKeyboardMarkup(Data.tiranga_buttons),
         )
+    elif query == "tirangawingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TIRANGAWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.tiranga_back),
+        ) 
     elif query == "mantrimall":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -244,8 +226,18 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.MANTRIMALL,
             disable_web_page_preview=True,                        
-            reply_markup=InlineKeyboardMarkup(Data.mantrimallbuttons),
+            reply_markup=InlineKeyboardMarkup(Data.mantrimall_buttons),
         )
+    elif query == "mmparity":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.MANTRIMALLPARITY,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.mantrimall_back),
+        ) 
     elif query == "tclottery":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -264,16 +256,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.KGLOTTERY,
             disable_web_page_preview=True,            
         )
-    elif query == "bigdaddygame":
+    elif query == "bdg":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.BIGDADDYGAME,
+            text=Data.BDG,
             disable_web_page_preview=True,            
-            reply_markup=InlineKeyboardMarkup(Data.bdgbuttons),
+            reply_markup=InlineKeyboardMarkup(Data.bdg_buttons),
         )
+    elif query == "bdgwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BDGWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.bdg_back),
+        ) 
     elif query == "rummybloc":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -281,8 +283,29 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             chat_id=chat_id,
             message_id=message_id,
             text=Data.RUMMYBLOC,
-            disable_web_page_preview=True,            
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.rummybloc_buttons),
         )
+    elif query == "rummyblocdtf":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.DRAGONTIGERFIGHT,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.rummybloc_back),
+        ) 
+    elif query == "rummyblocab":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.ANDARBAHAR,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.rummybloc_back),
+        ) 
     elif query == "bigmumbai":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -291,8 +314,18 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BIGMUMBAI,
             disable_web_page_preview=True,            
-            reply_markup=InlineKeyboardMarkup(Data.bmbuttons),      
+            reply_markup=InlineKeyboardMarkup(Data.bigmumbai_buttons),      
         )
+    elif query == "bmwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BMWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.bigmumbai_back),
+        ) 
     elif query.startswith("action"):
         success = await admin_check(bot, callback_query.message, user_id, callback_query)
         if not success:
