@@ -66,7 +66,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 chat_id=chat_id,
                 message_id=message_id,
                 text=Data.START.format(callback_query.from_user.mention, mention),
-                reply_markup=InlineKeyboardMarkup(Data.buttons),
+                reply_markup=InlineKeyboardMarkup(Data.start_buttons),
             )
     elif query == "about":
         chat_id = callback_query.from_user.id
