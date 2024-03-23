@@ -289,6 +289,19 @@ Special Link - https://fastwin.app/LR?RG&C=3033148541
 
 Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
     """
+    # FastWin Result Buttons
+    fastwin_result_buttons = [
+       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+        InlineKeyboardButton("[►FastWin❔◄]", callback_data="fastwin")],
+       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
+    fastwin_group_buttons = [
+       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+        InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/PredictorAerobot?start=fastwin")],
+       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
     PARITY = """
 Hey {},
 
@@ -394,6 +407,19 @@ Special Link - https://fastwin.app/LR?RG&C=3033148541
 
 Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
     """
+    # FunWin Result Buttons
+    funwin_result_buttons = [
+       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+        InlineKeyboardButton("[►FunWin❔◄]", callback_data="funwin")],
+       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
+    funwin_group_buttons = [
+       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+        InlineKeyboardButton("[►FunWin❔◄]", url="https://t.me/PredictorAerobot?start=funwin")],
+       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
     FUNWINPARITY = """
 Hey {},
 
