@@ -6,11 +6,6 @@ PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 ]
-
-SIZE = [
-"https://graph.org/file/096922735e511629f4933.jpg",
-"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
-]
 SIZE = [
 "https://graph.org/file/096922735e511629f4933.jpg",
 "https://graph.org/file/fab245e1f063b08b74aa2.jpg",
