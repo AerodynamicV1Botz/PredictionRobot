@@ -157,6 +157,16 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.BMWINGO,
             disable_web_page_preview=True,
         ) 
+    elif query == "tirangawingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TIRANGAWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.tirangaback),
+        ) 
     elif query == "bdgwingo":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -174,6 +184,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.GGWINGO,
             disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.goagameback),
         ) 
     elif query == "fastwinparity":
         chat_id = callback_query.from_user.id
@@ -214,6 +225,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.GOAGAME,
             disable_web_page_preview=True,                        
             reply_markup=InlineKeyboardMarkup(Data.ggbuttons),
+        )
+    elif query == "tiranga":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TIRANGA,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.tirangabuttons),
+        )
+    elif query == "mantrimall":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.MANTRIMALL,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.mantrimallbuttons),
         )
     elif query == "tclottery":
         chat_id = callback_query.from_user.id
