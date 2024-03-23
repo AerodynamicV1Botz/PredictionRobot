@@ -27,7 +27,7 @@ More Games predictions to buy Premium Subscription.
         [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
     # PM Start Buttons
-    start_pm_buttons = [
+    start_buttons = [
         [
         InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh")
