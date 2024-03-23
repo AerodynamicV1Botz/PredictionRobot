@@ -134,6 +134,11 @@ This is All our Groups or Channels≈[🇮🇳]
 ★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @EarningTeamSupportChat
     """
+    # About Back Buttons
+    about_back = [
+        [InlineKeyboardButton(text="[►Update Channel◄]", url="https://telegram.me/AerodynamicV1_Update")],
+        [InlineKeyboardButton(text="[►Return About◄]", callback_data="about")],
+    ] 
     # All Game Message
     ALLGAME = """
 If you want prediction of all games then first take premium subscription then play prediction of all games 24 hours, whenever you want.
