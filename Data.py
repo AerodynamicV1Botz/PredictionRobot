@@ -1,6 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
 
-
 class Data:
     # Start Message
     START = """
@@ -16,8 +15,8 @@ More Games predictions to buy Premium Subscription.
 •Made By [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL)
     """
 
-     # Home Button
-    startbuttons = [
+     # Group Start Button
+    start_group_buttons = [
         [
             InlineKeyboardButton("[►Fastwin◄]", url="https://t.me/PredictorAerobot?start=fastwin"),
             InlineKeyboardButton("[►FunWin◄]", url="https://t.me/PredictorAerobot?start=funwin")
@@ -28,13 +27,9 @@ More Games predictions to buy Premium Subscription.
         ],
         [InlineKeyboardButton("[►Premium Subscription◄]", url="https://t.me/Awesome_Vrajesh")]
     ]
-    # Home Button
-    home_buttons = [
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
-    ]
 
-    # Rest Buttons
-    buttons = [
+    # PM Start Buttons
+    start_pm_buttons = [
         [
         InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh")
@@ -57,6 +52,10 @@ After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
 I will add you in premium users, then you can get predictions of all games for 24 hours.
 """
+    #QR Button
+    qr_buttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+    ]
     # Payment Message
     PAYMENT = """
 Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
@@ -77,7 +76,11 @@ After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
 I will add you in premium users, then you can get predictions of all games for 24 hours.
 """
-
+    # Payment Buttons
+    payment_buttons = [
+        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+        [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
+    ] 
     # PREMIUM SUBSCRIPTION 
     PREMIUM = """
 💫Premium Subscription of all games is being given at the same rate...🇮🇳
@@ -106,6 +109,11 @@ Buy it friend, all in one combo pack...😎
 🥳Select your Premium Plan...✨
 🔰Click Payment Method Button🔰
 """
+    # Premium Button
+    premium_buttons = [
+    [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],
+    [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+    ]
     
     # Help Message
     HELP = """
@@ -151,42 +159,8 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
     """
 
     # Fastparity Message
-    FASTPARITY = """
-Hey {},
 
-I'm FastWin Fastparity {} to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /fastparity command.
-
-Example:- /fastparity792
-
-Ask your doubts at @EarningTeamSupportChat.
-   """
-    # Fastparity Message
-    FUNWINFASTPARITY = """
-Hey {},
-
-I'm FastWin Fastparity {} to get 24 hour prediction 
-
-Enter the last 3 digits of the period number with the /fastparity command.
-
-Example:- /fastparity792
-
-Ask your doubts at @EarningTeamSupportChat.
-   """
-
-    # parity Message
-    PARITY = """
-Hey {},
-
-I'm FastWin Parity {} to get 24 hour prediction 
-
-Enter the last 3 digits of the period number with the /parity command.
-
-Example:- /parity792
-
-Ask your doubts at @EarningTeamSupportChat.
-   """
     
     BMWINGO = """
 Hey {},
@@ -233,33 +207,6 @@ Example:- /TIRANGAwingo792
 Ask your doubts at @EarningTeamSupportChat.
 """
     # parity Message
-    FUNWINPARITY = """
-Hey {},
-
-I'm FastWin Parity {} to get 24 hour prediction 
-
-Enter the last 3 digits of the period number with the /parity command.
-
-Example:- /parity792
-
-Ask your doubts at @EarningTeamSupportChat.
-   """
-
-    # Fast Message
-    FAST = """
-Hey {}, look at the Result ☝️
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://fastwin.app/LR?RG&C=3033148541
-
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
-
-    # Fast Message
-
-
-
 
 
 
@@ -312,15 +259,76 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Fastwin game prediction you want...👇
 """
-
-    # Home Button
-    fastwinhome_buttons = [
+    # FastWin Button
+    fastwin_buttons = [
     [
         InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")
     ],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
+
+    # FastWin Games 
+    FASTPARITY = """
+Hey {},
+
+I'm FastWin Fastparity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /fastparity command.
+
+Example:- /fastparity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    FASTPARITYRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
+    PARITY = """
+Hey {},
+
+I'm FastWin Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /parity command.
+
+Example:- /parity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    PARITYRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
+    TOSS = """
+Hey {},
+
+I'm FastWin Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /parity command.
+
+Example:- /parity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    TOSSRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
 
         # Home Button
     fastwinhome = [
@@ -336,19 +344,8 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
         [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
 ]
-
-    # Fast Message
-    FUNWINFAST = """
-Hey {}, look at the Result ☝️
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://fastwin.app/LR?RG&C=3033148541
-
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
     
-    # Fastwin Message 
+    # FunWin Message 
     FUNWIN = """
 ✅ Welcome to FunWin Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -366,21 +363,82 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Funwin game prediction you want...👇
 """
-    
-    # Home Button
-    funwinhome = [
-        [InlineKeyboardButton(text="[► Return FunWin ◄]", callback_data="funwin")],
-    ]
-    
-    # Home Button
-    funwinhome_buttons = [
+    # FunWin Button
+    funwin_buttons = [
     [
         InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
         InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
     ],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
+    FUNWINFASTPARITY = """
+Hey {},
+
+I'm FastWin Fastparity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /fastparity command.
+
+Example:- /fastparity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
     
+    FUNWINFASTPARITYRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
+    FUNWINPARITY = """
+Hey {},
+
+I'm FastWin Parity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /parity command.
+
+Example:- /parity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    FUNWINPARITYRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+    """
+    FUNWINTOSS = """
+Hey {},
+
+I'm FastWin Fastparity {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /fastparity command.
+
+Example:- /fastparity792
+
+Ask your doubts at @EarningTeamSupportChat.
+   """
+    FUNWINTOSSRESULT = """
+Hey {}, look at the Result ☝️
+
+Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
+ 
+Special Link - https://fastwin.app/LR?RG&C=3033148541
+
+Register A new Account And Deposit 1000Rs & Use Our prediction To Make More Profits. 
+    """
+    
+    # Home Button
+    funwinhome = [
+        [InlineKeyboardButton(text="[► Return FunWin ◄]", callback_data="funwin")],
+    ]
+    
+
     # Home Button
     bdgbuttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
@@ -396,23 +454,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="ggwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="goagame")],
     ]
-    
-    # Payment Button
-    paymentbuttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
-        [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
-    ]
-    # QR
-    qrbuttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
-    ]
-    
-    # Home Button
-    paymenthome = [
-    [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],
-    [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
-    ]
-    
+
     # Home Button
     fastwinhome = [
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
