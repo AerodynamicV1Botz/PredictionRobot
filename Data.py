@@ -221,7 +221,7 @@ Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
    """
-    FASTPARITYRESULT = """
+    FASTWINRESULT = """
 Hey {}, look at the Result ☝️
 
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
@@ -308,7 +308,7 @@ Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
    """  
-    FUNWINFASTPARITYRESULT = """
+    FUNWINRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
@@ -340,14 +340,6 @@ Example:- /funwinparity986
 
 Ask your doubts at @EarningTeamSupportChat.
    """
-    FUNWINPARITYRESULT = """
-Hey {}, look at the Result ☝️
-
-🔥Prepare your fund for 7-9 level management to avoid losses.
-✨When you take Risks and push yourself, you do well ✓.
-
-Ask your doubts at @EarningTeamSupportChat.
-"""
     FUNWINTOSS = """
 Hey {},
 
@@ -359,14 +351,6 @@ Example:- /funwintoss987
 
 Ask your doubts at @EarningTeamSupportChat.
    """
-    FUNWINTOSSRESULT = """
-Hey {}, look at the Result ☝️
-
-🔥Prepare your fund for 7-9 level management to avoid losses.
-✨When you take Risks and push yourself, you do well ✓.
-
-Ask your doubts at @EarningTeamSupportChat.
-"""
     GOAGAME = """
 ✅ Welcome to GoaGame Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
