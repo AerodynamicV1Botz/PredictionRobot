@@ -11,7 +11,14 @@ SIZE = [
 "https://graph.org/file/096922735e511629f4933.jpg",
 "https://graph.org/file/fab245e1f063b08b74aa2.jpg",
 ]
-
+SIZE = [
+"https://graph.org/file/096922735e511629f4933.jpg",
+"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
+]
+TIRANGASIZE = [
+"https://graph.org/file/096922735e511629f4933.jpg",
+"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
+]
 DFASTPARITY_IMG = [
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
@@ -316,6 +323,17 @@ Example:- /GGwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
 """
+    TIRANGAWINGO = """
+Hey {},
+
+I'm TIRANGA Wingo 1 Minute Game {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /TIRANGAwingo command.
+
+Example:- /TIRANGAwingo792
+
+Ask your doubts at @EarningTeamSupportChat.
+"""
     # parity Message
     FUNWINPARITY = """
 Hey {},
@@ -351,7 +369,15 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     gggbuttons = [
         [
             InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►GoaGame❔◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
+            InlineKeyboardButton("[►GoaGame❔◄]", url="goagame")
+        ],
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+    ]
+    tirangabuttons = [
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►Tiranga❔◄]", callback_data="tiranga")
         ],
         [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
@@ -493,6 +519,12 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     fastwinhome = [
         [InlineKeyboardButton(text="[► Return FastWin ◄]", callback_data="fastwin")],
    ]
+    tirangaback = [
+        [InlineKeyboardButton(text="[► Return Tiranga ◄]", callback_data="tiranga")],
+    ]
+    goagameback = [
+        [InlineKeyboardButton(text="[► Return GoaGame ◄]", callback_data="goagame")],
+    ]
 
     # All Game Prediction
     ALLGAME = """
