@@ -365,11 +365,11 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
 """
     # FunWin Button
     funwin_buttons = [
-    [
-        InlineKeyboardButton("[►Fastparity◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton("[►Parity◄]", callback_data="funwinparity")
-    ],   
-        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+    [InlineKeyboardButton(tect="[►Fastparity◄]", callback_data="funwinfastparity"),
+     InlineKeyboardButton(text="[►Parity◄]", callback_data="funwinparity")],
+    [InlineKeyboardButton(text="[►Rules & Regulation of FunWin Game◄]", url="https://t.me/FunWin_Game_Prediction/114")],
+    [InlineKeyboardButton(text="[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")],
+    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     FUNWINFASTPARITY = """
 Hey {},
