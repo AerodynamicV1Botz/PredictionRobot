@@ -254,15 +254,6 @@ Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
    """
-    PARITYRESULT = """
-Hey {}, look at the Result ☝️
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://fastwin.app/LR?RG&C=3033148541
-
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
     TOSS = """
 Hey {},
 
@@ -274,15 +265,6 @@ Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
    """
-    TOSSRESULT = """
-Hey {}, look at the Result ☝️
-
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://fastwin.app/LR?RG&C=3033148541
-
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
     # FunWin Message 
     FUNWIN = """
 ✅ Welcome to FunWin Game🥳😎
@@ -385,29 +367,6 @@ Hey {}, look at the Result ☝️
 
 Ask your doubts at @EarningTeamSupportChat.
 """
-
-    # Home Button
-    bdgbuttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
-    ]
-    # Home Button
-    bmbuttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bmwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
-    ]
-    # Home Button
-    ggbuttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="ggwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="goagame")],
-    ]
-
-    tirangaback = [
-        [InlineKeyboardButton(text="[► Return Tiranga ◄]", callback_data="tiranga")],
-    ]
-    goagameback = [
-        [InlineKeyboardButton(text="[► Return GoaGame ◄]", callback_data="goagame")],
-    ]
     GOAGAME = """
 ✅ Welcome to GoaGame Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -427,7 +386,7 @@ Ask your doubts at @EarningTeamSupportChat.
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
+    # GoaGame Back Button
     goagame_back = [
         [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
     ]
@@ -479,12 +438,12 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Mumbai game prediction you want...👇
 """
-    # GoaGame Button
+    # Big Mumbai Button
     bigmumbai_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bigmumbaiwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
+    # Big Mumbai Back Button
     bigmumbai_back = [
         [InlineKeyboardButton(text="[►Return Big Mumbai Game◄]", callback_data="bigmumbai")],
     ]
@@ -509,7 +468,7 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
 """
-    # GoaGame Result Buttons
+    # Big Mumbai Result Buttons
     bigmumbai_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►BigMumbai❔◄]", callback_data="bigmumbai")],
@@ -522,7 +481,7 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    BIGDADDYGAME = """
+    BDG = """
 ✅ Welcome to Big Daddy Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
@@ -537,13 +496,13 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
 🔰Click on the button below which Big Daddy game prediction you want...👇
 """
     # GoaGame Button
-    goagame_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
+    bdg_buttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # FunWin Back Button
-    goagame_back = [
-        [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
+    bdg_back = [
+        [InlineKeyboardButton(text="[►Return Big-Daddy-Game◄]", callback_data="bdg")],
     ]
     BDGWINGO = """
 Hey {},
@@ -566,30 +525,30 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
 """
-    # GoaGame Result Buttons
-    goagame_result_buttons = [
+    # BDG Result Buttons
+    bdg_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")],
+        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="bdg")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    goagame_group_buttons = [
+    bdg_group_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=bdg")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
     TCLOTTERY = """
     COMING SOON...
     """
-    # GoaGame Button
-    goagame_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
+    # TC Button
+    tc_buttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tcwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
-    goagame_back = [
-        [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
+    # TC Back Button
+    tc_back = [
+        [InlineKeyboardButton(text="[►Return TC Lottery Game◄]", callback_data="tc")],
     ]
     TCRESULT = """
 Hey {}, look at the Result ☝️
@@ -601,16 +560,16 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://goagame.com/#/register?invitationCode=275731115445
 """
-    # GoaGame Result Buttons
-    goagame_result_buttons = [
+    # TC Result Buttons
+    tc_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")],
+        InlineKeyboardButton("[►TC Lottery❔◄]", callback_data="tc")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    goagame_group_buttons = [
+    tc_group_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+        InlineKeyboardButton("[►TC Lottery❔◄]", url="https://t.me/PredictorAerobot?start=tc")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
@@ -628,14 +587,14 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which tiranga game prediction you want...👇
 """
-    # GoaGame Button
-    goagame_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
+    # tiranga Button
+    tiranga_buttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tirangawingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
-    goagame_back = [
-        [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
+    # tiranga Back Button
+    tiranga_back = [
+        [InlineKeyboardButton(text="[►Return Tiranga Game◄]", callback_data="tiranga")],
     ]
     TIRANGAWINGO = """
 Hey {},
@@ -658,16 +617,16 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
 """
-    # GoaGame Result Buttons
-    goagame_result_buttons = [
+    # tiranga Result Buttons
+    tiranga_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")],
+        InlineKeyboardButton("[►Tiranga❔◄]", callback_data="tiranga")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    goagame_group_buttons = [
+    tiranga_group_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+        InlineKeyboardButton("[►Tiranga❔◄]", url="https://t.me/PredictorAerobot?start=tiranga")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
@@ -688,14 +647,14 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 91 club game prediction you want...👇
 """
-    # GoaGame Button
-    goagame_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
+    # 91club Button
+    91club_buttons = [
+    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="91clubwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
-    goagame_back = [
-        [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
+    # 91club Back Button
+    91club_back = [
+        [InlineKeyboardButton(text="[►Return 91-Club Game◄]", callback_data="91club")],
     ]
     91CLUBRESULT = """
 Hey {}, look at the Result ☝️
@@ -707,16 +666,16 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://91club-4.com/#/register?invitationCode=777284419608
 """
-    # GoaGame Result Buttons
-    goagame_result_buttons = [
+    # 91club Result Buttons
+    91club_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")],
+        InlineKeyboardButton("[►91-Club❔◄]", callback_data="91club")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    goagame_group_buttons = [
+    91club_group_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+        InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=91club")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
@@ -724,7 +683,7 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
 ✅ Welcome to Rummy Bloc Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
-🔰Recharge Bonis -: 300Rs
+🔰Recharge Bonus -: 300Rs
 🔰Minimum Withdrawal -: 100Rs 
 🔰Withdraw timings -: 24hrs
 ✨Invite More, Earn More!
@@ -737,21 +696,14 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
 """
     # RummyBloc Button
     rummybloc_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
+    [InlineKeyboardButton("[►DragonTigerFight◄]", callback_data="dragontigerfight"),
+    InlineKeyboardButton("[►AndarBahar◄]", callback_data="andarbahar")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # RummyBloc Back Button
     rummybloc_back = [
         [InlineKeyboardButton(text="[►Return RummyBloc Game◄]", callback_data="rummybloc")],
     ]
-    FUNWINPARITYRESULT = """
-Hey {}, look at the Result ☝️
-
-🔥Prepare your fund for 7-9 level management to avoid losses.
-✨When you take Risks and push yourself, you do well ✓.
-
-Ask your doubts at @EarningTeamSupportChat.
-"""
     ANDARBAHAR = """
 Hey {},
 
@@ -780,9 +732,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 5-7 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://rummybloc.in?from_gameid=9328965&channelCode=200000
+Ask your doubts at @EarningTeamSupportChat.
 """
     # RummyBloc Result Buttons
     rummybloc_result_buttons = [
@@ -817,9 +767,9 @@ Special Link - https://rummybloc.in?from_gameid=9328965&channelCode=200000
     [InlineKeyboardButton("[►Parity 3 Minute◄]", callback_data="mantrimallparity")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # FunWin Back Button
+    # Mantrimall Back Button
     mantrimall_back = [
-        [InlineKeyboardButton(text="[►Return MantriMall◄]", callback_data="mantrimall")],
+        [InlineKeyboardButton(text="[►Return MantriMall Game◄]", callback_data="mantrimall")],
     ]
     MANTRIMALLPARITY = """
 Hey {},
