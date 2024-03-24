@@ -625,6 +625,17 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
     91club_back = [
         [InlineKeyboardButton(text="[►Return 91-Club Game◄]", callback_data="91club")],
     ]
+    91CLUBWINGO = """
+Hey {},
+
+I'm 91-Club Wingo 1 Minute Game {} to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /91CLUBwingo command.
+
+Example:- /91CLUBwingo792
+
+Ask your doubts at @EarningTeamSupportChat.
+"""
     91CLUBRESULT = """
 Hey {}, look at the Result ☝️
 
