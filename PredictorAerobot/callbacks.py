@@ -217,6 +217,26 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.TIRANGAWINGO,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.tiranga_back),
+        )
+    elif query == "91club":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.91CLUB,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.91club_buttons),
+        )
+    elif query == "91clubwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.91CLUBWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.91club_back),
         ) 
     elif query == "mantrimall":
         chat_id = callback_query.from_user.id
