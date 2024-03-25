@@ -27,7 +27,7 @@ async def fast(bot, msg):
 	mention = user.mention
 	await msg.reply_photo(
 	random.choice(FASTPARITY_IMG),
-	caption=Data.FAST.format(msg.from_user.mention, mention),
+	caption=Data.FASTWINRESULT.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.fastwin_result_buttons)
         )
 
@@ -54,6 +54,6 @@ async def fast(bot, msg):
 	mention = user.mention
 	await msg.reply_photo(
 	random.choice(FASTPARITY_IMG),
-	caption=Data.FAST.format(msg.from_user.mention, mention),
+	caption=Data.FASTWINRESULT.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.fastwin_group_buttons)
         )
