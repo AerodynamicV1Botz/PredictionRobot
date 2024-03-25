@@ -140,19 +140,19 @@ More Games predictions to buy Premium Subscription.
     # PM Start Buttons
     start_buttons = [
         [
-            InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
-            InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►About◄]", callback_data="about")
+            InlineKeyboardButton(text="[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
+            InlineKeyboardButton(text="[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
+            InlineKeyboardButton(text="[►About◄]", callback_data="about")
         ],
         [
-            InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")
+            InlineKeyboardButton(text="[►Get All Game Prediction◄]", callback_data="allgame")
         ],
         [
-            InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")
+            InlineKeyboardButton(text="[►Get Premium Subscription◄]", callback_data="premium")
         ],
         [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
+            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
         ],
     ]
     # Premium Subscription Message 
