@@ -76,7 +76,17 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.ABOUT,
             disable_web_page_preview=True,            
-            reply_markup=InlineKeyboardMarkup(Data.home_buttons),
+            reply_markup=InlineKeyboardMarkup(Data.about_buttons),
+        )
+    elif query == "chat":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.CHAT,
+            disable_web_page_preview=True,            
+            reply_markup=InlineKeyboardMarkup(Data.about_back),
         )
     elif query == "allgame":
         chat_id = callback_query.from_user.id
