@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
-from Aero import DFASTPARITY_IMG
+from Data import DFASTPARITY_IMG
 import random 
 
 # Start Message
