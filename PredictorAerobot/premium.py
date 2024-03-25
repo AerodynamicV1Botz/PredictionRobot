@@ -11,4 +11,4 @@ async def premium(bot, msg):
 	await msg.reply_photo(START_IMG,
 	caption=Data.PREMIUM,
 	reply_markup=InlineKeyboardMarkup(Data.paymemthome)
-  )
+        )
