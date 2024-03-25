@@ -12,4 +12,4 @@ async def payment(bot, msg):
 	random.choice(PAYMENT_IMG),
 	caption=Data.PAYMENT,
 	reply_markup=InlineKeyboardMarkup(Data.paymentbuttons)
-  )
+        )
