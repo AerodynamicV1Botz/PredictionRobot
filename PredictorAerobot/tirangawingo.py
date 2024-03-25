@@ -1,6 +1,6 @@
 from Data import Data
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
+from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from Data import TIRANGASIZE
 import random 
 
