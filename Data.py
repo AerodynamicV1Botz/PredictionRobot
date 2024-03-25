@@ -127,15 +127,15 @@ More Games predictions to buy Premium Subscription.
      # Group Start Button
     start_group_buttons = [
         [
-            InlineKeyboardButton("[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")
+            InlineKeyboardButton(text="[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")
         ],
         [
-            InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
+            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
+            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
         ],
         [
-            InlineKeyboardButton("[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
-        ]
+            InlineKeyboardButton(text="[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
+        ],
     ]
     # PM Start Buttons
     start_buttons = [
