@@ -29,7 +29,7 @@ async def fast(bot, msg):
 	random.choice(FASTPARITY_IMG),
 	caption=Data.FAST.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.fastwin_result_buttons)
-)
+        )
 
 @Client.on_message(filters.group & filters.command(["fastparity000", "fastparity001", "fastparity002", "fastparity003", "fastparity004", "fastparity005", "fastparity006", "fastparity007", "fastparity008", "fastparity009", "fastparity010", "fastparity011", "fastparity012", "fastparity013"]))
 @Client.on_message(filters.group & filters.command(["fastparity014", "fastparity015", "fastparity016", "fastparity017", "fastparity018", "fastparity019", "fastparity020","fastparity021", "fastparity022", "fastparity023", "fastparity024", "fastparity025", "fastparity026", "fastparity027"]))
