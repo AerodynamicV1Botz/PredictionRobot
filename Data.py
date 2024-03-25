@@ -131,7 +131,7 @@ More Games predictions to buy Premium Subscription.
         ],
         [
             InlineKeyboardButton("[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
-        ],
+        ]
     ]
     # PM Start Buttons
     start_buttons = [
@@ -149,8 +149,8 @@ More Games predictions to buy Premium Subscription.
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
             InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
-        ],
         ]
+    ]
     # Premium Subscription Message 
     PREMIUM = """
 💫Premium Subscription of all games is being given at the same rate...🇮🇳
