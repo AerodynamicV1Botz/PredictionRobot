@@ -10,7 +10,7 @@ TIRANGASIZE = [
 "https://graph.org/file/2532f4ef4ebcbc526a866.jpg",
 ]
 
-91CLUBSIZE = [
+CLUB91SIZE = [
 "https://graph.org/file/957a044b3c15b76d06b58.jpg",
 "https://graph.org/file/b72333a04ed3206376410.jpg",
 ]
