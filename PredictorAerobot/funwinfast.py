@@ -28,7 +28,7 @@ async def funwinfast(bot, msg):
 	await msg.reply_photo(
 	random.choice(FUNWINFASTPARITY_IMG),
 	caption=Data.FUNWINFAST.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	reply_markup=InlineKeyboardMarkup(Data.funwin_result_buttons)
                                                                       )
 @Client.on_message(filters.group & filters.command(["funwinfastparity000", "funwinfastparity001", "funwinfastparity002", "funwinfastparity003", "funwinfastparity004", "funwinfastparity005", "funwinfastparity006", "funwinfastparity007", "funwinfastparity008", "funwinfastparity009", "funwinfastparity010", "funwinfastparity011", "funwinfastparity012", "funwinfastparity013"]))
 @Client.on_message(filters.group & filters.command(["funwinfastparity014", "funwinfastparity015", "funwinfastparity016", "funwinfastparity017", "funwinfastparity018", "funwinfastparity019", "funwinfastparity020", "funwinfastparity021", "funwinfastparity022", "funwinfastparity023", "funwinfastparity024", "funwinfastparity025", "funwinfastparity026", "funwinfastparity027"]))
@@ -54,5 +54,5 @@ async def funwinfast(bot, msg):
 	await msg.reply_photo(
 	random.choice(FUNWINFASTPARITY_IMG),
 	caption=Data.FUNWINFAST.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	reply_markup=InlineKeyboardMarkup(Data.funwin_group_buttons)
 	)
