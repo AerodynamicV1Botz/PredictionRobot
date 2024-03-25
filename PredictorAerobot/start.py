@@ -12,7 +12,7 @@ async def start(bot, msg):
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.start_group_buttons),
+	reply_markup=InlineKeyboardMarkup(Data.start_group_buttons)
         )
 
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
@@ -22,5 +22,5 @@ async def start(bot, msg):
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.start_buttons),
+	reply_markup=InlineKeyboardMarkup(Data.start_buttons)
 	)
