@@ -14,3 +14,14 @@ async def qr(bot, msg):
 	caption=Data.QR,
 	reply_markup=InlineKeyboardMarkup(Data.qrbuttons)
   )
+
+# Start Group Message
+@Client.on_message(filters.group & filters.command("qr"))
+@Client.on_message(filters.group & filters.command("qr"))
+@Client.on_message(filters.group & filters.command("qr@PredictorAerobot"))
+async def qr(bot, msg):
+	await msg.reply_photo(
+	random.choice(PAYMENT_IMG),
+	caption=Data.QR,
+	reply_markup=InlineKeyboardMarkup(Data.qrbuttons)
+	)
