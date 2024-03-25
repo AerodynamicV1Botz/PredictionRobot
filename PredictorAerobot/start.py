@@ -15,8 +15,8 @@ async def start(bot, msg):
 	reply_markup=InlineKeyboardMarkup(Data.start_buttons)
 	)
 # Start Group Message 
-@Client.on_message(filters.text & filters.incoming & filters.command("start"))
-@Client.on_message(filters.text & filters.incoming & filters.command("start@PredictorAerobot"))
+@Client.on_message(filters.text & filters.group & filters.incoming & filters.command("start"))
+@Client.on_message(filters.text & filters.group & filters.incoming & filters.command("start@PredictorAerobot"))
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
