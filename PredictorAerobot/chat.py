@@ -12,5 +12,5 @@ async def chat(bot, msg):
         caption=Data.CHAT,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.about_back)
-    )
+        )
   
