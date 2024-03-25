@@ -20,7 +20,7 @@ async def tirangawingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(TIRANGASIZE),
 	caption=Data.TIRANGARESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.goagameback)
+	reply_markup=InlineKeyboardMarkup(Data.tiranga_result_buttons)
 	)
 
 @Client.on_message(filters.group & filters.command(["tirangawingo000", "tirangawingo001", "tirangawingo002", "tirangawingo003", "tirangawingo004", "tirangawingo005", "tirangawingo006", "tirangawingo007", "tirangawingo008", "tirangawingo009", "tirangawingo010", "tirangawingo011", "tirangawingo012", "tirangawingo013", "tirangawingo014", "tirangawingo015", "tirangawingo016", "tirangawingo017", "tirangawingo018", "tirangawingo019", "tirangawingo020", "tirangawingo021", "tirangawingo022", "tirangawingo023", "tirangawingo024", "tirangawingo025", "tirangawingo026", "tirangawingo027", "tirangawingo028", "tirangawingo029", "tirangawingo030", "tirangawingo031", "tirangawingo032", "tirangawingo033", "tirangawingo034", "tirangawingo035", "tirangawingo036", "tirangawingo037", "tirangawingo038", "tirangawingo039", "tirangawingo040", "tirangawingo041", "tirangawingo042", "tirangawingo043", "tirangawingo044", "tirangawingo045", "tirangawingo046", "tirangawingo047", "tirangawingo048", "tirangawingo049", "tirangawingo050", "tirangawingo051", "tirangawingo052", "tirangawingo053", "tirangawingo054", "tirangawingo055", "tirangawingo056", "tirangawingo057", "tirangawingo058", "tirangawingo059", "tirangawingo060", "tirangawingo061", "tirangawingo062", "tirangawingo063", "tirangawingo064", "tirangawingo065", "tirangawingo066", "tirangawingo067", "tirangawingo068", "tirangawingo069", "tirangawingo070", "tirangawingo071", "tirangawingo072", "tirangawingo073", "tirangawingo074", "tirangawingo075", "tirangawingo076", "tirangawingo077", "tirangawingo078", "tirangawingo079", "tirangawingo080", "tirangawingo081", "tirangawingo082", "tirangawingo083", "tirangawingo084", "tirangawingo085", "tirangawingo086", "tirangawingo087", "tirangawingo088", "tirangawingo089", "tirangawingo090", "tirangawingo091", "tirangawingo092", "tirangawingo093", "tirangawingo094", "tirangawingo095", "tirangawingo096", "tirangawingo097", "tirangawingo098", "tirangawingo099"]))
@@ -39,6 +39,6 @@ async def tirangawingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(TIRANGASIZE),
 	caption=Data.TIRANGARESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.goagameback)
+	reply_markup=InlineKeyboardMarkup(Data.tiranga_group_buttons)
                      
   
