@@ -12,4 +12,4 @@ async def qr(bot, msg):
 	random.choice(PAYMENT_IMG),
 	caption=Data.QR,
 	reply_markup=InlineKeyboardMarkup(Data.qrbuttons)
-  )
+        )
