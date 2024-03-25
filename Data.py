@@ -118,7 +118,7 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @EarningTeamSupportChat
-    """
+"""
     # About Buttons
     about_buttons = [
         [InlineKeyboardButton(text="[►Join our Groups or Channels◄]", callback_data="chat")],
@@ -133,7 +133,7 @@ This is All our Groups or Channels≈[🇮🇳]
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @EarningTeamSupportChat
-    """
+"""
     # About Back Buttons
     about_back = [
         [InlineKeyboardButton(text="[►Update Channel◄]", url="https://telegram.me/AerodynamicV1_Update")],
@@ -272,7 +272,7 @@ First read the rules & regulations then create your Funwin account.
 """
     # FunWin Button
     funwin_buttons = [
-    [InlineKeyboardButton(tect="[►Fastparity◄]", callback_data="funwinfastparity"),
+    [InlineKeyboardButton(text="[►Fastparity◄]", callback_data="funwinfastparity"),
      InlineKeyboardButton(text="[►Parity◄]", callback_data="funwinparity")],
     [InlineKeyboardButton(text="[►Rules & Regulation of FunWin Game◄]", url="https://t.me/FunWin_Game_Prediction/114")],
     [InlineKeyboardButton(text="[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")],
