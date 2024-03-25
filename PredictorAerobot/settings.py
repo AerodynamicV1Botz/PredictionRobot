@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from PredictorAerobot.admin_check import admin_check
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from PredictorAerobot.database.chats_sql import get_action, get_ignore_service, get_only_owner, chat_exists
-from Data import START_IMG
+from Config import START_IMG
 
 @Client.on_message(filters.text & filters.incoming & filters.command("settings"))
 @Client.on_message(filters.text & filters.incoming & filters.command("settings@PredictorAerobot"))
