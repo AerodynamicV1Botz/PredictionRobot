@@ -1,17 +1,25 @@
 START_IMG = ["https://graph.org/file/4a0df73c438e618ac337d.jpg"]
 
+GOAGAMESIZE = [
+"https://graph.org/file/b6553a0fdde09e19671d7.jpg",
+"https://graph.org/file/31840f15f26b406d667ac.jpg",
+]
+
+TIRANGASIZE = [
+"https://graph.org/file/4aae70dd1197f546d4cf6.jpg",
+"https://graph.org/file/2532f4ef4ebcbc526a866.jpg",
+]
+
+91CLUBSIZE = [
+"https://graph.org/file/957a044b3c15b76d06b58.jpg",
+"https://graph.org/file/b72333a04ed3206376410.jpg",
+]
+
 PAYMENT_IMG = [
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 "https://graph.org/file/0efe9a166cf9177f193a9.jpg",
 ]
-SIZE = [
-"https://graph.org/file/096922735e511629f4933.jpg",
-"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
-]
-TIRANGASIZE = [
-"https://graph.org/file/096922735e511629f4933.jpg",
-"https://graph.org/file/fab245e1f063b08b74aa2.jpg",
-]
+
 DFASTPARITY_IMG = [
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
 "https://graph.org/file/8e58b2d5c29e4dd4a1356.jpg",
