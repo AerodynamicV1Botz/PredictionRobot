@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
-from Aero import FASTPARITY_IMG
+from Data import FASTPARITY_IMG
 import random 
 
 @Client.on_message(filters.private & filters.command(["fastparity000", "fastparity001", "fastparity002", "fastparity003", "fastparity004", "fastparity005", "fastparity006", "fastparity007", "fastparity008", "fastparity009", "fastparity010", "fastparity011", "fastparity012", "fastparity013"]))
