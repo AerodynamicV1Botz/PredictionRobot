@@ -186,8 +186,8 @@ If you want prediction of all games then first take premium subscription then pl
 """
     # FastWin Button
     fastwin_buttons = [
-    [InlineKeyboardButton("[►Fastparity◄]", callback_data="fastwinfastparity"),
-     InlineKeyboardButton("[►Parity◄]", callback_data="fastwinparity")],   
+    [InlineKeyboardButton("[►Fastparity◄]", callback_data="fastparity"),
+     InlineKeyboardButton("[►Parity◄]", callback_data="parity")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # FastWin Back Button
