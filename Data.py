@@ -16,22 +16,30 @@ More Games predictions to buy Premium Subscription.
 """
      # Group Start Button
     start_group_buttons = [
-        [InlineKeyboardButton("[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")],
+        [
+            InlineKeyboardButton("[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")
+        ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
             InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
         ],
-        [InlineKeyboardButton("[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")],
+        [
+            InlineKeyboardButton("[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
+        ],
     ]
     # PM Start Buttons
     start_buttons = [
         [
-        InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
-        InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►About◄]", url="about")
+            InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
+            InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►About◄]", url="about")
         ],
-        [InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")],
-        [InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")],
+        [
+            InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")
+        ],
+        [
+            InlineKeyboardButton("[►Get Premium Subscription◄]", callback_data="premium")
+        ],
         [
             InlineKeyboardButton("[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
             InlineKeyboardButton("[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
@@ -67,8 +75,12 @@ Buy it friend, all in one combo pack...😎
 """
     # Premium Button
     premium_buttons = [
-       [InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")],
-       [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+       [
+           InlineKeyboardButton(text="[►Payment Method◄]", callback_data="payment")
+       ],
+       [
+           InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")
+       ],
     ]
     # Payment Message
     PAYMENT = """
@@ -92,8 +104,12 @@ I will add you in premium users, then you can get predictions of all games for 2
 """
     # Payment Buttons
     payment_buttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
-        [InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")],
+        [
+            InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")
+        ],
+        [
+            InlineKeyboardButton(text="[►Premium Subscription◄]", callback_data="premium")
+        ],
     ] 
     #QR Message 
     QR = """
@@ -107,7 +123,9 @@ I will add you in premium users, then you can get predictions of all games for 2
 """
     #QR Button
     qr_buttons = [
-        [InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")],
+        [
+            InlineKeyboardButton(text="[►Send Here Payment Screenshot◄]", url="t.me/+36Pm3qwJKjMwOGM1")
+        ],
     ]   
     # About Message
     ABOUT = """
@@ -125,8 +143,12 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 """
     # About Buttons
     about_buttons = [
-        [InlineKeyboardButton(text="[►Join our Groups or Channels◄]", callback_data="chat")],
-        [InlineKeyboardButton(text="[►Return Home◄]", callback_data="home")],
+        [
+            InlineKeyboardButton(text="[►Join our Groups or Channels◄]", callback_data="chat")
+        ],
+        [
+            InlineKeyboardButton(text="[►Return Home◄]", callback_data="home")
+        ],
     ] 
     CHAT = """
 This is All our Groups or Channels≈[🇮🇳] 
@@ -140,8 +162,12 @@ This is All our Groups or Channels≈[🇮🇳]
 """
     # About Back Buttons
     about_back = [
-        [InlineKeyboardButton(text="[►Update Channel◄]", url="https://telegram.me/AerodynamicV1_Update")],
-        [InlineKeyboardButton(text="[►Return About◄]", callback_data="about")],
+        [
+            InlineKeyboardButton(text="[►Update Channel◄]", url="https://telegram.me/AerodynamicV1_Update")
+        ],
+        [
+            InlineKeyboardButton(text="[►Return About◄]", callback_data="about")
+        ],
     ] 
     # All Game Message
     ALLGAME = """
@@ -149,26 +175,28 @@ If you want prediction of all games then first take premium subscription then pl
 """
     # All Game Buttons
     allgamebuttons = [
-    [
-        InlineKeyboardButton("[►FastWin◄]", callback_data="fastwin"),
-        InlineKeyboardButton("[►GoaGame◄]", callback_data="goagame"),
-        InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
-    ],
-    [
-        InlineKeyboardButton("[►Big-Mumbai◄]", callback_data="bigmumbai"),
-        InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="bigdaddygame")
-    ],
-    [
-        InlineKeyboardButton("[►KG Lottery◄]", callback_data="kglottery"),
-        InlineKeyboardButton("[►Tiranga◄]", callback_data="tiranga"),
-        InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
-    ],
-    [
-        InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
-        InlineKeyboardButton("[►Mantrimall◄]", callback_data="mantrimall"),
-        InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
-    ],   
-        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+        [
+            InlineKeyboardButton("[►FastWin◄]", callback_data="fastwin"),
+            InlineKeyboardButton("[►GoaGame◄]", callback_data="goagame"),
+            InlineKeyboardButton("[►FunWin◄]", callback_data="funwin")
+        ],
+        [
+            InlineKeyboardButton("[►Big-Mumbai◄]", callback_data="bigmumbai"),
+            InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="bigdaddygame")
+        ],
+        [
+            InlineKeyboardButton("[►KG Lottery◄]", callback_data="kglottery"),
+            InlineKeyboardButton("[►Tiranga◄]", callback_data="tiranga"),
+            InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
+        ],
+        [
+            InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
+            InlineKeyboardButton("[►Mantrimall◄]", callback_data="mantrimall"),
+            InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
+        ],   
+        [
+            InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")
+        ],
     ]
     # Fastwin Message 
     FASTWIN = """
@@ -190,15 +218,19 @@ If you want prediction of all games then first take premium subscription then pl
 """
     # FastWin Button
     fastwin_buttons = [
-       [
-           InlineKeyboardButton("[►Fastparity◄]", callback_data="fastparity"),
-           InlineKeyboardButton("[►Parity◄]", callback_data="parity")
-       ],   
-       [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [
+            InlineKeyboardButton("[►Fastparity◄]", callback_data="fastparity"),
+            InlineKeyboardButton("[►Parity◄]", callback_data="parity")
+        ],   
+        [
+            InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")
+        ],
        ]
     # FastWin Back Button
     fastwin_back = [
-        [InlineKeyboardButton(text="[►Return FastWin Game◄]", callback_data="fastwin")],
+        [
+            InlineKeyboardButton(text="[►Return FastWin Game◄]", callback_data="fastwin")
+        ],
     ]
     # FastWin Games 
     FASTPARITY = """
