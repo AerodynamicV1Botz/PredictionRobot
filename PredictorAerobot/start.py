@@ -5,22 +5,22 @@ from Config import START_IMG
 import random 
 
 # Start Message
-@Client.on_message(filters.group & filters.command("start"))
-@Client.on_message(filters.group & filters.command("start@PredictorAerobot"))
+@Client.on_message(filters.group & filters.incoming & filters.command("start"))
+@Client.on_message(filters.group & filters.incoming & filters.command("start@PredictorAerobot"))
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.start_group_buttons)
+	reply_markup=InlineKeyboardMarkup(Data.start_group_buttons),
         )
 
-@Client.on_message(filters.private & filters.command("start"))
-@Client.on_message(filters.private & filters.command("start@PredictorAerobot"))
+@Client.on_message(filters.private & filters.incoming filters.command("start"))
+@Client.on_message(filters.private & filters.incoming & filters.command("start@PredictorAerobot"))
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.start_buttons)
+	reply_markup=InlineKeyboardMarkup(Data.start_buttons),
 	)
