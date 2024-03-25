@@ -32,16 +32,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 text=Data.FASTWINRESULT.format(msg.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.fastwin_result_buttons),
             )
-    elif query == "fast":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FASTWINRESULT.format(callback_query.from_user.mention, mention),            
-            reply_markup=InlineKeyboardMarkup(Data.fastwin_group_buttons),
-        )
-            
+
 # AeroCallbacks
 @Client.on_callback_query()
 async def _callbacks(bot: Client, callback_query: CallbackQuery):
@@ -59,15 +50,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 text=Data.FUNWINRESULT.format(msg.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.funwin_result_buttons),
             )
-    elif query == "funwinfast":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.FUNWINRESULT.format(callback_query.from_user.mention, mention),            
-            reply_markup=InlineKeyboardMarkup(Data.funwin_group_buttons),
-        )
     
 # Callbacks
 @Client.on_callback_query()
@@ -86,15 +68,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 text=Data.START.format(callback_query.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.start_buttons),
             )
-    elif query == "start":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.START.format(callback_query.from_user.mention, mention),            
-            reply_markup=InlineKeyboardMarkup(Data.start_group_buttons),
-        )
     elif query == "about":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
