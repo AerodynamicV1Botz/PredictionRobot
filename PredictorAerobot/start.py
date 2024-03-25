@@ -10,8 +10,7 @@ import random
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(
-	random.choice(START_IMG),
+	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.start_group_buttons)
         )
@@ -21,8 +20,7 @@ async def start(bot, msg):
 async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
-	await msg.reply_photo(
-	random.choice(START_IMG),
+	await msg.reply_photo(START_IMG,
 	caption=Data.START.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.start_buttons)
 	)
