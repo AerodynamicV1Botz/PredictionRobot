@@ -40,5 +40,4 @@ async def tirangawingo(bot, msg):
 	random.choice(TIRANGASIZE),
 	caption=Data.TIRANGARESULT.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.tiranga_group_buttons)
-                     
-  
+	)
