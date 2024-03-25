@@ -135,7 +135,7 @@ More Games predictions to buy Premium Subscription.
         ],
         [
             InlineKeyboardButton(text="[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
-        ],
+        ]
     ]
     # PM Start Buttons
     start_buttons = [
