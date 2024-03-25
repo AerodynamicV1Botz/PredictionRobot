@@ -29,7 +29,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await bot.edit_message_text(
                 chat_id=chat_id,
                 message_id=message_id,
-                text=Data.FAST.format(msg.from_user.mention, mention),
+                text=Data.FASTWINRESULT.format(msg.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.fastwin_result_buttons),
             )
     elif query == "fast":
@@ -38,7 +38,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.FAST.format(callback_query.from_user.mention, mention),            
+            text=Data.FASTWINRESULT.format(callback_query.from_user.mention, mention),            
             reply_markup=InlineKeyboardMarkup(Data.fastwin_group_buttons),
         )
             
@@ -56,7 +56,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await bot.edit_message_text(
                 chat_id=chat_id,
                 message_id=message_id,
-                text=Data.FUNWINFAST.format(msg.from_user.mention, mention),
+                text=Data.FUNWINRESULT.format(msg.from_user.mention, mention),
                 reply_markup=InlineKeyboardMarkup(Data.funwin_result_buttons),
             )
     elif query == "funwinfast":
@@ -65,7 +65,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.FUNWINFAST.format(callback_query.from_user.mention, mention),            
+            text=Data.FUNWINRESULT.format(callback_query.from_user.mention, mention),            
             reply_markup=InlineKeyboardMarkup(Data.funwin_group_buttons),
         )
     
