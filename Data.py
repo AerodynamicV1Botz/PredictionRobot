@@ -602,7 +602,7 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
     KGLOTTERY = """
     COMING SOON...
     """
-    91CLUB = """
+    CLUB91 = """
 ✅ Welcome to 91 Club Game🥳😎
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
@@ -617,15 +617,15 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
 🔰Click on the button below which 91 club game prediction you want...👇
 """
     # 91club Button
-    91club_buttons = [
+    club91_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="91clubwingo")],   
     [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # 91club Back Button
-    91club_back = [
+    club91_back = [
         [InlineKeyboardButton(text="[►Return 91-Club Game◄]", callback_data="91club")],
     ]
-    91CLUBWINGO = """
+    CLUB91WINGO = """
 Hey {},
 
 I'm 91-Club Wingo 1 Minute Game {} to get 24 hour prediction 
@@ -636,7 +636,7 @@ Example:- /91CLUBwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
 """
-    91CLUBRESULT = """
+    CLUB91RESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
@@ -647,13 +647,13 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
 Special Link - https://91club-4.com/#/register?invitationCode=777284419608
 """
     # 91club Result Buttons
-    91club_result_buttons = [
+    club91_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►91-Club❔◄]", callback_data="91club")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
     ]
-    91club_group_buttons = [
+    club91_group_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=91club")],
        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
