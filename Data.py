@@ -13,7 +13,7 @@ More Games predictions to buy Premium Subscription.
 📚Use below buttons to learn more !
 
 •Made By [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL)
-    """
+"""
      # Group Start Button
     start_group_buttons = [
         [InlineKeyboardButton("[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")],
@@ -205,7 +205,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     FASTWINRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -214,7 +214,7 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
 Special Link - https://fastwin.app/LR?RG&C=3033148541
 
 Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-    """
+"""
     # FastWin Result Buttons
     fastwin_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -238,7 +238,7 @@ Enter the last 3 digits of the period number with the /parity command.
 Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     TOSS = """
 Hey {},
 
@@ -249,7 +249,7 @@ Enter the last 3 digits of the period number with the /parity command.
 Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     # FunWin Message 
     FUNWIN = """
 ✅ Welcome to FunWin Game🥳😎
@@ -292,7 +292,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
-   """  
+"""  
     FUNWINRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -324,7 +324,7 @@ Enter the last 3 digits of the period number with the /funwinparity command.
 Example:- /funwinparity986
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     FUNWINTOSS = """
 Hey {},
 
@@ -335,7 +335,7 @@ Enter the last 3 digits of the period number with the /fumwintoss command.
 Example:- /funwintoss987
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     GOAGAME = """
 ✅ Welcome to GoaGame Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -694,7 +694,7 @@ Enter the last 3 digits of the period number with the /RummyBlocAB command.
 Example:- /RummyBlocAB
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     DRAGONTIGERFIGHT = """
 Hey {},
 
@@ -705,7 +705,7 @@ Enter the last 3 digits of the period number with the /RummyBlocDTF command.
 Example:- /RummyBlocDTF
 
 Ask your doubts at @EarningTeamSupportChat.
-   """
+"""
     RUMMYBLOCRESULT = """
 Hey {}, look at the Result ☝️
 
