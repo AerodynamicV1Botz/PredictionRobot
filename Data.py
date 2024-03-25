@@ -120,6 +120,10 @@ More Games predictions to buy Premium Subscription.
 
 •Made By [AerodynamicV1~🇮🇳](https://telegram.me/AerodynamicV1_OFFICIAL)
     """
+    # Home Button
+    home_buttons = [
+        [InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")],
+    ]
      # Group Start Button
     start_group_buttons = [
         [
@@ -138,7 +142,7 @@ More Games predictions to buy Premium Subscription.
         [
             InlineKeyboardButton("[►Agent◄]", url="https://telegram.me/Awesome_Vrajesh"),
             InlineKeyboardButton("[►Developer◄]", url="https://telegram.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►About◄]", url="about")
+            InlineKeyboardButton("[►About◄]", callback_data="about")
         ],
         [
             InlineKeyboardButton("[►Get All Game Prediction◄]", callback_data="allgame")
