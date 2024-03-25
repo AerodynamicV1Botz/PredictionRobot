@@ -20,7 +20,7 @@ async def ggwingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(GOAGAMESIZE),
 	caption=Data.GGRESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.goagameback)
+	reply_markup=InlineKeyboardMarkup(Data.goagame_result_buttons)
 	)
 
 @Client.on_message(filters.group & filters.command(["ggwingo000", "ggwingo001", "ggwingo002", "ggwingo003", "ggwingo004", "ggwingo005", "ggwingo006", "ggwingo007", "ggwingo008", "ggwingo009", "ggwingo010", "ggwingo011", "ggwingo012", "ggwingo013", "ggwingo014", "ggwingo015", "ggwingo016", "ggwingo017", "ggwingo018", "ggwingo019", "ggwingo020", "ggwingo021", "ggwingo022", "ggwingo023", "ggwingo024", "ggwingo025", "ggwingo026", "ggwingo027", "ggwingo028", "ggwingo029", "ggwingo030", "ggwingo031", "ggwingo032", "ggwingo033", "ggwingo034", "ggwingo035", "ggwingo036", "ggwingo037", "ggwingo038", "ggwingo039", "ggwingo040", "ggwingo041", "ggwingo042", "ggwingo043", "ggwingo044", "ggwingo045", "ggwingo046", "ggwingo047", "ggwingo048", "ggwingo049", "ggwingo050", "ggwingo051", "ggwingo052", "ggwingo053", "ggwingo054", "ggwingo055", "ggwingo056", "ggwingo057", "ggwingo058", "ggwingo059", "ggwingo060", "ggwingo061", "ggwingo062", "ggwingo063", "ggwingo064", "ggwingo065", "ggwingo066", "ggwingo067", "ggwingo068", "ggwingo069", "ggwingo070", "ggwingo071", "ggwingo072", "ggwingo073", "ggwingo074", "ggwingo075", "ggwingo076", "ggwingo077", "ggwingo078", "ggwingo079", "ggwingo080", "ggwingo081", "ggwingo082", "ggwingo083", "ggwingo084", "ggwingo085", "ggwingo086", "ggwingo087", "ggwingo088", "ggwingo089", "ggwingo090", "ggwingo091", "ggwingo092", "ggwingo093", "ggwingo094", "ggwingo095", "ggwingo096", "ggwingo097", "ggwingo098", "ggwingo099"]))
@@ -39,5 +39,5 @@ async def ggwingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(GOAGAMESIZE),
 	caption=Data.GGRESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.goagameback)
+	reply_markup=InlineKeyboardMarkup(Data.goagame_group_buttons)
 	)
