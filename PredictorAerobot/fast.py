@@ -28,7 +28,7 @@ async def fast(bot, msg):
 	await msg.reply_photo(
 	random.choice(FASTPARITY_IMG),
 	caption=Data.FAST.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	reply_markup=InlineKeyboardMarkup(Data.fastwin_result_buttons)
 )
 
 @Client.on_message(filters.group & filters.command(["fastparity000", "fastparity001", "fastparity002", "fastparity003", "fastparity004", "fastparity005", "fastparity006", "fastparity007", "fastparity008", "fastparity009", "fastparity010", "fastparity011", "fastparity012", "fastparity013"]))
@@ -55,5 +55,5 @@ async def fast(bot, msg):
 	await msg.reply_photo(
 	random.choice(FASTPARITY_IMG),
 	caption=Data.FAST.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.gamebuttons)
+	reply_markup=InlineKeyboardMarkup(Data.fastwin_group_buttons)
         )
