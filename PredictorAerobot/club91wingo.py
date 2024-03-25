@@ -38,6 +38,5 @@ async def club91wingo(bot, msg):
 	await msg.reply_photo(
 	random.choice(CLUB91SIZE),
 	caption=Data.CLUB91RESULT.format(msg.from_user.mention, mention),
-	reply_markup=InlineKeyboardMarkup(Data.club91_group_buttons)
-                                                                      )
-                                                                      
+	reply_markup=InlineKeyboardMarkup(Data.club91_group_buttons)				
+	)
