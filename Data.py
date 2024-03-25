@@ -72,7 +72,7 @@ Buy it friend, all in one combo pack...😎
 ━━━━━━━━━━━━━━━━━━━━━━
 🥳Select your Premium Plan...✨
 🔰Click Payment Method Button🔰
-"""
+    """
     # Premium Button
     premium_buttons = [
        [
@@ -101,7 +101,7 @@ Payment UPI-:
 After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
 I will add you in premium users, then you can get predictions of all games for 24 hours.
-"""
+    """
     # Payment Buttons
     payment_buttons = [
         [
@@ -120,7 +120,7 @@ Scan This QR or Send money through Paytm, G-Pay, PhonePe or Any other UPI App.
 After making the payment, send it to me here :- t.me/+36Pm3qwJKjMwOGM1
 
 I will add you in premium users, then you can get predictions of all games for 24 hours.
-"""
+    """
     #QR Button
     qr_buttons = [
         [
@@ -140,7 +140,7 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @EarningTeamSupportChat
-"""
+    """
     # About Buttons
     about_buttons = [
         [
@@ -159,7 +159,7 @@ This is All our Groups or Channels≈[🇮🇳]
 ★Update » @AerodynamicV1_UPDATE
 ★Tech Earning » @TechEarning_KingMasterMind
 ★Support » @EarningTeamSupportChat
-"""
+    """
     # About Back Buttons
     about_back = [
         [
@@ -172,7 +172,7 @@ This is All our Groups or Channels≈[🇮🇳]
     # All Game Message
     ALLGAME = """
 If you want prediction of all games then first take premium subscription then play prediction of all games 24 hours, whenever you want.
-"""
+    """
     # All Game Buttons
     allgamebuttons = [
         [
@@ -215,7 +215,7 @@ If you want prediction of all games then first take premium subscription then pl
 ✅FastWin Register Link:- https://fastwin.app/LR?RG&C=3033148541
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Fastwin game prediction you want...👇
-"""
+    """
     # FastWin Button
     fastwin_buttons = [
         [
@@ -243,7 +243,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     FASTWINRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -252,7 +252,7 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
 Special Link - https://fastwin.app/LR?RG&C=3033148541
 
 Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
-"""
+    """
     # FastWin Result Buttons
     fastwin_result_buttons = [
        [
@@ -284,7 +284,7 @@ Enter the last 3 digits of the period number with the /parity command.
 Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     TOSS = """
 Hey {},
 
@@ -295,7 +295,7 @@ Enter the last 3 digits of the period number with the /parity command.
 Example:- /parity792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     # FunWin Message 
     FUNWIN = """
 ✅ Welcome to FunWin Game🥳😎
@@ -315,7 +315,7 @@ First read the rules & regulations then create your Funwin account.
 ✅FunWin Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Funwin game prediction you want...👇
-"""
+    """
     # FunWin Button
     funwin_buttons = [
     [
@@ -340,7 +340,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 Example:- /fastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""  
+    """  
     FUNWINRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -348,7 +348,7 @@ Hey {}, look at the Result ☝️
 ✨When you take Risks and push yourself, you do well ✓.
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     # FunWin Result Buttons
     funwin_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -372,7 +372,7 @@ Enter the last 3 digits of the period number with the /funwinparity command.
 Example:- /funwinparity986
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     FUNWINTOSS = """
 Hey {},
 
@@ -383,7 +383,7 @@ Enter the last 3 digits of the period number with the /fumwintoss command.
 Example:- /funwintoss987
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     GOAGAME = """
 ✅ Welcome to GoaGame Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
@@ -397,7 +397,7 @@ Ask your doubts at @EarningTeamSupportChat.
 ✅GoaGame Register Link:- https://goagame.com/#/register?invitationCode=275731115445
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which GoaGame game prediction you want...👇
-"""
+    """
     # GoaGame Button
     goagame_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
@@ -417,7 +417,7 @@ Enter the last 3 digits of the period number with the /GGwingo command.
 Example:- /GGwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     GGRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -427,7 +427,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://goagame.com/#/register?invitationCode=275731115445
-"""
+    """
     # GoaGame Result Buttons
     goagame_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -454,7 +454,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 ✅BM Register Link:- https://bigmumbai.ink/#/register?invitationCode=787621083187
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Mumbai game prediction you want...👇
-"""
+    """
     # Big Mumbai Button
     bigmumbai_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bigmumbaiwingo")],   
@@ -474,7 +474,7 @@ Enter the last 3 digits of the period number with the /BMwingo command.
 Example:- /BMwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     BMRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -484,7 +484,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
-"""
+    """
     # Big Mumbai Result Buttons
     bigmumbai_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -511,7 +511,7 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
 ✅BDG Register Link:- https://www.bdggame.in/#/register?invitationCode=S4ewD527
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Big Daddy game prediction you want...👇
-"""
+    """
     # GoaGame Button
     bdg_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
@@ -531,7 +531,7 @@ Enter the last 3 digits of the period number with the /BDGwingo command.
 Example:- /BDGwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     BDGRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -541,7 +541,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
-"""
+    """
     # BDG Result Buttons
     bdg_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -576,7 +576,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://goagame.com/#/register?invitationCode=275731115445
-"""
+    """
     # TC Result Buttons
     tc_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -603,7 +603,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 ✅ Tiranga Register Link:- https://tirangalottery.in/#/register?invitationCode=14184791737
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which tiranga game prediction you want...👇
-"""
+    """
     # tiranga Button
     tiranga_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tirangawingo")],   
@@ -623,7 +623,7 @@ Enter the last 3 digits of the period number with the /TIRANGAwingo command.
 Example:- /TIRANGAwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     TIRANGARESULT = """
 Hey {}, look at the Result ☝️
 
@@ -633,7 +633,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
-"""
+    """
     # tiranga Result Buttons
     tiranga_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -663,7 +663,7 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
 ✅ 91 Club Register Link:- https://91club-4.com/#/register?invitationCode=777284419608
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 91 club game prediction you want...👇
-"""
+    """
     # 91club Button
     club91_buttons = [
     [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="91clubwingo")],   
@@ -683,7 +683,7 @@ Enter the last 3 digits of the period number with the /91CLUBwingo command.
 Example:- /91CLUBwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     CLUB91RESULT = """
 Hey {}, look at the Result ☝️
 
@@ -693,7 +693,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://91club-4.com/#/register?invitationCode=777284419608
-"""
+    """
     # 91club Result Buttons
     club91_result_buttons = [
        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
@@ -721,7 +721,7 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
 ✅Register Link:- https://rummybloc.in?from_gameid=9328965&channelCode=200000
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Rummy Bloc game prediction you want...👇
-"""
+    """
     # RummyBloc Button
     rummybloc_buttons = [
     [InlineKeyboardButton("[►DragonTigerFight◄]", callback_data="dragontigerfight"),
@@ -742,7 +742,7 @@ Enter the last 3 digits of the period number with the /RummyBlocAB command.
 Example:- /RummyBlocAB
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     DRAGONTIGERFIGHT = """
 Hey {},
 
@@ -753,7 +753,7 @@ Enter the last 3 digits of the period number with the /RummyBlocDTF command.
 Example:- /RummyBlocDTF
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     RUMMYBLOCRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -761,7 +761,7 @@ Hey {}, look at the Result ☝️
 ✨When you take Risks and push yourself, you do well ✓.
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     # RummyBloc Result Buttons
     rummybloc_result_buttons = [
        [
@@ -797,7 +797,7 @@ Ask your doubts at @EarningTeamSupportChat.
 ✅ Mantrimall Register Link:- https://mantrishop.com/#/pages/person/register?r_code=3382608
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Mantrimall game prediction you want...👇
-"""
+    """
     # Mantrimall Button
     mantrimall_buttons = [
     [InlineKeyboardButton(text="[►Parity 3 Minute◄]", callback_data="mantrimallparity")],   
@@ -817,7 +817,7 @@ Enter the last 3 digits of the period number with the /MMparity command.
 Example:- /MMparity986
 
 Ask your doubts at @EarningTeamSupportChat.
-"""
+    """
     MANTRIMALLRESULT = """
 Hey {}, look at the Result ☝️
 
@@ -827,7 +827,7 @@ Hey {}, look at the Result ☝️
 Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
  
 Special Link - https://mantrishop.com/#/pages/person/register?r_code=3382608
-"""
+    """
     # Mantrimall Result Buttons
     mantrimall_result_buttons = [
        [
