@@ -13,14 +13,3 @@ async def payment(bot, msg):
 	caption=Data.PAYMENT,
 	reply_markup=InlineKeyboardMarkup(Data.paymentbuttons)
   )
-
-# Start Message
-@Client.on_message(filters.group & filters.command("payment"))
-@Client.on_message(filters.group & filters.command("payment@PredictorAerobot"))
-async def payment(bot, msg):
-	await msg.reply_photo(
-	random.choice(PAYMENT_IMG),
-	caption=Data.PAYMENT,
-	reply_markup=InlineKeyboardMarkup(Data.paymentbuttons)
-	)
-	
