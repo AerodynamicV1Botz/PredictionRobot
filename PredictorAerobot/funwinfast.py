@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto
-from Aero import FUNWINFASTPARITY_IMG
+from Data import FUNWINFASTPARITY_IMG
 import random 
 
 @Client.on_message(filters.private & filters.command(["funwinfastparity000", "funwinfastparity001", "funwinfastparity002", "funwinfastparity003", "funwinfastparity004", "funwinfastparity005", "funwinfastparity006", "funwinfastparity007", "funwinfastparity008", "funwinfastparity009", "funwinfastparity010", "funwinfastparity011", "funwinfastparity012", "funwinfastparity013"]))
