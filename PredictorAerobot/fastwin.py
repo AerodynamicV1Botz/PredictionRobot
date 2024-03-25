@@ -1,7 +1,7 @@
 from Data import Data
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message 
-from Aero import FASTWIN_IMG
+from Data import FASTWIN_IMG
 import random 
 
 # Start Message
