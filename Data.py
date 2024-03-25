@@ -732,16 +732,24 @@ Ask your doubts at @EarningTeamSupportChat.
 """
     # RummyBloc Result Buttons
     rummybloc_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►RummyBloc❔◄]", callback_data="rummybloc")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+       [
+           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+           InlineKeyboardButton("[►RummyBloc❔◄]", callback_data="rummybloc")
+       ],
+       [
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+       ],
     ]
     rummybloc_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►RummyBloc❔◄]", url="https://t.me/PredictorAerobot?start=rummybloc")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+       [
+           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+           InlineKeyboardButton("[►RummyBloc❔◄]", url="https://t.me/PredictorAerobot?start=rummybloc")
+       ],
+       [
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+       ],
     ]
     MANTRIMALL = """
 ✅ Welcome to Mantrimall Game🥳😎
