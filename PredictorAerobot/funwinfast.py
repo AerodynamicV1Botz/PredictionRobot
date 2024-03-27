@@ -30,6 +30,7 @@ async def funwinfast(bot, msg):
 	caption=Data.FUNWINRESULT.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.funwin_result_buttons)
 	)
+	
 @Client.on_message(filters.group & filters.command(["funwinfastparity000", "funwinfastparity001", "funwinfastparity002", "funwinfastparity003", "funwinfastparity004", "funwinfastparity005", "funwinfastparity006", "funwinfastparity007", "funwinfastparity008", "funwinfastparity009", "funwinfastparity010", "funwinfastparity011", "funwinfastparity012", "funwinfastparity013"]))
 @Client.on_message(filters.group & filters.command(["funwinfastparity014", "funwinfastparity015", "funwinfastparity016", "funwinfastparity017", "funwinfastparity018", "funwinfastparity019", "funwinfastparity020", "funwinfastparity021", "funwinfastparity022", "funwinfastparity023", "funwinfastparity024", "funwinfastparity025", "funwinfastparity026", "funwinfastparity027"]))
 @Client.on_message(filters.group & filters.command(["funwinfastparity028", "funwinfastparity029", "funwinfastparity030", "funwinfastparity031", "funwinfastparity032", "funwinfastparity033", "funwinfastparity034", "funwinfastparity035", "funwinfastparity036", "funwinfastparity037", "funwinfastparity038", "funwinfastparity039", "funwinfastparity040", "funwinfastparity041"]))
