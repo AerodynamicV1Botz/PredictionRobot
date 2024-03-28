@@ -382,8 +382,8 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ],
        ]
+    ]
     PARITY = """
 Hey {},
 
@@ -428,13 +428,13 @@ First read the rules & regulations then create your Funwin account.
     """
     # FunWin Button
     funwin_buttons = [
-    [
-        InlineKeyboardButton(text="[►Fastparity◄]", callback_data="funwinfastparity"),
-        InlineKeyboardButton(text="[►Parity◄]", callback_data="funwinparity")
-    ],
-    [InlineKeyboardButton(text="[►Rules & Regulation of FunWin Game◄]", url="https://t.me/FunWin_Game_Prediction/114")],
-    [InlineKeyboardButton(text="[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")],
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [
+            InlineKeyboardButton(text="[►Fastparity◄]", callback_data="funwinfastparity"),
+            InlineKeyboardButton(text="[►Parity◄]", callback_data="funwinparity")
+        ],
+        [InlineKeyboardButton(text="[►Rules & Regulation of FunWin Game◄]", url="https://t.me/FunWin_Game_Prediction/114")],
+        [InlineKeyboardButton(text="[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")],
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # FunWin Back Button
     funwin_back = [
@@ -461,16 +461,23 @@ Ask your doubts at @EarningTeamSupportChat.
     """
     # FunWin Result Buttons
     funwin_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►FunWin❔◄]", callback_data="funwin")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►FunWin❔◄]", callback_data="funwin")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     funwin_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►FunWin❔◄]", url="https://t.me/PredictorAerobot?start=funwin")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►FunWin❔◄]", url="https://t.me/PredictorAerobot?start=funwin")],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     FUNWINPARITY = """
 Hey {},
@@ -510,8 +517,8 @@ Ask your doubts at @EarningTeamSupportChat.
     """
     # GoaGame Button
     goagame_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="goagamewingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="ggwingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # GoaGame Back Button
     goagame_back = [
@@ -540,16 +547,23 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     """
     # GoaGame Result Buttons
     goagame_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►GoaGame❔◄]", callback_data="goagame")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     goagame_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     BIGMUMBAI = """
 ✅ Welcome to Big Mumbai Game🥳😎
@@ -567,8 +581,8 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     """
     # Big Mumbai Button
     bigmumbai_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bigmumbaiwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bigmumbaiwingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # Big Mumbai Back Button
     bigmumbai_back = [
@@ -597,16 +611,24 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
     """
     # Big Mumbai Result Buttons
     bigmumbai_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►BigMumbai❔◄]", callback_data="bigmumbai")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►BigMumbai❔◄]", callback_data="bigmumbai")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     bigmumbai_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►BigMumbai❔◄]", url="https://t.me/PredictorAerobot?start=bigmumbai")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►BigMumbai❔◄]", url="https://t.me/PredictorAerobot?start=bigmumbai")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     BDG = """
 ✅ Welcome to Big Daddy Game🥳😎
@@ -624,8 +646,8 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
     """
     # GoaGame Button
     bdg_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="bdgwingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # FunWin Back Button
     bdg_back = [
@@ -654,24 +676,32 @@ Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
     """
     # BDG Result Buttons
     bdg_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", callback_data="bdg")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►GoaGame❔◄]", callback_data="bdg")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     bdg_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=bdg")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=bdg")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     TCLOTTERY = """
     COMING SOON...
     """
     # TC Button
     tc_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tcwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tcwingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # TC Back Button
     tc_back = [
@@ -689,9 +719,9 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     """
     # TC Result Buttons
     tc_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
         InlineKeyboardButton("[►TC Lottery❔◄]", callback_data="tc")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
     ]
     tc_group_buttons = [
@@ -716,8 +746,8 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     """
     # tiranga Button
     tiranga_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="tirangawingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="tirangawingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # tiranga Back Button
     tiranga_back = [
@@ -746,16 +776,24 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
     """
     # tiranga Result Buttons
     tiranga_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►Tiranga❔◄]", callback_data="tiranga")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►Tiranga❔◄]", callback_data="tiranga")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     tiranga_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►Tiranga❔◄]", url="https://t.me/PredictorAerobot?start=tiranga")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►Tiranga❔◄]", url="https://t.me/PredictorAerobot?start=tiranga")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     KGLOTTERY = """
     COMING SOON...
@@ -776,8 +814,8 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
     """
     # 91club Button
     club91_buttons = [
-    [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="91clubwingo")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton("[►Wingo 1 Minute◄]", callback_data="91clubwingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # 91club Back Button
     club91_back = [
@@ -842,9 +880,11 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
     """
     # RummyBloc Button
     rummybloc_buttons = [
-    [InlineKeyboardButton("[►DragonTigerFight◄]", callback_data="dragontigerfight"),
-    InlineKeyboardButton("[►AndarBahar◄]", callback_data="andarbahar")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [
+            InlineKeyboardButton("[►DragonTigerFight◄]", callback_data="dragontigerfight"),
+            InlineKeyboardButton("[►AndarBahar◄]", callback_data="andarbahar")
+        ],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # RummyBloc Back Button
     rummybloc_back = [
@@ -889,7 +929,7 @@ Ask your doubts at @EarningTeamSupportChat.
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ]
+       ],
     ]
     rummybloc_group_buttons = [
        [
@@ -899,7 +939,7 @@ Ask your doubts at @EarningTeamSupportChat.
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ],
+       ]
     ]
     MANTRIMALL = """
 ✅ Welcome to Mantrimall Game🥳😎
