@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from Data import PAYMENT_IMG
 import random 
 
-# Start Message
+# QR Message
 @Client.on_message(filters.private & filters.command("qr"))
 @Client.on_message(filters.private & filters.command("qr@PredictorAerobot"))
 async def qr(bot, msg):
@@ -12,4 +12,4 @@ async def qr(bot, msg):
 	random.choice(PAYMENT_IMG),
 	caption=Data.QR,
 	reply_markup=InlineKeyboardMarkup(Data.qrbuttons)
-        )
+	)
