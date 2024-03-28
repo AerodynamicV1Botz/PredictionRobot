@@ -806,16 +806,24 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
     """
     # 91club Result Buttons
     club91_result_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►91-Club❔◄]", callback_data="91club")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►91-Club❔◄]", callback_data="91club")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     club91_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=91club")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")]
+        [
+            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
+            InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=91club")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
     RUMMYBLOC = """
 ✅ Welcome to Rummy Bloc Game🥳😎
@@ -881,7 +889,7 @@ Ask your doubts at @EarningTeamSupportChat.
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ],
+       ]
     ]
     rummybloc_group_buttons = [
        [
@@ -910,8 +918,8 @@ Ask your doubts at @EarningTeamSupportChat.
     """
     # Mantrimall Button
     mantrimall_buttons = [
-    [InlineKeyboardButton(text="[►Parity 3 Minute◄]", callback_data="mantrimallparity")],   
-    [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+        [InlineKeyboardButton(text="[►Parity 3 Minute◄]", callback_data="mantrimallparity")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # Mantrimall Back Button
     mantrimall_back = [
@@ -957,5 +965,5 @@ Special Link - https://mantrishop.com/#/pages/person/register?r_code=3382608
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ],
+       ]
     ]
