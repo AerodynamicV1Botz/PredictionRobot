@@ -11,5 +11,5 @@ async def qr(bot, msg):
 	await msg.reply_photo(
 	random.choice(PAYMENT_IMG),
 	caption=Data.QR,
-	reply_markup=InlineKeyboardMarkup(Data.qrbuttons)
+	reply_markup=InlineKeyboardMarkup(Data.qr_buttons)
 	)
