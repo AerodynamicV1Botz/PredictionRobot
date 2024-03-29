@@ -111,7 +111,7 @@ class Data:
     START = """
 Hey {}
 
-I'm {}
+This is {}
 
 If you want 24 hour predictions, I am here online for you.
 More Games predictions to buy Premium Subscription.
@@ -350,9 +350,7 @@ If you want prediction of all games then first take premium subscription then pl
     ]
     # FastWin Games 
     FASTPARITY = """
-Hey {},
-
-I'm FastWin Fastparity {} to get 24 hour prediction 
+This is FastWin Fastparity {} to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /fastparity command.
 
@@ -367,14 +365,10 @@ Make Sure To register Your new  Account With Our Special Link To Get Accurate Pr
  
 Special Link - https://fastwin.app/LR?RG&C=3033148541
 
-Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Profits. 
+Click on /fastwin command to know about it.
     """
     # FastWin Result Buttons
     fastwin_result_buttons = [
-       [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/PredictorAerobot?start=fastwin")
-       ],
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
@@ -382,18 +376,12 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     ]
     fastwin_group_buttons = [
        [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/PredictorAerobot?start=fastwin")
-       ],
-       [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
        ]
     ]
     PARITY = """
-Hey {},
-
-I'm FastWin Parity {} to get 24 hour prediction 
+This is FastWin Parity @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /parity command.
 
@@ -404,7 +392,7 @@ Ask your doubts at @EarningTeamSupportChat.
     TOSS = """
 Hey {},
 
-I'm FastWin Parity {} to get 24 hour prediction 
+This is FastWin Parity @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /parity command.
 
@@ -447,13 +435,11 @@ First read the rules & regulations then create your Funwin account.
         [InlineKeyboardButton(text="[►Return FunWin Game◄]", callback_data="funwin")],
     ]
     FUNWINFASTPARITY = """
-Hey {},
+This is FunWin Fastparity @PredictorAerobot to get 24 hour prediction 
 
-I'm FastWin Fastparity {} to get 24 hour prediction 
+Enter the last 3 digits of the period number with the /FunWinfastparity command.
 
-Enter the last 3 digits of the period number with the /fastparity command.
-
-Example:- /fastparity792
+Example:- /FunWinfastparity792
 
 Ask your doubts at @EarningTeamSupportChat.
     """  
@@ -464,12 +450,13 @@ Hey {}, look at the Result ☝️
 ✨When you take Risks and push yourself, you do well ✓.
 
 Ask your doubts at @EarningTeamSupportChat.
+
+Click on /FunWin command to know about it.
     """
     # FunWin Result Buttons
     funwin_result_buttons = [
         [
-            InlineKeyboardButton("[►Official Forcast◄]", url="https://t.me/FunWin_Official_Predictionz"),
-            InlineKeyboardButton("[►FunWin❔◄]", url="https://t.me/PredictorAerobot?start=funwin")
+            InlineKeyboardButton("[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -478,17 +465,15 @@ Ask your doubts at @EarningTeamSupportChat.
     ]
     funwin_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►FunWin❔◄]", url="https://t.me/PredictorAerobot?start=funwin")],
+            InlineKeyboardButton("[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")
+        ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ]
     ]
     FUNWINPARITY = """
-Hey {},
-
-I'm FunWin Parity {} to get 24 hour prediction 
+This is FunWin Parity @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /funwinparity command.
 
@@ -497,13 +482,11 @@ Example:- /funwinparity986
 Ask your doubts at @EarningTeamSupportChat.
     """
     FUNWINTOSS = """
-Hey {},
-
-I'm FumWin Toss {} to get 24 hour prediction 
+This is FunWin Toss @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /fumwintoss command.
 
-Example:- /funwintoss987
+Example:- /FunWintoss987
 
 Ask your doubts at @EarningTeamSupportChat.
     """
@@ -531,9 +514,7 @@ Ask your doubts at @EarningTeamSupportChat.
         [InlineKeyboardButton(text="[►Return GoaGame◄]", callback_data="goagame")],
     ]
     GGWINGO = """
-Hey {},
-
-I'm GoaGame Wingo 1 Minute Game {} to get 24 hour prediction 
+This is GoaGame Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /GGwingo command.
 
@@ -547,15 +528,14 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://goagame.com/#/register?invitationCode=275731115445
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /GoaGame command to know about it.
     """
     # GoaGame Result Buttons
     goagame_result_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")
+            InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -564,8 +544,8 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     ]
     goagame_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=goagame")],
+            InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
+        ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
@@ -595,9 +575,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
         [InlineKeyboardButton(text="[►Return Big Mumbai Game◄]", callback_data="bigmumbai")],
     ]
     BMWINGO = """
-Hey {},
-
-I'm Big Mumbai Wingo 1 Minute Game {} to get 24 hour prediction 
+This is Big Mumbai Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /BMwingo command.
 
@@ -611,15 +589,14 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /BigMumbai command to know about it.
     """
     # Big Mumbai Result Buttons
     bigmumbai_result_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►BigMumbai❔◄]", url="https://t.me/PredictorAerobot?start=bigmumbai")
+            InlineKeyboardButton("[►BigMumbai Register Link◄]", url="https://bigmumbai.ink/#/register?invitationCode=787621083187")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -628,8 +605,7 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
     ]
     bigmumbai_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►BigMumbai❔◄]", url="https://t.me/PredictorAerobot?start=bigmumbai")
+            InlineKeyboardButton("[►BigMumbai Register Link◄]", url="https://bigmumbai.ink/#/register?invitationCode=787621083187")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -660,9 +636,7 @@ Special Link - https://bigmumbai.ink/#/register?invitationCode=787621083187
         [InlineKeyboardButton(text="[►Return Big-Daddy-Game◄]", callback_data="bdg")],
     ]
     BDGWINGO = """
-Hey {},
-
-I'm Big Daddy Wingo 1 Minute Game {} to get 24 hour prediction 
+This is Big Daddy Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /BDGwingo command.
 
@@ -676,15 +650,14 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /BDG command to know about it.
     """
     # BDG Result Buttons
     bdg_result_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=bdg")
+            InlineKeyboardButton("[►BDG Register Link◄]", url="https://www.bdggame.in/#/register?invitationCode=S4ewD527")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -693,8 +666,7 @@ Special Link - https://www.bdggame.in/#/register?invitationCode=S4ewD527
     ]
     bdg_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►GoaGame❔◄]", url="https://t.me/PredictorAerobot?start=bdg")
+            InlineKeyboardButton("[►BDG Register Link◄]", url="https://www.bdggame.in/#/register?invitationCode=S4ewD527")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -725,16 +697,18 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
     """
     # TC Result Buttons
     tc_result_buttons = [
-        [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►TC Lottery❔◄]", url="https://t.me/PredictorAerobot?start=tc")],
+        [
+            InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://t.me/AerodynamicV1_Official")
+        ],
         [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
     ]
     tc_group_buttons = [
-       [InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-        InlineKeyboardButton("[►TC Lottery❔◄]", url="https://t.me/PredictorAerobot?start=tc")],
-       [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-        InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
+        [
+            InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://t.me/AerodynamicV1_Official")
+        ],
+        [InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+         InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")],
     ]
     TIRANGA = """
 ✅ Welcome to Tiranga Game🥳😎
@@ -760,9 +734,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
         [InlineKeyboardButton(text="[►Return Tiranga Game◄]", callback_data="tiranga")],
     ]
     TIRANGAWINGO = """
-Hey {},
-
-I'm TIRANGA Wingo 1 Minute Game {} to get 24 hour prediction 
+This is Tiranga Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /TIRANGAwingo command.
 
@@ -776,15 +748,14 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /Tiranga command to know about it.
     """
     # tiranga Result Buttons
     tiranga_result_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►Tiranga❔◄]", url="https://t.me/PredictorAerobot?start=tiranga")
+            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangalottery.in/#/register?invitationCode=14184791737")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -793,8 +764,7 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
     ]
     tiranga_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►Tiranga❔◄]", url="https://t.me/PredictorAerobot?start=tiranga")
+            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangalottery.in/#/register?invitationCode=14184791737")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -828,13 +798,11 @@ Special Link - https://tirangalottery.in/#/register?invitationCode=14184791737
         [InlineKeyboardButton(text="[►Return 91-Club Game◄]", callback_data="club91")],
     ]
     CLUB91WINGO = """
-Hey {},
-
-I'm 91-Club Wingo 1 Minute Game {} to get 24 hour prediction 
+This is 91-Club Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /91CLUBwingo command.
 
-Example:- /91CLUBwingo792
+Example:- /91Clubwingo792
 
 Ask your doubts at @EarningTeamSupportChat.
     """
@@ -844,15 +812,14 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://91club-4.com/#/register?invitationCode=777284419608
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /91Club command to know about it.
     """
     # 91club Result Buttons
     club91_result_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=club91")
+            InlineKeyboardButton("[►91-Club Register Link◄]", url="https://91club-4.com/#/register?invitationCode=777284419608")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -861,8 +828,7 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
     ]
     club91_group_buttons = [
         [
-            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-            InlineKeyboardButton("[►91-Club❔◄]", url="https://t.me/PredictorAerobot?start=club91")
+            InlineKeyboardButton("[►91-Club Register Link◄]", url="https://91club-4.com/#/register?invitationCode=777284419608")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -897,9 +863,7 @@ Special Link - https://91club-4.com/#/register?invitationCode=777284419608
         [InlineKeyboardButton(text="[►Return RummyBloc Game◄]", callback_data="rummybloc")],
     ]
     ANDARBAHAR = """
-Hey {},
-
-I'm RummyBloc AndarBahar {} to get 24 hour prediction 
+This is RummyBloc AndarBahar @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /RummyBlocAB command.
 
@@ -908,9 +872,7 @@ Example:- /RummyBlocAB
 Ask your doubts at @EarningTeamSupportChat.
     """
     DRAGONTIGERFIGHT = """
-Hey {},
-
-I'm RummyBloc DragonTigerFight {} to get 24 hour prediction 
+This is RummyBloc DragonTigerFight @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /RummyBlocDTF command.
 
@@ -925,23 +887,23 @@ Hey {}, look at the Result ☝️
 ✨When you take Risks and push yourself, you do well ✓.
 
 Ask your doubts at @EarningTeamSupportChat.
+
+Click on /RummyBloc command to know about it.
     """
     # RummyBloc Result Buttons
     rummybloc_result_buttons = [
-       [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►RummyBloc❔◄]", url="https://t.me/PredictorAerobot?start=rummybloc")
-       ],
+        [
+            InlineKeyboardButton("[►RummyBloc Register Link◄]", url="https://rummybloc.in?from_gameid=9328965&channelCode=200000")
+        ],
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
        ],
     ]
     rummybloc_group_buttons = [
-       [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►RummyBloc❔◄]", url="https://t.me/PredictorAerobot?start=rummybloc")
-       ],
+        [
+            InlineKeyboardButton("[►RummyBloc Register Link◄]", url="https://rummybloc.in?from_gameid=9328965&channelCode=200000")
+        ],
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
@@ -972,9 +934,7 @@ Ask your doubts at @EarningTeamSupportChat.
         [InlineKeyboardButton(text="[►Return MantriMall Game◄]", callback_data="mantrimall")],
     ]
     MANTRIMALLPARITY = """
-Hey {},
-
-I'm Mantrimall Parity {} to get 24 hour prediction 
+This is Mantrimall Parity @PredictorAerobot to get 24 hour prediction 
 
 Enter the last 3 digits of the period number with the /MMparity command.
 
@@ -988,28 +948,26 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Make Sure To register Your new  Account With Our Special Link To Get Accurate Prediction 
- 
-Special Link - https://mantrishop.com/#/pages/person/register?r_code=3382608
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /MantriMall command to know about it.
     """
     # Mantrimall Result Buttons
     mantrimall_result_buttons = [
-       [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►MantriMall❔◄]", url="https://t.me/PredictorAerobot?start=mantrimall")
-       ],
-       [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ],
+        [
+            InlineKeyboardButton("[►MantriMall Register Link◄]", url="https://mantrishop.com/#/pages/person/register?r_code=3382608")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
     ]
     mantrimall_group_buttons = [
-       [
-           InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►MantriMall❔◄]", url="https://t.me/PredictorAerobot?start=mantrimall")
-       ],
-       [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
-       ]
+        [
+            InlineKeyboardButton("[►MantriMall Register Link◄]", url="https://mantrishop.com/#/pages/person/register?r_code=3382608")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
     ]
