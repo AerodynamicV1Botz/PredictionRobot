@@ -373,7 +373,7 @@ Register A new Account And Deposit 1000Rs and Use Our prediction To Make More Pr
     fastwin_result_buttons = [
        [
            InlineKeyboardButton("[►Developer◄]", url="https://t.me/AerodynamicV1_Official"),
-           InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/PredictorAerobot?start=fastwin")
+           InlineKeyboardButton("[►FastWin❔◄]", url="https://t.me/PredictorAerobot?fastwin=fastwin")
        ],
        [
            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
