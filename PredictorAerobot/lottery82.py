@@ -7,7 +7,7 @@ import random
 # Start Group Message 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.command("82lottery"))
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.command("82lottery@PredictorAerobot"))
-async def bet82_gp(bot, msg):
+async def lottery82_gp(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
@@ -17,7 +17,7 @@ async def bet82_gp(bot, msg):
 	
 @Client.on_message(filters.private & filters.command("82lottery"))
 @Client.on_message(filters.private & filters.command("82lottery@PredictorAerobot"))
-async def bet82(bot, msg):
+async def lottery82(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
