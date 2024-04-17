@@ -8,8 +8,8 @@ GOAGAMESIZE = [
 ]
 
 BET82SIZE = [
-"https://graph.org/file/b6553a0fdde09e19671d7.jpg",
-"https://graph.org/file/31840f15f26b406d667ac.jpg",
+"https://graph.org/file/5b760af3a15ab02935410.jpg",
+"https://graph.org/file/da072a306ccbb8760acca.jpg",
 ]
 
 TIRANGASIZE = [
