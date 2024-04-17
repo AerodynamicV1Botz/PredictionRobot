@@ -314,7 +314,10 @@ If you want prediction of all games then first take premium subscription then pl
             InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
             InlineKeyboardButton("[►Mantrimall◄]", callback_data="mantrimall"),
             InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
-        ],   
+        ],
+        [
+            InlineKeyboardButton("[►82-Lottery◄]", callback_data="bet82")
+        ],
         [
             InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")
         ],
