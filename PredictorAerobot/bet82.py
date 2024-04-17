@@ -11,7 +11,7 @@ async def bet82_gp(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
-	caption=Data.BET82.format(msg.from_user.mention, mention),
+	caption=Data.LOTTERY82.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.bet82_group_buttons)
 			     )
 	
@@ -21,7 +21,7 @@ async def bet82(bot, msg):
 	user = await bot.get_me()
 	mention = user.mention
 	await msg.reply_photo(START_IMG,
-	caption=Data.BET82.format(msg.from_user.mention, mention),
+	caption=Data.LOTTERY82.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.bet82_buttons)
 			     )
 	
