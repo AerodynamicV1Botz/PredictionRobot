@@ -570,6 +570,22 @@ Click on /GoaGame command to know about it.
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 82-Lottery game prediction you want...👇
     """
+    LOTTERY82 = """
+✅ Welcome to 82-Lottery Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 100Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+━━━━━━━━━━━━━━━━━━━━━━
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /82BETwingo command.
+
+Example:- /82BETwingo345
+"""
     # 82-Lottery Button
     bet82_buttons = [
         [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bet82wingo")],   
