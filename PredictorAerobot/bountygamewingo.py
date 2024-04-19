@@ -5,17 +5,7 @@ from Data import BOUNTYGAMESIZE
 import random 
 
 # Bounty Game Wingo Prediction 
-@Client.on_message(filters.text & filters.group & filters.incoming & filters.command(["BountyGameWingo000", "BountyGameWingo001",
-"BountyGameWingo002", "BountyGameWingo003",
-"BountyGameWingo004", "BountyGameWingo005",
-"BountyGameWingo006", "BountyGameWingo007",
-"BountyGameWingo008", "BountyGameWingo009",
-"BountyGameWingo010", "BountyGameWingo011",
-"BountyGameWingo012", "BountyGameWingo013",
-"BountyGameWingo014", "BountyGameWingo015",
-"BountyGameWingo016", "BountyGameWingo017",
-"BountyGameWingo018", "BountyGameWingo019",
-"BountyGameWingo020", "BountyGameWingo021",
+@Client.on_message(filters.text & filters.group & filters.incoming & filters.command(["BountyGameWingo000", "BountyGameWingo001", "BountyGameWingo002", "BountyGameWingo003", "BountyGameWingo004", "BountyGameWingo005", "BountyGameWingo006", "BountyGameWingo007", "BountyGameWingo008", "BountyGameWingo009", "BountyGameWingo010", "BountyGameWingo011", "BountyGameWingo012", "BountyGameWingo013", "BountyGameWingo014", "BountyGameWingo015", "BountyGameWingo016", "BountyGameWingo017", "BountyGameWingo018", "BountyGameWingo019", "BountyGameWingo020", "BountyGameWingo021",
 "BountyGameWingo022", "BountyGameWingo023",
 "BountyGameWingo024", "BountyGameWingo025",
 "BountyGameWingo026", "BountyGameWingo027",
