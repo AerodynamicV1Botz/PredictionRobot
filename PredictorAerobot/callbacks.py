@@ -266,7 +266,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             message_id=message_id,
             text=Data.BET82WINGO,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.bet88_back),
+            reply_markup=InlineKeyboardMarkup(Data.bet82_back),
         ) 
     elif query == "tiranga":
         chat_id = callback_query.from_user.id
