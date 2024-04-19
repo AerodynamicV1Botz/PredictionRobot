@@ -559,7 +559,7 @@ Click on /GoaGame command to know about it.
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ]
     ]
-    BOUNTYGAME = """
+    BG = """
 ✅ Welcome to Bounty Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
@@ -572,6 +572,22 @@ Click on /GoaGame command to know about it.
 ✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Bounty Game game prediction you want...👇
+    """
+    BOUNTYGAME = """
+✅ Welcome to Bounty Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 300Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+━━━━━━━━━━━━━━━━━━━━━━
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BountyGameWingo command.
+
+Example:- /BountyGameWingo123
     """
     # Bounty Game Button
     bountygame_buttons = [
