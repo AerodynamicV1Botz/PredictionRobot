@@ -321,7 +321,8 @@ If you want prediction of all games then first take premium subscription then pl
             InlineKeyboardButton("[►RummyBloc◄]", callback_data="rummybloc")
         ],
         [
-            InlineKeyboardButton("[►82-Lottery◄]", callback_data="bet82")
+            InlineKeyboardButton("[►82-Lottery◄]", callback_data="bet82"),
+            InlineKeyboardButton("[►Bounty Game◄]", callback_data="bg")
         ],
         [
             InlineKeyboardButton(text="[► Return Home ◄]", callback_data="home")
