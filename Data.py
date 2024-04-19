@@ -7,6 +7,11 @@ GOAGAMESIZE = [
 "https://graph.org/file/31840f15f26b406d667ac.jpg",
 ]
 
+BOUNTYGAMESIZE = [
+"https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
+"https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
+]
+
 BET82SIZE = [
 "https://graph.org/file/5b760af3a15ab02935410.jpg",
 "https://graph.org/file/da072a306ccbb8760acca.jpg",
