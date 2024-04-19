@@ -601,7 +601,7 @@ Example:- /BountyGameWingo123
     ]
     # Bounty Game Back Button
     bountygame_back = [
-        [InlineKeyboardButton(text="[►Return Bounty Game◄]", callback_data="bountygame")],
+        [InlineKeyboardButton(text="[►Return Bounty Game◄]", callback_data="bg")],
     ]
     BOUNTYGAMEWINGO = """
 This is Bounty Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
