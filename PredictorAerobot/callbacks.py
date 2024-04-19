@@ -198,6 +198,46 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,                        
             reply_markup=InlineKeyboardMarkup(Data.goagame_buttons),
         )
+    elif query == "ggwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.GGWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.goagame_back),
+        )
+    elif query == "bgame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.bountygame_buttons),
+        )
+    elif query == "bountygame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BOUNTYGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.bountygame_buttons),
+        )
+    elif query == "bet82wingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BOUNTYGAMEWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.bountygame_back),
+        ) 
     elif query == "bet82":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
@@ -215,26 +255,6 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             chat_id=chat_id,
             message_id=message_id,
             text=Data.LOTTERY82,
-            disable_web_page_preview=True,                        
-            reply_markup=InlineKeyboardMarkup(Data.bet82_buttons),
-    )
-    elif query == "ggwingo":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.GGWINGO,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.goagame_back),
-        )
-    elif query == "bet88":
-        chat_id = callback_query.from_user.id
-        message_id = callback_query.message.id
-        await bot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.BET82,
             disable_web_page_preview=True,                        
             reply_markup=InlineKeyboardMarkup(Data.bet82_buttons),
         )
