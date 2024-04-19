@@ -13,4 +13,13 @@ async def ggwingogp(bot, msg):
 	caption=Data.GGRESULT.format(msg.from_user.mention, mention),
 	reply_markup=InlineKeyboardMarkup(Data.goagame_group_buttons)
 	)
+
+async def ggwingo(bot, msg):
+	user = await bot.get_me()
+	mention = user.mention
+	await msg.reply_photo(
+	random.choice(GOAGAMESIZE),
+	caption=Data.GGRESULT.format(msg.from_user.mention, mention),
+	reply_markup=InlineKeyboardMarkup(Data.goagame_result_buttons)
+	)
 						    
