@@ -7,6 +7,11 @@ GOAGAMESIZE = [
 "https://graph.org/file/31840f15f26b406d667ac.jpg",
 ]
 
+TPPLAYSIZE = [
+"https://graph.org/file/b6553a0fdde09e19671d7.jpg",
+"https://graph.org/file/31840f15f26b406d667ac.jpg",
+]
+
 BOUNTYGAMESIZE = [
 "https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
 "https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
@@ -559,6 +564,83 @@ Click on /GoaGame command to know about it.
     goagame_group_buttons = [
         [
             InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
+    ]
+    TTPLAY = """
+✅ Welcome to 82-Lottery Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 100Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Click on the button below which 82-Lottery game prediction you want...👇
+    """
+    LOTTERY82 = """
+✅ Welcome to 82-Lottery Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 100Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+━━━━━━━━━━━━━━━━━━━━━━
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /82BETwingo command.
+
+Example:- /82BETwingo345
+"""
+    # 82-Lottery Button
+    bet82_buttons = [
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bet82wingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+    ]
+    # 82-Lottery Back Button
+    bet82_back = [
+        [InlineKeyboardButton(text="[►Return 82-Lottery◄]", callback_data="bet82")],
+    ]
+    BET82WINGO = """
+This is 82-Lottery Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /82BETwingo command.
+
+Example:- /82BETwingo345
+
+Ask your doubts at @EarningTeamSupportChat.
+    """
+    BET82RESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /82Lottery command to know about it.
+    """
+    # 82-Lottery Result Buttons
+    bet82_result_buttons = [
+        [
+            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
+    ]
+    bet82_group_buttons = [
+        [
+            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
