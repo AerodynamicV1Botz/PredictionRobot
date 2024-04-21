@@ -208,13 +208,43 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.goagame_back),
         )
+    elif query == "tpplay":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TPPLAY,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.tpplay_buttons),
+        )
+    elif query == "tpplaygame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TPPLAYGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.tpplay_buttons),
+        )
+    elif query == "tpplaywingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.TPPLAYWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.tpplay_back),
+        ) 
     elif query == "bg":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text=Data.bg,
+            text=Data.BG,
             disable_web_page_preview=True,                        
             reply_markup=InlineKeyboardMarkup(Data.bountygame_buttons),
         )
