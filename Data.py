@@ -316,7 +316,7 @@ If you want prediction of all games then first take premium subscription then pl
             InlineKeyboardButton("[►Big-Daddy-Game◄]", callback_data="bigdaddygame")
         ],
         [
-            InlineKeyboardButton("[►KG Lottery◄]", callback_data="kglottery"),
+            InlineKeyboardButton("[►TP-Play◄]", callback_data="tpplay"),
             InlineKeyboardButton("[►Tiranga◄]", callback_data="tiranga"),
             InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
         ],
@@ -571,7 +571,7 @@ Click on /GoaGame command to know about it.
         ]
     ]
     TTPLAY = """
-✅ Welcome to 82-Lottery Game🥳
+✅ Welcome to TP-Play Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 100Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -580,12 +580,12 @@ Click on /GoaGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅TP-Play Register Link:- https://82bet.com/#/register?invitationCode=57748839453
 ━━━━━━━━━━━━━━━━━━━━━━
-🔰Click on the button below which 82-Lottery game prediction you want...👇
+🔰Click on the button below which TP-Play game prediction you want...👇
     """
-    LOTTERY82 = """
-✅ Welcome to 82-Lottery Game🥳
+    TTPLAYGAME = """
+✅ Welcome to TP-Play Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 100Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -594,31 +594,31 @@ Click on /GoaGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅TP-Play Register Link:- https://82bet.com/#/register?invitationCode=57748839453
 ━━━━━━━━━━━━━━━━━━━━━━
-If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /82BETwingo command.
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /TPplaywingo command.
 
-Example:- /82BETwingo345
+Example:- /TPplaywingo345
 """
-    # 82-Lottery Button
-    bet82_buttons = [
+    # TP-Play Button
+    tpplay_buttons = [
         [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bet82wingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # 82-Lottery Back Button
-    bet82_back = [
-        [InlineKeyboardButton(text="[►Return 82-Lottery◄]", callback_data="bet82")],
+    # TP-Play Back Button
+    tpplay_back = [
+        [InlineKeyboardButton(text="[►Return TP-Play◄]", callback_data="tpplay")],
     ]
-    BET82WINGO = """
-This is 82-Lottery Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+    TPPLAYWINGO = """
+This is TP-Play Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /82BETwingo command.
+Enter the last 3 digits of the period number with the /TPplaywingo command.
 
-Example:- /82BETwingo345
+Example:- /TPplaywingo345
 
 Ask your doubts at @EarningTeamSupportChat.
     """
-    BET82RESULT = """
+    TPPLAYRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
@@ -626,21 +626,21 @@ Hey {}, look at the Result ☝️
 
 Ask your doubts at @EarningTeamSupportChat.
 
-Click on /82Lottery command to know about it.
+Click on /TPplay command to know about it.
     """
-    # 82-Lottery Result Buttons
-    bet82_result_buttons = [
+    # TP-Play Result Buttons
+    tpplay_result_buttons = [
         [
-            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ],
     ]
-    bet82_group_buttons = [
+    tpplay_group_buttons = [
         [
-            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
