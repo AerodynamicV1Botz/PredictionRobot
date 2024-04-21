@@ -580,7 +580,7 @@ Click on /GoaGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅TP-Play Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅TP-Play Register Link:- https://tpplay.in/#/register?invitationCode=28361121762
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which TP-Play game prediction you want...👇
     """
@@ -594,7 +594,7 @@ Click on /GoaGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅TP-Play Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅TP-Play Register Link:- https://tpplay.in/#/register?invitationCode=28361121762
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /TPplaywingo command.
 
@@ -631,7 +631,7 @@ Click on /TPplay command to know about it.
     # TP-Play Result Buttons
     tpplay_result_buttons = [
         [
-            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://tpplay.in/#/register?invitationCode=28361121762")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -640,7 +640,7 @@ Click on /TPplay command to know about it.
     ]
     tpplay_group_buttons = [
         [
-            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://tpplay.in/#/register?invitationCode=28361121762")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
