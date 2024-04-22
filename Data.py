@@ -8,8 +8,8 @@ GOAGAMESIZE = [
 ]
 
 TPPLAYSIZE = [
-"https://graph.org/file/b6553a0fdde09e19671d7.jpg",
-"https://graph.org/file/31840f15f26b406d667ac.jpg",
+"https://graph.org/file/4b4203eacc2ce06327970.jpg",
+"https://graph.org/file/562fea649fbcfae61fc95.jpg",
 ]
 
 BOUNTYGAMESIZE = [
