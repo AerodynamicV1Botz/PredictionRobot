@@ -13,8 +13,8 @@ TPPLAYSIZE = [
 ]
 
 BDGWINSIZE = [
-"https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
-"https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
+"https://graph.org/file/3990f7afdc78d51accea7.jpg",
+"https://graph.org/file/fb4bc1a8e42410318cb91.jpg",
 ]
 
 OKWINSIZE = [
