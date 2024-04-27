@@ -12,17 +12,17 @@ TPPLAYSIZE = [
 "https://graph.org/file/562fea649fbcfae61fc95.jpg",
 ]
 
-BOUNTYGAMESIZE = [
+BDGWINSIZE = [
 "https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
 "https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
 ]
 
-BOUNTYGAMESIZE = [
+OKWINSIZE = [
 "https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
 "https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
 ]
 
-BOUNTYGAMESIZE = [
+LUCKNOWSIZE = [
 "https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
 "https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
 ]
