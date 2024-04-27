@@ -706,11 +706,11 @@ This is Bounty Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour predict
 
 Enter the last 3 digits of the period number with the /BountyGameWingo command.
 
-Example:- /BountyGameWingo792
+Example:- /BDGwinWingo792
 
 Ask your doubts at @EarningTeamSupportChat.
     """
-    BOUNTYGAMERESULT = """
+    BDGWINRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
@@ -718,29 +718,29 @@ Hey {}, look at the Result ☝️
 
 Ask your doubts at @EarningTeamSupportChat.
 
-Click on /BountyGame command to know about it.
+Click on /BDGwin command to know about it.
     """
-    # Bounty Game Result Buttons
-    bountygame_result_buttons = [
+    # BDGwin Game Result Buttons
+    bdgwin_result_buttons = [
         [
-            InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ],
     ]
-    bountygame_group_buttons = [
+    bdgwin_group_buttons = [
         [
-            InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ]
     ]
-    BG = """
-✅ Welcome to Bounty Game🥳
+    OKWINGAME = """
+✅ Welcome to OkWin Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -749,12 +749,12 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅OkWin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
-🔰Click on the button below which Bounty Game game prediction you want...👇
+🔰Click on the button below which OkWin Game game prediction you want...👇
     """
-    BOUNTYGAME = """
-✅ Welcome to Bounty Game🥳
+    OKWIN = """
+✅ Welcome to OkWin Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -763,31 +763,31 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅OkWin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
-If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BountyGameWingo command.
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /OkWinWingo command.
 
-Example:- /BountyGameWingo123
+Example:- /OkWinWingo123
     """
-    # Bounty Game Button
-    bountygame_buttons = [
+    # OkWin Game Button
+    okwin_buttons = [
         [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bountygamewingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # Bounty Game Back Button
-    bountygame_back = [
-        [InlineKeyboardButton(text="[►Return Bounty Game◄]", callback_data="bg")],
+    # OkWin Game Back Button
+    okwin_back = [
+        [InlineKeyboardButton(text="[►Return OkWin Game◄]", callback_data="bg")],
     ]
-    BOUNTYGAMEWINGO = """
-This is Bounty Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+    OKWINWINGO = """
+This is OkWin Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /BountyGameWingo command.
+Enter the last 3 digits of the period number with the /OkWinWingo command.
 
-Example:- /BountyGameWingo792
+Example:- /OkWinWingo657
 
 Ask your doubts at @EarningTeamSupportChat.
     """
-    BOUNTYGAMERESULT = """
+    OKWINRESULT = """
 Hey {}, look at the Result ☝️
 
 🔥Prepare your fund for 7-9 level management to avoid losses.
@@ -795,29 +795,29 @@ Hey {}, look at the Result ☝️
 
 Ask your doubts at @EarningTeamSupportChat.
 
-Click on /BountyGame command to know about it.
+Click on /OkWin command to know about it.
     """
-    # Bounty Game Result Buttons
-    bountygame_result_buttons = [
+    # OkWin Game Result Buttons
+    okwin_result_buttons = [
         [
-            InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ],
     ]
-    bountygame_group_buttons = [
+    okwin_group_buttons = [
         [
-            InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ]
     ]
-    BG = """
-✅ Welcome to Bounty Game🥳
+    LUCKNOWGAME = """
+✅ Welcome to LuckNow Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -826,12 +826,12 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅LuckNow Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
-🔰Click on the button below which Bounty Game game prediction you want...👇
+🔰Click on the button below which LuckNow Game game prediction you want...👇
     """
-    BOUNTYGAME = """
-✅ Welcome to Bounty Game🥳
+    LUCKNOW = """
+✅ Welcome to LuckNow Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -840,11 +840,11 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅LuckNow Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
-If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BountyGameWingo command.
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /LuckNowWingo command.
 
-Example:- /BountyGameWingo123
+Example:- /LuckNowWingo123
     """
     # LuckNow Game Button
     lucknow_buttons = [
@@ -856,11 +856,11 @@ Example:- /BountyGameWingo123
         [InlineKeyboardButton(text="[►Return LuckNow Game◄]", callback_data="bg")],
     ]
     LUCKNOWWINGO = """
-This is Bounty Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+This is LuckNow Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /BountyGameWingo command.
+Enter the last 3 digits of the period number with the /LuckNowWingo command.
 
-Example:- /BountyGameWingo792
+Example:- /LuckNowWingo792
 
 Ask your doubts at @EarningTeamSupportChat.
     """
