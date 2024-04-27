@@ -667,7 +667,7 @@ Click on /TPplay command to know about it.
         ]
     ]
     BDGWINGAME = """
-✅ Welcome to Bounty Game🥳
+✅ Welcome to BDGwin Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -676,9 +676,9 @@ Click on /TPplay command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅BDGwin Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
 ━━━━━━━━━━━━━━━━━━━━━━
-🔰Click on the button below which Bounty Game game prediction you want...👇
+🔰Click on the button below which BDGwin Game game prediction you want...👇
     """
     BDGWIN = """
 ✅ Welcome to BDGwin Game🥳
@@ -690,7 +690,7 @@ Click on /TPplay command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅BDGwin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅BDGwin Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BDGwinWingo command.
 
@@ -698,7 +698,7 @@ Example:- /BDGwinWingo123
     """
     # BDGwin Game Button
     bdgwin_buttons = [
-        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bountygamewingo")],   
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bdgwinwingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # BDGwin Game Back Button
@@ -727,7 +727,7 @@ Click on /BDGwin command to know about it.
     # BDGwin Game Result Buttons
     bdgwin_result_buttons = [
         [
-            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -736,7 +736,7 @@ Click on /BDGwin command to know about it.
     ]
     bdgwin_group_buttons = [
         [
-            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -753,7 +753,7 @@ Click on /BDGwin command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅OkWin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅OkWin Game Register Link:- https://okwin.one/#/register?invitationCode=85244173312
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which OkWin Game game prediction you want...👇
     """
@@ -767,7 +767,7 @@ Click on /BDGwin command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅OkWin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅OkWin Game Register Link:- https://okwin.one/#/register?invitationCode=85244173312
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /OkWinWingo command.
 
@@ -775,7 +775,7 @@ Example:- /OkWinWingo123
     """
     # OkWin Game Button
     okwin_buttons = [
-        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bountygamewingo")],   
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="okwinwingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # OkWin Game Back Button
@@ -804,7 +804,7 @@ Click on /OkWin command to know about it.
     # OkWin Game Result Buttons
     okwin_result_buttons = [
         [
-            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://okwin.one/#/register?invitationCode=85244173312")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -813,7 +813,7 @@ Click on /OkWin command to know about it.
     ]
     okwin_group_buttons = [
         [
-            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://okwin.one/#/register?invitationCode=85244173312")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -830,7 +830,7 @@ Click on /OkWin command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅LuckNow Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅LuckNow Game Register Link:- https://www.lucknowgames.in/#/register?InviteCode=816245
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which LuckNow Game game prediction you want...👇
     """
@@ -844,7 +844,7 @@ Click on /OkWin command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅LuckNow Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅LuckNow Game Register Link:- https://www.lucknowgames.in/#/register?InviteCode=816245
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /LuckNowWingo command.
 
@@ -852,7 +852,7 @@ Example:- /LuckNowWingo123
     """
     # LuckNow Game Button
     lucknow_buttons = [
-        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bountygamewingo")],   
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="lucknowwingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
     # LuckNow Game Back Button
@@ -881,7 +881,7 @@ Click on /LuckNow command to know about it.
     # LuckNow Game Result Buttons
     lucknow_result_buttons = [
         [
-            InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://www.lucknowgames.in/#/register?InviteCode=816245")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -890,7 +890,7 @@ Click on /LuckNow command to know about it.
     ]
     lucknow_group_buttons = [
         [
-            InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
+            InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://www.lucknowgames.in/#/register?InviteCode=816245")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
