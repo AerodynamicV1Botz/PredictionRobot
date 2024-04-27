@@ -333,7 +333,11 @@ If you want prediction of all games then first take premium subscription then pl
         [
             InlineKeyboardButton("[►TP-Play◄]", callback_data="tpplay"),
             InlineKeyboardButton("[►Tiranga◄]", callback_data="tiranga"),
-            InlineKeyboardButton("[►TC lottery◄]", callback_data="tclottery")
+            InlineKeyboardButton("[►OkWin◄]", callback_data="okwingame")
+        ],
+        [
+            InlineKeyboardButton("[►LuckNow◄]", callback_data="lucknowgame"),
+            InlineKeyboardButton("[►BDGwin-Game◄]", callback_data="bdgwingame")
         ],
         [
             InlineKeyboardButton("[►91-Club◄]", callback_data="club91"),
@@ -662,7 +666,7 @@ Click on /TPplay command to know about it.
             InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
         ]
     ]
-    BG = """
+    BDGWINGAME = """
 ✅ Welcome to Bounty Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
@@ -676,8 +680,8 @@ Click on /TPplay command to know about it.
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which Bounty Game game prediction you want...👇
     """
-    BOUNTYGAME = """
-✅ Welcome to Bounty Game🥳
+    BDGWIN = """
+✅ Welcome to BDGwin Game🥳
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Minimum Recharge -: 300Rs
 🔰Minimum Withdrawal -: 110Rs 
@@ -686,25 +690,25 @@ Click on /TPplay command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅Bounty Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
+✅BDGwin Game Register Link:- https://bountygame.in/#/register?invitationCode=16626205069
 ━━━━━━━━━━━━━━━━━━━━━━
-If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BountyGameWingo command.
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /BDGwinWingo command.
 
-Example:- /BountyGameWingo123
+Example:- /BDGwinWingo123
     """
-    # Bounty Game Button
-    bountygame_buttons = [
+    # BDGwin Game Button
+    bdgwin_buttons = [
         [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="bountygamewingo")],   
         [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
     ]
-    # Bounty Game Back Button
-    bountygame_back = [
-        [InlineKeyboardButton(text="[►Return Bounty Game◄]", callback_data="bg")],
+    # BDGwin Game Back Button
+    bdgwin_back = [
+        [InlineKeyboardButton(text="[►Return BDGwin Game◄]", callback_data="bdgwingame")],
     ]
-    BOUNTYGAMEWINGO = """
-This is Bounty Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+    BDGWINWINGO = """
+This is BDGwin Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
 
-Enter the last 3 digits of the period number with the /BountyGameWingo command.
+Enter the last 3 digits of the period number with the /BDGwinWingo command.
 
 Example:- /BDGwinWingo792
 
@@ -776,7 +780,7 @@ Example:- /OkWinWingo123
     ]
     # OkWin Game Back Button
     okwin_back = [
-        [InlineKeyboardButton(text="[►Return OkWin Game◄]", callback_data="bg")],
+        [InlineKeyboardButton(text="[►Return OkWin Game◄]", callback_data="okwingame")],
     ]
     OKWINWINGO = """
 This is OkWin Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
@@ -853,7 +857,7 @@ Example:- /LuckNowWingo123
     ]
     # LuckNow Game Back Button
     lucknow_back = [
-        [InlineKeyboardButton(text="[►Return LuckNow Game◄]", callback_data="bg")],
+        [InlineKeyboardButton(text="[►Return LuckNow Game◄]", callback_data="lucknowgame")],
     ]
     LUCKNOWWINGO = """
 This is LuckNow Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
