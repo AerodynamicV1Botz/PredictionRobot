@@ -237,6 +237,96 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             text=Data.TPPLAYWINGO,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.tpplay_back),
+        )
+    elif query == "bdgwin":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BDGWIN,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.bdgwin_buttons),
+        )
+    elif query == "bdgwingame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BDGWINGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.bdgwin_buttons),
+        )
+    elif query == "bdgwinwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.BDGWINWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.bdgwin_back),
+        ) 
+    elif query == "okwin":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.OKWIN,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.okwin_buttons),
+        )
+    elif query == "okwingame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.OKWINGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.okwin_buttons),
+        )
+    elif query == "okwinwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.OKWINWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.okwin_back),
+        ) 
+    elif query == "lucknow":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.LUCKNOW,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.lucknow_buttons),
+        )
+    elif query == "lucknowgame":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.LUCKNOWGAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.lucknow_buttons),
+        )
+    elif query == "lucknowwingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.LUCKNOWWINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.lucknow_back),
         ) 
     elif query == "bg":
         chat_id = callback_query.from_user.id
