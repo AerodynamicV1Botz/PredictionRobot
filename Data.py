@@ -23,8 +23,8 @@ OKWINSIZE = [
 ]
 
 LUCKNOWSIZE = [
-"https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
-"https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
+"https://graph.org/file/6f00f272770d5eea38d50.jpg",
+"https://graph.org/file/0f4843ab22cf50aaa9007.jpg",
 ]
 
 BOUNTYGAMESIZE = [
