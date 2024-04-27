@@ -18,8 +18,8 @@ BDGWINSIZE = [
 ]
 
 OKWINSIZE = [
-"https://graph.org/file/1d1dfd5ce871fb2283be2.jpg",
-"https://graph.org/file/3ce2cea93e09ca651ec41.jpg",
+"https://graph.org/file/957b1a4ff1c5ad99d645c.jpg",
+"https://graph.org/file/c0673fce41049281c10eb.jpg",
 ]
 
 LUCKNOWSIZE = [
