@@ -238,6 +238,36 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.tpplay_back),
         )
+    elif query == "club55":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.CLUB55,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.club55_buttons),
+        )
+    elif query == "club55game":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.CLUB55GAME,
+            disable_web_page_preview=True,                        
+            reply_markup=InlineKeyboardMarkup(Data.club55_buttons),
+        )
+    elif query == "club55wingo":
+        chat_id = callback_query.from_user.id
+        message_id = callback_query.message.id
+        await bot.edit_message_text(
+            chat_id=chat_id,
+            message_id=message_id,
+            text=Data.CLUB55WINGO,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(Data.club55_back),
+        ) 
     elif query == "bdgwin":
         chat_id = callback_query.from_user.id
         message_id = callback_query.message.id
