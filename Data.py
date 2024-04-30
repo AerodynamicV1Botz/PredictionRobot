@@ -12,9 +12,9 @@ TPPLAYSIZE = [
 "https://graph.org/file/562fea649fbcfae61fc95.jpg",
 ]
 
-BDGWINSIZE = [
-"https://graph.org/file/3990f7afdc78d51accea7.jpg",
-"https://graph.org/file/fb4bc1a8e42410318cb91.jpg",
+CLUB55SIZE = [
+"https://graph.org/file/0644f8f4b3091fe2a00cb.jpg",
+"https://graph.org/file/6a144ba2bc99e9e7676e7.jpg",
 ]
 
 BDGWINSIZE = [
@@ -681,7 +681,7 @@ Click on /TPplay command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅55-Club Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
+✅55-Club Game Register Link:- https://55club.in/#/register?invitationCode=63253599057
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 55-Club Game game prediction you want...👇
     """
@@ -695,7 +695,7 @@ Click on /TPplay command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅55-Club Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
+✅55-Club Game Register Link:- https://55club.in/#/register?invitationCode=63253599057
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /55ClubWingo command.
 
@@ -732,7 +732,7 @@ Click on /55Club command to know about it.
     # 55-Club Game Result Buttons
     club55_result_buttons = [
         [
-            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
+            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://55club.in/#/register?invitationCode=63253599057")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -741,7 +741,7 @@ Click on /55Club command to know about it.
     ]
     club55_group_buttons = [
         [
-            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
+            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://55club.in/#/register?invitationCode=63253599057")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
