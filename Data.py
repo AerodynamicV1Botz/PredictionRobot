@@ -17,6 +17,11 @@ BDGWINSIZE = [
 "https://graph.org/file/fb4bc1a8e42410318cb91.jpg",
 ]
 
+BDGWINSIZE = [
+"https://graph.org/file/3990f7afdc78d51accea7.jpg",
+"https://graph.org/file/fb4bc1a8e42410318cb91.jpg",
+]
+
 OKWINSIZE = [
 "https://graph.org/file/957b1a4ff1c5ad99d645c.jpg",
 "https://graph.org/file/c0673fce41049281c10eb.jpg",
@@ -660,6 +665,83 @@ Click on /TPplay command to know about it.
     tpplay_group_buttons = [
         [
             InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://tpplay.in/#/register?invitationCode=28361121762")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ]
+    ]
+    CLUB55GAME = """
+✅ Welcome to 55-Club Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 200Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅55-Club Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Click on the button below which 55-Club Game game prediction you want...👇
+    """
+    CLUB55 = """
+✅ Welcome to 55-Club Game🥳
+━━━━━━━━━━━━━━━━━━━━━━
+🔰Minimum Recharge -: 200Rs
+🔰Minimum Withdrawal -: 110Rs 
+🔰Withdraw timings -: 24hrs
+✨Invite More, Earn More!
+
+▪️If you are new, join our official team link now.
+
+✅55-Club Game Register Link:- https://bdgwin.com/#/register?invitationCode=13213192322
+━━━━━━━━━━━━━━━━━━━━━━
+If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /55ClubWingo command.
+
+Example:- /55ClubWingo123
+    """
+    # 55-Club Game Button
+    club55_buttons = [
+        [InlineKeyboardButton(text="[►Wingo 1 Minute◄]", callback_data="club55wingo")],   
+        [InlineKeyboardButton(text="[►Return All Games◄]", callback_data="allgame")],
+    ]
+    # 55-Club Game Back Button
+    club55_back = [
+        [InlineKeyboardButton(text="[►Return 55-Club Game◄]", callback_data="club55game")],
+    ]
+    CLUB55WINGO = """
+This is 55-Club Game Wingo 1 Minute Game @PredictorAerobot to get 24 hour prediction 
+
+Enter the last 3 digits of the period number with the /55ClubWingo command.
+
+Example:- /55ClubWingo792
+
+Ask your doubts at @EarningTeamSupportChat.
+    """
+    CLUB55RESULT = """
+Hey {}, look at the Result ☝️
+
+🔥Prepare your fund for 7-9 level management to avoid losses.
+✨When you take Risks and push yourself, you do well ✓.
+
+Ask your doubts at @EarningTeamSupportChat.
+
+Click on /55Club command to know about it.
+    """
+    # 55-Club Game Result Buttons
+    club55_result_buttons = [
+        [
+            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
+        ],
+        [
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+        ],
+    ]
+    club55_group_buttons = [
+        [
+            InlineKeyboardButton("[►55-Club Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
