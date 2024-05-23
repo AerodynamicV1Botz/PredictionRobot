@@ -1302,7 +1302,7 @@ Special Link - https://goagame.com/#/register?invitationCode=275731115445
 
 ▪️If you are new, join our official team link now.
 
-✅ Tiranga Register Link:- https://tirangalottery.in/#/register?invitationCode=14184791737
+✅ Tiranga Register Link:- https://tirangagames.top/#/register?invitationCode=171786861727
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which tiranga game prediction you want...👇
     """
@@ -1337,7 +1337,7 @@ Click on /Tiranga command to know about it.
     # tiranga Result Buttons
     tiranga_result_buttons = [
         [
-            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangalottery.in/#/register?invitationCode=14184791737")
+            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangagames.top/#/register?invitationCode=171786861727")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -1346,7 +1346,7 @@ Click on /Tiranga command to know about it.
     ]
     tiranga_group_buttons = [
         [
-            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangalottery.in/#/register?invitationCode=14184791737")
+            InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangagames.top/#/register?invitationCode=171786861727")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
