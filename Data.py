@@ -165,11 +165,11 @@ More Games predictions to buy Premium Subscription.
             InlineKeyboardButton(text="[►Get All Game Prediction◄]", url="https://t.me/PredictorAerobot?start=allgame")
         ],
         [
-            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
+            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/EarnMoney_Looter"),
+            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/TeamEarningSupportChat")
         ],
         [
-            InlineKeyboardButton(text="[►Get Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
+            InlineKeyboardButton(text="[►Get Free Premium Subscription◄]", url="https://t.me/PredictorAerobot?start=premium")
         ]
     ]
     # PM Start Buttons
@@ -183,11 +183,11 @@ More Games predictions to buy Premium Subscription.
             InlineKeyboardButton(text="[►Get All Game Prediction◄]", callback_data="allgame")
         ],
         [
-            InlineKeyboardButton(text="[►Get Premium Subscription◄]", callback_data="premium")
+            InlineKeyboardButton(text="[►Get Free Premium Subscription◄]", callback_data="premium")
         ],
         [
-            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/TechEarning_KingMasterMind"),
-            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/EarningTeamSupportChat")
+            InlineKeyboardButton(text="[►Tech Earning◄]", url="https://t.me/EarnMoney_Looter"),
+            InlineKeyboardButton(text="[►Support Chat◄]", url="https://t.me/TeamEarningSupportChat")
         ],
     ]
     # Premium Subscription Message 
@@ -283,8 +283,8 @@ A powerful Telegram Prediction bot to predict users to make profits yourself.
 ★Developer » @AerodynamicV1_OFFICIAL
 ★Owner » @Awesome_Vrajesh
 ★Update » @AerodynamicV1_UPDATE
-★Tech Earning » @TechEarning_KingMasterMind
-★Support » @EarningTeamSupportChat
+★Tech Earning » @EarnMoney_Looter
+★Support » @TeamEarningSupportChat
     """
     # About Buttons
     about_buttons = [
@@ -302,8 +302,8 @@ This is All our Groups or Channels≈[🇮🇳]
 ★Developer » @AerodynamicV1_OFFICIAL
 ★Owner » @Awesome_Vrajesh
 ★Update » @AerodynamicV1_UPDATE
-★Tech Earning » @TechEarning_KingMasterMind
-★Support » @EarningTeamSupportChat
+★Tech Earning » @EarnMoney_Looter
+★Support » @TeamEarningSupportChat
     """
     # About Back Buttons
     about_back = [
@@ -311,10 +311,10 @@ This is All our Groups or Channels≈[🇮🇳]
             InlineKeyboardButton(text="[►Update Channel◄]", url="https://telegram.me/AerodynamicV1_Update")
         ],
         [
-            InlineKeyboardButton(text="[►FunWin Official Channel◄]", url="https://telegram.me/FunWin_Official_Predictionz")
+            InlineKeyboardButton(text="[►FunWin Official Group◄]", url="https://telegram.me/FunWin_Official_Prediction")
         ],
         [
-            InlineKeyboardButton(text="[►Tech Earning Channel◄]", url="https://telegram.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton(text="[►Tech Earning Channel◄]", url="https://t.me/EarnMoney_Looter")
         ],
         [
             InlineKeyboardButton(text="[►Return About◄]", callback_data="about")
@@ -399,7 +399,7 @@ Enter the last 3 digits of the period number with the /fastparity command.
 
 Example:- /fastparity792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     FASTWINRESULT = """
 Hey {}, look at the Result ☝️
@@ -413,14 +413,14 @@ Click on /fastwin command to know about it.
     # FastWin Result Buttons
     fastwin_result_buttons = [
        [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
        ],
     ]
     fastwin_group_buttons = [
        [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
        ]
     ]
     PARITY = """
@@ -430,7 +430,7 @@ Enter the last 3 digits of the period number with the /parity command.
 
 Example:- /parity792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     TOSS = """
 Hey {},
@@ -441,7 +441,7 @@ Enter the last 3 digits of the period number with the /parity command.
 
 Example:- /parity792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     # FunWin Message 
     FUNWIN = """
@@ -484,7 +484,7 @@ Enter the last 3 digits of the period number with the /FunWinfastparity command.
 
 Example:- /FunWinfastparity792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """  
     FUNWINRESULT = """
 Hey {}, look at the Result ☝️
@@ -502,17 +502,17 @@ Click on /FunWin command to know about it.
             InlineKeyboardButton("[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     funwin_group_buttons = [
         [
-            InlineKeyboardButton("[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Predictionz")
+            InlineKeyboardButton("[►Official Forcast Channel◄]", url="https://t.me/FunWin_Official_Prediction")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     FUNWINPARITY = """
@@ -522,7 +522,7 @@ Enter the last 3 digits of the period number with the /funwinparity command.
 
 Example:- /funwinparity986
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     FUNWINTOSS = """
 This is FunWin Toss @PredictorAerobot to get 24 hour prediction 
@@ -531,7 +531,7 @@ Enter the last 3 digits of the period number with the /fumwintoss command.
 
 Example:- /FunWintoss987
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     GOAGAME = """
 ✅ Welcome to GoaGame Game🥳
@@ -563,7 +563,7 @@ Enter the last 3 digits of the period number with the /GGwingo command.
 
 Example:- /GGwingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     GGRESULT = """
 Hey {}, look at the Result ☝️
@@ -571,7 +571,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /GoaGame command to know about it.
     """
@@ -581,8 +581,8 @@ Click on /GoaGame command to know about it.
             InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     goagame_group_buttons = [
@@ -590,8 +590,8 @@ Click on /GoaGame command to know about it.
             InlineKeyboardButton("[►GoaGame Register Link◄]", url="https://goagame.com/#/register?invitationCode=275731115445")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     TTPLAY = """
@@ -640,7 +640,7 @@ Enter the last 3 digits of the period number with the /TPplaywingo command.
 
 Example:- /TPplaywingo345
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     TPPLAYRESULT = """
 Hey {}, look at the Result ☝️
@@ -648,7 +648,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /TPplay command to know about it.
     """
@@ -658,8 +658,8 @@ Click on /TPplay command to know about it.
             InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://tpplay.in/#/register?invitationCode=28361121762")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     tpplay_group_buttons = [
@@ -667,8 +667,8 @@ Click on /TPplay command to know about it.
             InlineKeyboardButton("[►TP-Play Register Link◄]", url="https://tpplay.in/#/register?invitationCode=28361121762")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     CLUB55GAME = """
@@ -717,7 +717,7 @@ Enter the last 3 digits of the period number with the /55ClubWingo command.
 
 Example:- /55ClubWingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     CLUB55RESULT = """
 Hey {}, look at the Result ☝️
@@ -725,7 +725,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /55Club command to know about it.
     """
@@ -735,8 +735,8 @@ Click on /55Club command to know about it.
             InlineKeyboardButton("[►55-Club Register Link◄]", url="https://55club.in/#/register?invitationCode=63253599057")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     club55_group_buttons = [
@@ -744,8 +744,8 @@ Click on /55Club command to know about it.
             InlineKeyboardButton("[►55-Club Register Link◄]", url="https://55club.in/#/register?invitationCode=63253599057")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     BDGWINGAME = """
@@ -794,7 +794,7 @@ Enter the last 3 digits of the period number with the /BDGwinWingo command.
 
 Example:- /BDGwinWingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     BDGWINRESULT = """
 Hey {}, look at the Result ☝️
@@ -802,7 +802,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /BDGwin command to know about it.
     """
@@ -812,8 +812,8 @@ Click on /BDGwin command to know about it.
             InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     bdgwin_group_buttons = [
@@ -821,8 +821,8 @@ Click on /BDGwin command to know about it.
             InlineKeyboardButton("[►BDGwin Game Register Link◄]", url="https://bdgwin.com/#/register?invitationCode=13213192322")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     OKWINGAME = """
@@ -871,7 +871,7 @@ Enter the last 3 digits of the period number with the /OkWinWingo command.
 
 Example:- /OkWinWingo657
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     OKWINRESULT = """
 Hey {}, look at the Result ☝️
@@ -879,7 +879,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /OkWin command to know about it.
     """
@@ -889,8 +889,8 @@ Click on /OkWin command to know about it.
             InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://okwin.one/#/register?invitationCode=85244173312")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     okwin_group_buttons = [
@@ -898,8 +898,8 @@ Click on /OkWin command to know about it.
             InlineKeyboardButton("[►OkWin Game Register Link◄]", url="https://okwin.one/#/register?invitationCode=85244173312")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     LUCKNOWGAME = """
@@ -948,7 +948,7 @@ Enter the last 3 digits of the period number with the /LuckNowWingo command.
 
 Example:- /LuckNowWingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     LUCKNOWRESULT = """
 Hey {}, look at the Result ☝️
@@ -956,7 +956,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /LuckNow command to know about it.
     """
@@ -966,8 +966,8 @@ Click on /LuckNow command to know about it.
             InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://www.lucknowgames.in/#/register?InviteCode=816245")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     lucknow_group_buttons = [
@@ -975,8 +975,8 @@ Click on /LuckNow command to know about it.
             InlineKeyboardButton("[►LuckNow Game Register Link◄]", url="https://www.lucknowgames.in/#/register?InviteCode=816245")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     BG = """
@@ -1025,7 +1025,7 @@ Enter the last 3 digits of the period number with the /BountyGameWingo command.
 
 Example:- /BountyGameWingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     BOUNTYGAMERESULT = """
 Hey {}, look at the Result ☝️
@@ -1033,7 +1033,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /BountyGame command to know about it.
     """
@@ -1043,8 +1043,8 @@ Click on /BountyGame command to know about it.
             InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     bountygame_group_buttons = [
@@ -1052,8 +1052,8 @@ Click on /BountyGame command to know about it.
             InlineKeyboardButton("[►Bounty Game Register Link◄]", url="https://bountygame.in/#/register?invitationCode=16626205069")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     BET82 = """
@@ -1102,7 +1102,7 @@ Enter the last 3 digits of the period number with the /82BETwingo command.
 
 Example:- /82BETwingo345
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     BET82RESULT = """
 Hey {}, look at the Result ☝️
@@ -1110,7 +1110,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /82Lottery command to know about it.
     """
@@ -1120,8 +1120,8 @@ Click on /82Lottery command to know about it.
             InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=536772286220")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     bet82_group_buttons = [
@@ -1129,8 +1129,8 @@ Click on /82Lottery command to know about it.
             InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=536772286220")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     BIGMUMBAI = """
@@ -1163,7 +1163,7 @@ Enter the last 3 digits of the period number with the /BMwingo command.
 
 Example:- /BMwingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     BMRESULT = """
 Hey {}, look at the Result ☝️
@@ -1171,7 +1171,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /BigMumbai command to know about it.
     """
@@ -1181,8 +1181,8 @@ Click on /BigMumbai command to know about it.
             InlineKeyboardButton("[►BigMumbai Register Link◄]", url="https://bigmumbai.ink/#/register?invitationCode=787621083187")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     bigmumbai_group_buttons = [
@@ -1190,8 +1190,8 @@ Click on /BigMumbai command to know about it.
             InlineKeyboardButton("[►BigMumbai Register Link◄]", url="https://bigmumbai.ink/#/register?invitationCode=787621083187")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     BDG = """
@@ -1224,7 +1224,7 @@ Enter the last 3 digits of the period number with the /BDGwingo command.
 
 Example:- /BDGwingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     BDGRESULT = """
 Hey {}, look at the Result ☝️
@@ -1232,7 +1232,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /BDG command to know about it.
     """
@@ -1242,8 +1242,8 @@ Click on /BDG command to know about it.
             InlineKeyboardButton("[►BDG Register Link◄]", url="https://www.bdggame.in/#/register?invitationCode=S4ewD527")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     bdg_group_buttons = [
@@ -1251,8 +1251,8 @@ Click on /BDG command to know about it.
             InlineKeyboardButton("[►BDG Register Link◄]", url="https://www.bdggame.in/#/register?invitationCode=S4ewD527")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     TCLOTTERY = """
@@ -1322,7 +1322,7 @@ Enter the last 3 digits of the period number with the /TIRANGAwingo command.
 
 Example:- /TIRANGAwingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     TIRANGARESULT = """
 Hey {}, look at the Result ☝️
@@ -1330,7 +1330,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /Tiranga command to know about it.
     """
