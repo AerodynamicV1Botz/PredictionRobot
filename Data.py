@@ -1340,8 +1340,8 @@ Click on /Tiranga command to know about it.
             InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangagames.top/#/register?invitationCode=171786861727")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     tiranga_group_buttons = [
@@ -1349,8 +1349,8 @@ Click on /Tiranga command to know about it.
             InlineKeyboardButton("[►Tiranga Register Link◄]", url="https://tirangagames.top/#/register?invitationCode=171786861727")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     KGLOTTERY = """
@@ -1386,7 +1386,7 @@ Enter the last 3 digits of the period number with the /91CLUBwingo command.
 
 Example:- /91Clubwingo792
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     CLUB91RESULT = """
 Hey {}, look at the Result ☝️
@@ -1394,7 +1394,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /91Club command to know about it.
     """
@@ -1404,8 +1404,8 @@ Click on /91Club command to know about it.
             InlineKeyboardButton("[►91-Club Register Link◄]", url="https://91club-4.com/#/register?invitationCode=777284419608")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     club91_group_buttons = [
@@ -1413,8 +1413,8 @@ Click on /91Club command to know about it.
             InlineKeyboardButton("[►91-Club Register Link◄]", url="https://91club-4.com/#/register?invitationCode=777284419608")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
     RUMMYBLOC = """
@@ -1451,7 +1451,7 @@ Enter the last 3 digits of the period number with the /RummyBlocAB command.
 
 Example:- /RummyBlocAB
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     DRAGONTIGERFIGHT = """
 This is RummyBloc DragonTigerFight @PredictorAerobot to get 24 hour prediction 
@@ -1460,7 +1460,7 @@ Enter the last 3 digits of the period number with the /RummyBlocDTF command.
 
 Example:- /RummyBlocDTF
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     RUMMYBLOCRESULT = """
 Hey {}, look at the Result ☝️
@@ -1468,7 +1468,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 5-7 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /RummyBloc command to know about it.
     """
@@ -1478,8 +1478,8 @@ Click on /RummyBloc command to know about it.
             InlineKeyboardButton("[►RummyBloc Register Link◄]", url="https://rummybloc.in?from_gameid=9328965&channelCode=200000")
         ],
        [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
        ],
     ]
     rummybloc_group_buttons = [
@@ -1487,8 +1487,8 @@ Click on /RummyBloc command to know about it.
             InlineKeyboardButton("[►RummyBloc Register Link◄]", url="https://rummybloc.in?from_gameid=9328965&channelCode=200000")
         ],
        [
-           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+           InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+           InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
        ]
     ]
     MANTRIMALL = """
@@ -1522,7 +1522,7 @@ Enter the last 3 digits of the period number with the /MMparity command.
 
 Example:- /MMparity986
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
     """
     MANTRIMALLRESULT = """
 Hey {}, look at the Result ☝️
@@ -1530,7 +1530,7 @@ Hey {}, look at the Result ☝️
 🔥Prepare your fund for 7-9 level management to avoid losses.
 ✨When you take Risks and push yourself, you do well ✓.
 
-Ask your doubts at @EarningTeamSupportChat.
+Ask your doubts at @TeamEarningSupportChat.
 
 Click on /MantriMall command to know about it.
     """
@@ -1540,8 +1540,8 @@ Click on /MantriMall command to know about it.
             InlineKeyboardButton("[►MantriMall Register Link◄]", url="https://mantrishop.com/#/pages/person/register?r_code=3382608")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ],
     ]
     mantrimall_group_buttons = [
@@ -1549,7 +1549,7 @@ Click on /MantriMall command to know about it.
             InlineKeyboardButton("[►MantriMall Register Link◄]", url="https://mantrishop.com/#/pages/person/register?r_code=3382608")
         ],
         [
-            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
-            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/TechEarning_KingMasterMind")
+            InlineKeyboardButton("[►Support💬◄]", url="https://t.me/TeamEarningSupportChat"),
+            InlineKeyboardButton("[►Tech Earning🔔◄]", url="https://t.me/EarnMoney_Looter")
         ]
     ]
