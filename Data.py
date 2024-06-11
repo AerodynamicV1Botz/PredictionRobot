@@ -1066,7 +1066,7 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=536772286220
 ━━━━━━━━━━━━━━━━━━━━━━
 🔰Click on the button below which 82-Lottery game prediction you want...👇
     """
@@ -1080,7 +1080,7 @@ Click on /BountyGame command to know about it.
 
 ▪️If you are new, join our official team link now.
 
-✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=57748839453
+✅82-Lottery Register Link:- https://82bet.com/#/register?invitationCode=536772286220
 ━━━━━━━━━━━━━━━━━━━━━━
 If you want 1 Minute Wingo Prediction then Enter the last 3 digits of the period number with the /82BETwingo command.
 
@@ -1117,7 +1117,7 @@ Click on /82Lottery command to know about it.
     # 82-Lottery Result Buttons
     bet82_result_buttons = [
         [
-            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=536772286220")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
@@ -1126,7 +1126,7 @@ Click on /82Lottery command to know about it.
     ]
     bet82_group_buttons = [
         [
-            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=57748839453")
+            InlineKeyboardButton("[►82-Lottery Register Link◄]", url="https://82bet.com/#/register?invitationCode=536772286220")
         ],
         [
             InlineKeyboardButton("[►Support💬◄]", url="https://t.me/EarningTeamSupportChat"),
